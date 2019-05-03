@@ -1,20 +1,17 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
+lastModified: '2018-06-28'
 title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
-description: cet article fournit les concepts de base et les informations de référence
-  relatives au langage Markdown utilisé pour la rédaction d’articles.
-seo-description: cet article fournit les concepts de base et les informations de référence
-  relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la
-  documentation Adobe.
-translation-type: tm+mt
+description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
+seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
 
 # Utilisation de Markdown pour la rédaction de documentation technique
 
-Les articles de documentation technique d’Adobe sont rédigés dans un langage de marquage léger appelé [Markdown](https://daringfireball.net/projects/markdown/), qui est à la fois facile à lire et à apprendre.
+Les articles de documentation technique Adobe sont rédigés dans un langage de marquage léger appelé [Markdown](https://daringfireball.net/projects/markdown/), qui est à la fois facile à lire et à apprendre.
 
 À mesure que nous stockons le contenu de documents Adobe dans GitHub, il peut utiliser une version de Markdown appelée [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), qui offre des fonctionnalités supplémentaires pour les besoins de formatage courants. De plus, Adobe a élargi le champ d’application de Markdown afin de prendre en charge certaines fonctionnalités d’aide, telles que les notes, les conseils et les vidéos intégrées.
 
@@ -152,7 +149,7 @@ Pour plus d’informations sur la création de tableaux, voir :
 
 - [Organisation des informations de GitHub avec des tableaux](https://help.github.com/articles/organizing-information-with-tables/)
 - L’application Web [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
-- [Convertir les tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
+- [Convertir des tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### Liens
 
@@ -166,7 +163,7 @@ La syntaxe Markdown d’un lien inséré se compose de la partie `[link text]`, 
 
 Contenu affiché :
 
-[Adobe](https://www.adobe.com) ou <https://www.adobe.com>
+[Adobe](https://www.adobe.com) or <https://www.adobe.com>
 
 Pour les liens vers des articles (références croisées) dans le référentiel, utilisez des liens relatifs. Vous pouvez utiliser tous les opérandes de liens relatifs, tels que./(répertoire actuel), ../ (retour d’un répertoire) et ../../ (retour de deux répertoires).
 
@@ -336,9 +333,9 @@ Pour les mots ou expressions qui ne doivent pas être localisés, utilisez l’e
 
 Pour les éléments de l’interface utilisateur et des menus d’une solution, nous utilisons l’extension `[!UICONTROL]`.
 
-**Exemple:**
+**Exemple :**
 
-Dans vous [!DNL Adobe Target] pouvez créer vos tests directement sur [!DNL Target]une page activée.
+Dans [!DNL Adobe Target] vous pouvez créer vos tests directement sur une page activée [!DNL Target].
 
 **Source :**
 
@@ -348,7 +345,7 @@ In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-ena
 
 **Exemple**
 
-Utilisez l' [!UICONTROL Visual Experience Composer] in pour [!DNL Target] créer votre test directement sur une page.
+Utilisez [!UICONTROL Visual Experience Composer] dans [!DNL Target] pour créer directement votre test sur une page.
 
 **Source :**
 
@@ -379,9 +376,9 @@ Si vous copiez du texte dans un éditeur Markdown, il peut contenir des apostrop
 Voici les encodages des versions « intelligentes » de ces signes de ponctuation :
 
 - Guillemet gauche (ouvrant) : `&#8220;`
-- Guillemet fermant (closing) : `&#8221;`
-- Apostrophe ou apostrophe : `&#8217;`
-- Guillemet simple (ouverture) de guillemets simples (rarement utilisé) : `&#8216;`
+- Guillemet droit (fermant) : `&#8221;`
+- Guillemet ou apostrophe simple droit (fermant) : `&#8217;`
+- Guillemet ou apostrophe simple gauche (ouvrant) (rarement utilisé) : `&#8216;`
 
 ### Chevrons
 
@@ -398,4 +395,4 @@ Les esperluettes (&) ne sont pas autorisées dans les titres. Utilisez plutôt �
 ### Ressources Markdown
 
 - [Présentation de Markdown](https://daringfireball.net/projects/markdown/syntax)
-- [Concepts de base de GitHub Markdown](https://help.github.com/articles/markdown-basics/)
+- [Bases de Github Markdown](https://help.github.com/articles/markdown-basics/)
