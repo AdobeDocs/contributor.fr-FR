@@ -1,13 +1,9 @@
 ---
 title: Configuration locale du référentiel Git
 seo-title: Configuration locale du référentiel Git pour la documentation Adobe
-description: Cet article vous sert de guide lorsque vous créez votre référentiel Git
-  local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus
-  de duplication et de clonage.
-seo-description: Cet article vous sert de guide lorsque vous créez votre référentiel
-  Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le
-  processus de duplication et de clonage.
-translation-type: tm+mt
+description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
+seo-description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
@@ -31,7 +27,7 @@ Pour contribuer à la documentation Adobe, vous pouvez dupliquer le référentie
 
 ## Déterminer le référentiel
 
-Vous dupliquez le référentiel approprié de votre compte GitHub afin de disposer des autorisations de lecture/écriture pour y stocker vos modifications proposées. [!UICONTROL Adobe Experience Cloud] réside dans plusieurs référentiels différents à l'adresse [github.com](https://www.github.com/adobedocs).
+Vous dupliquez le référentiel approprié de votre compte GitHub afin de disposer des autorisations de lecture/écriture pour y stocker vos modifications proposées. [!UICONTROL Adobe Experience Cloud] la documentation se trouve dans plusieurs référentiels différents sur [github.com](https://www.github.com/adobedocs).
 
 1. Si vous n’êtes pas sûr du référentiel à utiliser, consultez l’article à l’aide de votre navigateur Web. Sélectionnez le lien **Edit** (icône en forme de crayon) dans l’angle supérieur droit de l’article. (Si vous ne voyez pas de lien Edit, ce contenu n’est pas encore disponible dans GitHub.)
 
@@ -53,7 +49,7 @@ Un double personnel est requis, car tous les référentiels de documentation pri
 
 1. Accédez à la page GitHub du référentiel principal et cliquez sur le bouton **Fork** dans l’angle supérieur droit.
 
-   ![Double GitHub](assets/fork-simple.png)
+   ![Fork GitHub](assets/fork-simple.png)
 
 1. Si vous y êtes invité, sélectionnez la miniature de votre compte GitHub comme destination de la création du double. Cette invite crée une copie du référentiel dans votre compte GitHub, appelée double.
 
@@ -74,6 +70,6 @@ Ces étapes supposent que vous utilisez GitHub Desktop. Si vous utilisez un autr
 
   ![Cloner le référentiel](assets/clone-pulldown.png)
 
-1. Utilisez GitHub Desktop pour que les fichiers locaux restent synchronisés avec le référentiel dupliqué.
+1. Utilisez GitHub Desktop pour que les fichiers locaux restent synchronisés avec le référentiel forké.
 
-Pour plus d’informations, reportez-vous à [GitHub Desktop Documentation](https://help.github.com/desktop/).
+Pour plus d’informations, reportez-vous à la page [Documentation GitHub Desktop](https://help.github.com/desktop/).
