@@ -4,7 +4,7 @@ cloud: experience-cloud
 index: true
 user-guide-title: Guide du contributeur Adobe
 user-guide-url: https://www.adobe.com
-solution-title: Activation
+solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/fr/support/experience-cloud.html
 solution-image: assets/experience-cloud-logo-24.png
 getting-started-title: Experience League
@@ -12,13 +12,13 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriels
 tutorials-url: https://helpx.adobe.com/fr/experience-cloud/tutorials.html
 test-meta: test
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
 
 
-# Guide du contributeur pour la documentation d’Adobe{#contributor-guide}
+# Guide du contributeur pour la documentation Adobe{#contributor-guide}
 
 + [Introduction](introduction.md)
 + Configuration avec GitHub {#setup}
