@@ -1,17 +1,15 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
+lastModified: '2018-06-28'
 title: Rédaction de conseils relatifs à la documentation Adobe
 seo-title: Rédaction de conseils relatifs à la documentation Adobe
-description: cet article contient des conseils essentiels pour contribuer à la documentation
-  Adobe.
-seo-description: cet article contient des conseils essentiels pour contribuer à la
-  documentation Adobe.
-translation-type: tm+mt
+description: cet article contient des conseils essentiels pour contribuer à la documentation Adobe.
+seo-description: cet article contient des conseils essentiels pour contribuer à la documentation Adobe.
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
 
-# Consigner des conseils pour la documentation Adobe
+# Rédaction de conseils relatifs à la documentation Adobe
 
 Ces instructions s’appliquent si vous créez une documentation ou si vous mettez à jour une documentation existante.
 
