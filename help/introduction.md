@@ -1,34 +1,31 @@
 ---
-title: Guide du contributeur pour la documentation d’Adobe
-seo-title: Présentation du guide du contributeur pour la documentation technique d'Adobe
-  Experience Cloud
-description: Ce guide explique comment apporter votre contribution sous la forme de
-  suggestions et d’ajouts sur le site de documentation Adobe.
-seo-description: Ce guide explique comment contribuer à la documentation technique
-  [!UICONTROL Adobe Experience Cloud].
-translation-type: tm+mt
+title: Guide du contributeur pour la documentation Adobe
+seo-title: Présentation du guide du contributeur pour la documentation technique d’Adobe Experience Cloud
+description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
+seo-description: Ce guide explique comment contribuer à la documentation technique [!UICONTROL Adobe Experience Cloud].
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
 
 
-# Présentation du guide du contributeur pour Adobe Documentation
+# Présentation du guide du contributeur pour la documentation Adobe
 
-## Documentation de collaboration
+## Présentation de la documentation collaborative
 
-Durant 2019, tous les contenus techniques et d'activation d'Adobe Experience Cloud passent à une nouvelle plateforme, reposant sur les principes Open Source, utilisant les solutions Github, Markdown et Adobe Experience Cloud, notamment Adobe Experience Manager, Analytics, Launch et Target.
+En 2019, tous les contenus d’activation et la documentation technique d’Adobe Experience Cloud passent sur une nouvelle plateforme, reposant sur des principes open source, utilisant les solutions Github, Markdown et Adobe Experience Cloud, notamment Adobe Experience Manager, Analytics, Launch et Target.
 
-Ce modèle Open Source améliore la qualité du contenu et la communication entre les clients, les équipes de documentation et les équipes de produits. Sur chaque page, vous pouvez désormais évaluer l'utilité du contenu, les problèmes de consignation et même contribuer à des suggestions de contenu sous la forme de requêtes Extraire (prs). Les équipes de documentation Adobe surveillent quotidiennement les contributions et les problèmes et effectuent des mises à jour, des ajustements et des ajustements, le cas échéant.
+Ce modèle open source améliore la qualité du contenu et la communication entre les clients, les équipes de documentation et les équipes produit. Sur chaque page, vous pouvez désormais évaluer l’utilité du contenu, les problèmes de journalisation, et même contribuer à des suggestions de contenu sous la forme de requêtes de tirage Git (PR). Les équipes de documentation Adobe surveillent quotidiennement les contributions et les problèmes et effectuent des mises à jour et des ajustements, le cas échéant.
 
 ## Utilisation de la documentation collaborative
 
-En tant qu'utilisateur de ce matériel, quel que soit le type employé, partenaire, client ou même client potentiel, vous avez le choix de contribuer à cette documentation de plusieurs manières simples ;
+En tant qu’utilisateur de ce contenu, que vous soyez employé, partenaire, client ou même client potentiel, vous avez le choix de contribuer à cette documentation de plusieurs manières simples ;
 
-* evaluer l'utilité de la page
+* évaluer l’utilité de la page
 * enregistrer un problème sur une page spécifique
-* même envoyer un quick edits jusqu'à la création d'articles entiers, avec des ressources et des exemples de code
+* et même envoyer une modification rapide, jusqu’à la création d’articles entiers, avec des ressources et des exemples de code
 
-Ce guide décrit tout ce que vous devez savoir pour interagir avec ce jeu de matériaux et y contribuer.
+Ce guide décrit tout ce que vous devez savoir pour interagir avec ce jeu de contenu et y contribuer.
 
 <!--
 > [!IMPORTANT]
@@ -41,11 +38,11 @@ Ce guide décrit tout ce que vous devez savoir pour interagir avec ce jeu de mat
 
 Apporter des modifications rapides est un bon moyen de corriger de petites erreurs et omissions dans des documents. Si un article affiche un bouton de modification comme illustré ci-dessous, vous pouvez effectuer une correction rapide par vous-même. Lorsque vous modifiez le document, vous envoyez une requête de tirage pour nous soumettre la correction/suggestion, que nous pouvons ensuite refuser, approuver et publier.
 
-1. Signez le [contrat de licence du contributeur (CLA)](http://opensource.adobe.com/cla.html) si vous le souhaitez.
+1. Signez le [contrat de licence du contributeur (CLA)](http://opensource.adobe.com/cla.html) si acceptable.
 
-   Il suffit d'envoyer une seule fois un CLA Adobe.
-1. Cliquez sur ** dans la colonne de droite pour accéder au fichier source Markdown sur GitHub.`Edit this page`**
-1. Cliquez sur l'icône représentant un crayon pour modifier l'article.
+   Il suffit d’envoyer une seule fois un CLA Adobe.
+1. Cliquez sur **`Edit this page`** dans la colonne de droite pour accéder au fichier source Markdown sur GitHub.
+1. Cliquez sur l’icône représentant un crayon pour modifier l’article.
 
    > [!NOTE]
    > Si l’icône en forme de crayon est grisée, vous devez vous connecter à votre compte GitHub ou créer un compte.
@@ -57,7 +54,7 @@ Apporter des modifications rapides est un bon moyen de corriger de petites erreu
 
    ![votre suggestion de modification](assets/submit-pull-request.png)
 
-   >[!NOTE] Si vous recevez un message d'erreur de validation sur la signature d'un contrat de licence de contributeur (CLA), cliquez **sur Détails** pour ouvrir le contrat de licence. Signez l'accord, le cas échéant. Fermez et ouvrez ensuite la demande d'extraction, puis continuez.
+   >[!NOTE] Si vous recevez un message d’erreur de validation sur la signature d’un contrat de licence de contributeur (CLA), cliquez sur **Détails** pour ouvrir le contrat de licence. Signez l’accord, si acceptable. Fermez et ouvrez ensuite la demande de tirage, puis continuez.
 
 C’est aussi simple que cela. Merci ! Les membres de l’équipe de documentation vont examiner et fusionner votre requête de tirage.
 
@@ -78,7 +75,7 @@ Une autre manière simple de nous informer d’un problème lié à un élément
 
    ![](assets/git_issue_example.png)
 
-L'envoi d'un problème avertit directement l'équipe de contenu de cette page qui pourra agir. Une fois le contenu mis à jour, nous vous informerons dans l’interface GitHub Issues. Ensuite, vous serez averti par courrier électronique une fois la mise à jour ou la fermeture effectuée.
+L’envoi d’un problème avertit directement l’équipe de contenu de cette page qui pourra agir. Une fois le contenu mis à jour, nous vous informerons dans l’interface GitHub Issues. Ensuite, vous serez averti par courrier électronique une fois la mise à jour ou la fermeture effectuée.
 
 ## Comprendre les autorisations GitHub
 
@@ -92,4 +89,4 @@ L’expérience d’édition intégrée au navigateur est préférable pour les 
 
 Avec une solution aussi vaste que celle d’Adobe, la documentation est toujours une œuvre inachevée. Si vous détectez des erreurs, consignez un problème, si vous avez des suggestions sur le matériel, partagez-les avec nous. Indiquez les informations que vous recherchez. Dites-nous si vous ne trouvez pas ce dont vous avez besoin ou, si vous avez rencontré des difficultés pour mener à bien votre tâche, faites-nous savoir comment nous pouvons vous aider à assimiler nos solutions.
 
-L’équipe en charge de la documentation collaborative et tous les auteurs et producteurs de contenu d’[!UICONTROL Adobe Experience Cloud] vous adressent leurs remerciements.
+L’équipe en charge de la documentation collaborative et tous les auteurs et producteurs de contenu vous adressent leurs remerciements[!UICONTROL Adobe Experience Cloud].
