@@ -1,13 +1,10 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
+lastModified: '2018-06-28'
 title: Workflow de contributions GitHub pour les modifications majeures
-seo-title: Workflow de contributions GitHub pour les modifications majeures apportées
-  à la documentation Adobe
-description: Cet article vous explique comment utiliser le workflow de contributions
-  « majeures » pour apporter des contributions à la documentation Adobe.
-seo-description: Cet article vous explique comment utiliser le workflow de contributions
-  « majeures » pour apporter des contributions à la documentation Adobe.
-translation-type: tm+mt
+seo-title: Workflow de contributions GitHub pour les modifications majeures apportées à la documentation Adobe
+description: Cet article vous explique comment utiliser le workflow de contributions « majeures » pour apporter des contributions à la documentation Adobe.
+seo-description: Cet article vous explique comment utiliser le workflow de contributions « majeures » pour apporter des contributions à la documentation Adobe.
+translation-type: ht
 source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
 
 ---
