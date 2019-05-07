@@ -5,7 +5,7 @@ seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: cda3618353a35ebb7dd73a64777ca1c788f5b72b
 
 ---
 

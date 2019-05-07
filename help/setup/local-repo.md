@@ -4,7 +4,7 @@ seo-title: Configuration locale du référentiel Git pour la documentation Adobe
 description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
 seo-description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
 
 ---
 

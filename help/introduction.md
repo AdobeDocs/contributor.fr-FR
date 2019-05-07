@@ -4,7 +4,7 @@ seo-title: Présentation du guide du contributeur pour la documentation techniqu
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: Ce guide explique comment contribuer à la documentation technique [!UICONTROL Adobe Experience Cloud].
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: cda3618353a35ebb7dd73a64777ca1c788f5b72b
 
 ---
 

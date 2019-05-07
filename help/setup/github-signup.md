@@ -6,7 +6,7 @@ description: Suivez le processus de configuration de comptes pour GitHub nécess
 seo-description: Suivez le processus de configuration de comptes pour GitHub nécessaire pour apporter du contenu à la documentation Adobe.
 index: true
 translation-type: ht
-source-git-commit: 4d8d741544e5fefe6d186e75ce4157ea127d5b16
+source-git-commit: beff041de31171a7ddd8a3b829adea7cc142e046
 
 ---
 
