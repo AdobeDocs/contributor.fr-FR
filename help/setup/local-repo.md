@@ -3,10 +3,11 @@ title: Configuration locale du référentiel Git
 seo-title: Configuration locale du référentiel Git pour la documentation Adobe
 description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
 seo-description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
-translation-type: ht
-source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
+
 
 # Configuration locale du référentiel Git pour la documentation
 
@@ -27,7 +28,7 @@ Pour contribuer à la documentation Adobe, vous pouvez dupliquer le référentie
 
 ## Déterminer le référentiel
 
-Vous dupliquez le référentiel approprié de votre compte GitHub afin de disposer des autorisations de lecture/écriture pour y stocker vos modifications proposées. [!UICONTROL Adobe Experience Cloud] la documentation se trouve dans plusieurs référentiels différents sur [github.com](https://www.github.com/adobedocs).
+Vous dupliquez le référentiel approprié de votre compte GitHub afin de disposer des autorisations de lecture/écriture pour y stocker vos modifications proposées. [!UICONTROL Adobe Experience Cloud] réside dans plusieurs référentiels différents à l&#39;adresse [github.com](https://www.github.com/adobedocs).
 
 1. Si vous n’êtes pas sûr du référentiel à utiliser, consultez l’article à l’aide de votre navigateur Web. Sélectionnez le lien **Edit** (icône en forme de crayon) dans l’angle supérieur droit de l’article. (Si vous ne voyez pas de lien Edit, ce contenu n’est pas encore disponible dans GitHub.)
 
@@ -72,4 +73,4 @@ Ces étapes supposent que vous utilisez GitHub Desktop. Si vous utilisez un autr
 
 1. Utilisez GitHub Desktop pour que les fichiers locaux restent synchronisés avec le référentiel forké.
 
-Pour plus d’informations, reportez-vous à la page [Documentation GitHub Desktop](https://help.github.com/desktop/).
+Pour plus d’informations, reportez-vous à [GitHub Desktop Documentation](https://help.github.com/desktop/).
