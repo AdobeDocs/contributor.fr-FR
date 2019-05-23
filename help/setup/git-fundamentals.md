@@ -3,10 +3,11 @@ title: Bases de la documentation Git et GitHub
 seo-title: Bases de la documentation Git et GitHub
 description: Cet article donne un aperçu du référentiel Git et GitHub, ainsi que de la manière dont le contenu est organisé et dont les conventions d’attribution de noms sont utilisées pour la documentation Adobe.
 seo-description: cet article donne un aperçu du référentiel git et github, ainsi que de la manière dont le contenu est organisé et dont les conventions d’attribution de noms sont utilisées pour la documentation Adobe.
-translation-type: ht
-source-git-commit: 223b40e1903c5de90dee90a138967efb02237a42
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
+
 
 # Bases de la documentation Git et GitHub
 
