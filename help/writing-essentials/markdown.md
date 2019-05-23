@@ -4,14 +4,15 @@ title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: ht
-source-git-commit: cda3618353a35ebb7dd73a64777ca1c788f5b72b
+translation-type: tm+mt
+source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
 
+
 # Utilisation de Markdown pour la rédaction de documentation technique
 
-Les articles de documentation technique Adobe sont rédigés dans un langage de marquage léger appelé [Markdown](https://daringfireball.net/projects/markdown/), qui est à la fois facile à lire et à apprendre.
+Les articles de documentation technique d’Adobe sont rédigés dans un langage de marquage léger appelé [Markdown](https://daringfireball.net/projects/markdown/), qui est à la fois facile à lire et à apprendre.
 
 À mesure que nous stockons le contenu de documents Adobe dans GitHub, il peut utiliser une version de Markdown appelée [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), qui offre des fonctionnalités supplémentaires pour les besoins de formatage courants. De plus, Adobe a élargi le champ d’application de Markdown afin de prendre en charge certaines fonctionnalités d’aide, telles que les notes, les conseils et les vidéos intégrées.
 
@@ -149,7 +150,7 @@ Pour plus d’informations sur la création de tableaux, voir :
 
 - [Organisation des informations de GitHub avec des tableaux](https://help.github.com/articles/organizing-information-with-tables/)
 - L’application Web [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
-- [Convertir des tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
+- [Convertir les tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### Liens
 
@@ -163,7 +164,7 @@ La syntaxe Markdown d’un lien inséré se compose de la partie `[link text]`, 
 
 Contenu affiché :
 
-[Adobe](https://www.adobe.com) or <https://www.adobe.com>
+[Adobe](https://www.adobe.com) ou <https://www.adobe.com>
 
 Pour les liens vers des articles (références croisées) dans le référentiel, utilisez des liens relatifs. Vous pouvez utiliser tous les opérandes de liens relatifs, tels que./(répertoire actuel), ../ (retour d’un répertoire) et ../../ (retour de deux répertoires).
 
@@ -215,11 +216,11 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-Vous pouvez spécifier des propriétés pour les blocs de code afin de désactiver la numérotation des lignes (activée par défaut) ou d’ajouter un retour à la ligne (désactivé par défaut). Utilisez {line-numbers="no"} et {line-wrap="yes"}. Ces propriétés sont des extensions Markdown personnalisées.
+Vous pouvez spécifier des propriétés pour les blocs de code afin de désactiver la numérotation des lignes (activée par défaut) ou d’ajouter un retour à la ligne (désactivé par défaut). Utilisez {line-numbers=&quot;no&quot;} et {line-wrap=&quot;yes&quot;}. Ces propriétés sont des extensions Markdown personnalisées.
 
-\`\`\`javascript {line-numbers="no"}
+\`\`\`javascript {line-numbers=&quot;no&quot;}
 function test() {
-console.log("notice the blank line before this function?");
+console.log(&quot;notice the blank line before this function?&quot;);
 \`\`\`
 
 ### Listes de définitions
@@ -258,7 +259,7 @@ Les articles Adobe utilisent Markdown standard pour la plupart des mises en form
 - Ne pas localiser
 - Propriétés du composant, comme l’attribution d’un ID d’en-tête différent à un en-tête
 
-Utilisez le guillemet anglais Markdown (>) au début de chaque ligne pour associer un composant étendu, comme une note. Si vous devez utiliser des sous-composants dans des composants, ajoutez un niveau supplémentaire de guillemets (>  >) pour cette section de sous-composant. Par exemple, une NOTE dans une section DONOTLOCALIZE doit commencer par >    >.
+Utilisez le guillemet anglais Markdown (&gt;) au début de chaque ligne pour associer un composant étendu, comme une note. Si vous devez utiliser des sous-composants dans des composants, ajoutez un niveau supplémentaire de guillemets (&gt;  &gt;) pour cette section de sous-composant. Par exemple, une NOTE dans une section DONOTLOCALIZE doit commencer par &gt;    &gt;.
 
 Certains éléments de Markdown courants, tels que les en-têtes et les blocs de code, incluent des propriétés étendues. Si vous devez modifier les propriétés par défaut, ajoutez les paramètres entre crochets français /{ /} après le composant. Les propriétés étendues sont décrites en contexte.
 
@@ -388,11 +389,11 @@ Par exemple, encodez `<script name>` comme `&lt;script name&gt;`
 
 ### Esperluettes dans les titres
 
-Les esperluettes (&) ne sont pas autorisées dans les titres. Utilisez plutôt « et » ou l’encodage `&amp;`.
+Les esperluettes (&amp;) ne sont pas autorisées dans les titres. Utilisez plutôt « et » ou l’encodage `&amp;`.
 
 ## Voir également
 
 ### Ressources Markdown
 
 - [Présentation de Markdown](https://daringfireball.net/projects/markdown/syntax)
-- [Bases de Github Markdown](https://help.github.com/articles/markdown-basics/)
+- [Concepts de base de GitHub Markdown](https://help.github.com/articles/markdown-basics/)
