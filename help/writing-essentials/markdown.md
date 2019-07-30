@@ -4,7 +4,7 @@ title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 # Utilisation de Markdown pour la rédaction de documentation technique
 
-Les articles de documentation technique d’Adobe sont rédigés dans un langage de marquage léger appelé [Markdown](https://daringfireball.net/projects/markdown/), qui est à la fois facile à lire et à apprendre.
+Les articles de documentation technique Adobe sont rédigés dans un langage de marquage léger appelé [Markdown](https://daringfireball.net/projects/markdown/), qui est à la fois facile à lire et à apprendre.
 
 À mesure que nous stockons le contenu de documents Adobe dans GitHub, il peut utiliser une version de Markdown appelée [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), qui offre des fonctionnalités supplémentaires pour les besoins de formatage courants. De plus, Adobe a élargi le champ d’application de Markdown afin de prendre en charge certaines fonctionnalités d’aide, telles que les notes, les conseils et les vidéos intégrées.
 
@@ -150,7 +150,7 @@ Pour plus d’informations sur la création de tableaux, voir :
 
 - [Organisation des informations de GitHub avec des tableaux](https://help.github.com/articles/organizing-information-with-tables/)
 - L’application Web [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
-- [Convertir les tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
+- [Convertir des tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### Liens
 
@@ -164,7 +164,7 @@ La syntaxe Markdown d’un lien inséré se compose de la partie `[link text]`, 
 
 Contenu affiché :
 
-[Adobe](https://www.adobe.com) ou <https://www.adobe.com>
+[Adobe](https://www.adobe.com) or <https://www.adobe.com>
 
 Pour les liens vers des articles (références croisées) dans le référentiel, utilisez des liens relatifs. Vous pouvez utiliser tous les opérandes de liens relatifs, tels que./(répertoire actuel), ../ (retour d’un répertoire) et ../../ (retour de deux répertoires).
 
@@ -332,7 +332,7 @@ Les mots, phrases et autres éléments doivent être déclarés dans nos systèm
 
 Pour les mots ou expressions qui ne doivent pas être localisés, utilisez l’extension `[!DNL]` pour entourer le mot ou la section.
 
-Pour les éléments de l’interface utilisateur et des menus d’une solution, nous utilisons l’extension `[!UICONTROL]`.
+Pour les éléments de l’interface utilisateur et des menus d’une solution, nous utilisons l’extension ``.
 
 **Exemple :**
 
@@ -396,4 +396,4 @@ Les esperluettes (&amp;) ne sont pas autorisées dans les titres. Utilisez plut�
 ### Ressources Markdown
 
 - [Présentation de Markdown](https://daringfireball.net/projects/markdown/syntax)
-- [Concepts de base de GitHub Markdown](https://help.github.com/articles/markdown-basics/)
+- [Bases de Github Markdown](https://help.github.com/articles/markdown-basics/)
