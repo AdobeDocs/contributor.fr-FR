@@ -1,6 +1,6 @@
 ---
-title: Language Support for Adobe Experience Cloud Product Documentation
-seo-title: Language Support for Adobe Experience Cloud Product Documentation
+title: Prise en charge linguistique de la documentation du produit Adobe Experience Cloud
+seo-title: Prise en charge linguistique de la documentation du produit Adobe Experience Cloud
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: Ce guide explique comment contribuer à la documentation technique [!UICONTROL Adobe Experience Cloud].
 translation-type: tm+mt
@@ -9,9 +9,9 @@ source-git-commit: 6c4ff238f6fa4287b9032a123959db3666cb463c
 ---
 
 
-# Language Support for Adobe Experience Cloud Product Documentation
+# Prise en charge linguistique de la documentation du produit Adobe Experience Cloud
 
-Adobe recognizes that you rely on product documentation, help, and support content to be readily available in languages supported by Adobe products. To realize this goal, Adobe offers a unique translation experience that enables you to select the language of your choice and to provide feedback on the quality of translated content.
+Adobe reconnaît que vous vous fiez à la documentation du produit, à l’aide et au contenu d’assistance pour être facilement disponible dans les langues prises en charge par les produits Adobe. Pour atteindre cet objectif, Adobe offre une expérience de traduction unique qui vous permet de sélectionner la langue de votre choix et de fournir des commentaires sur la qualité du contenu traduit.
 
 ## Sélectionner une langue
 
@@ -23,7 +23,7 @@ Vous pouvez consulter la documentation du produit Adobe Experience Cloud dans la
 
 1. Cliquez sur le sélecteur de langue (icône du monde), puis choisissez une langue.
 
-   ![Language selector](assets/language-dropdown.png)
+   ![Sélecteur de langue](assets/language-dropdown.png)
 
    La page s’affiche dans la langue sélectionnée.
 
@@ -51,20 +51,16 @@ Si vous avez défini les préférences du navigateur pour traduire automatiqueme
 
 Vous pouvez rencontrer parfois des problèmes avec la sortie de traduction automatique, tels que des traductions incomplètes, des caractères corrompus ou des problèmes de mise en page. Ces problèmes sont dus aux divers outils de création, de publication ou de technologie de traduction utilisés par Adobe. Nous ferons tout notre possible pour énumérer les problèmes connus ci-dessous.
 
-| **ISSUE ID** | **DESCRIPTION** | **STATUT** |
+| **ID DE PROBLÈME** | **DESCRIPTION** | **STATUT** |
 |--------------|-------------------------------------------------------------------------------------|------------|
-| G11N3558 | Some Audience Manager pages are half English and half translated (French, Spanish). | OPEN |
+| G11N3558 | Certaines pages d’Audience Manager sont traduites à moitié en anglais et à moitié en espagnol. | OUVRIR |
 
-### Commentaires
+### Commentaires 
 
-Whenever content is automatically translated, either by default or user action, there is the option to provide feedback to Adobe about the translations. In the
-light-blue horizontal bar at the top of the page, you may answer “Yes” or “No” to the question, “Was this translation useful?”. Adobe collects this valuable
-metric and analyzes the compiled data in order to make decisions about content translation. We value your feedback and encourage you to respond.
+Chaque fois que le contenu est automatiquement traduit, que ce soit par défaut ou par l’action de l’utilisateur, vous avez la possibilité de fournir des commentaires à Adobe sur les traductions. Dans la barre horizontale bleu-clair en haut de la page, vous pouvez répondre "Oui" ou "Non" à la question "Cette traduction était-elle utile ?". Adobe collecte cette mesure et analyse les données compilées afin de prendre des décisions concernant la traduction de contenu. Nous apprécions vos commentaires et vous encourageons à y répondre.
 
-![Commentaires](assets/machine-translation-feedback.png)
+![Commentaires ](assets/machine-translation-feedback.png)
 
-In the future, we plan to allow you to provide more extensive feedback, in the form of logging an issue, making suggested improvements, and even requesting
-additional languages. Some of these features are already available on the English pages. In the long run, we believe this will help Adobe improve the user
-experience on these pages.
+Dans l'avenir, nous prévoyons de vous permettre de fournir des commentaires plus approfondis, sous la forme de consignation d'un problème, d'apporter des améliorations suggérées et même de demander des langues supplémentaires. Certaines de ces fonctionnalités sont déjà disponibles sur les pages en anglais. À long terme, nous pensons que cela aidera Adobe à améliorer l’expérience utilisateur de ces pages.
 
-![Improve this page](assets/feedback.png)
+![Améliorer cette page](assets/feedback.png)
