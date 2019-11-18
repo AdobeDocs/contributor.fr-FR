@@ -12,7 +12,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriels
 tutorials-url: https://helpx.adobe.com/fr/experience-cloud/tutorials.html
 test-meta: test
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc70a5ea1be2a7e7c8d3a685c500b6bf33824cea
 
 ---
@@ -31,8 +31,8 @@ source-git-commit: cc70a5ea1be2a7e7c8d3a685c500b6bf33824cea
    + [Utilisation de Markdown](writing-essentials/markdown.md)
    + [Instructions générales pour l’écriture](writing-essentials/general-writing-guidance.md)
    + [Liaison](writing-essentials/linking.md)
-+ Translation feedback {#localization}
-   + [Language Support for Adobe Experience Cloud Product Documentation](localization/machine-translation.md)
++ Commentaires sur la traduction {#localization}
+   + [Prise en charge linguistique de la documentation Adobe Experience Cloud](localization/machine-translation.md)
 + [Ressources d’apprentissage Git et GitHub](resources.md)
 + Réalisation et contribution {#conduct-contributions}
    + [Code de conduite](conduct/code-of-conduct.md)
