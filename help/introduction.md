@@ -3,7 +3,7 @@ title: Guide du contributeur pour la documentation Adobe
 seo-title: Présentation du guide du contributeur pour la documentation technique d’Adobe Experience Cloud
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: Ce guide explique comment contribuer à la documentation technique [!UICONTROL Adobe Experience Cloud].
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: 3a769e92e724694b17c5412303d533c7402f5cd0
 
 ## Présentation de la documentation collaborative
 
-En 2019, tous les contenus d’activation et la documentation technique d’Adobe Experience Cloud passent sur une nouvelle plateforme, reposant sur des principes open source, utilisant les solutions Github, Markdown et Adobe Experience Cloud, notamment Adobe Experience Manager, Analytics, Launch et Target.
+En 2019, tous les contenus d’activation et la documentation technique d’Adobe Experience Cloud passent sur une nouvelle plateforme, reposant sur des principes open source, utilisant les solutions GitHub, Markdown et Adobe Experience Cloud, notamment Adobe Experience Manager, Analytics, Launch et Target.
 
 Ce modèle open source améliore la qualité du contenu et la communication entre les clients, les équipes de documentation et les équipes produit. Sur chaque page, vous pouvez désormais évaluer l’utilité du contenu, les problèmes de journalisation, et même contribuer à des suggestions de contenu sous la forme de requêtes de tirage Git (PR). Les équipes de documentation Adobe surveillent quotidiennement les contributions et les problèmes et effectuent des mises à jour et des ajustements, le cas échéant.
 
 ## Utilisation de la documentation collaborative
 
-En tant qu’utilisateur de ce contenu, que vous soyez employé, partenaire, client ou même client potentiel, vous avez le choix de contribuer à cette documentation de plusieurs manières simples ;
+En tant qu’utilisateur de ce contenu, que vous soyez employé, partenaire, client ou même client potentiel, vous avez le choix de contribuer à cette documentation de plusieurs manières simples ;
 
 * évaluer l’utilité de la page
 * enregistrer un problème sur une page spécifique
@@ -38,7 +38,7 @@ Ce guide décrit tout ce que vous devez savoir pour interagir avec ce jeu de con
 
 Apporter des modifications rapides est un bon moyen de corriger de petites erreurs et omissions dans des documents. Si un article affiche un bouton de modification comme illustré ci-dessous, vous pouvez effectuer une correction rapide par vous-même. Lorsque vous modifiez le document, vous envoyez une requête de tirage pour nous soumettre la correction/suggestion, que nous pouvons ensuite refuser, approuver et publier.
 
-1. Sign the [Contributor License Agreement (CLA)](http://opensource.adobe.com/cla.html) if acceptible.
+1. Signez le [contrat de licence du contributeur (CLA)](http://opensource.adobe.com/cla.html) si acceptable.
 
    Il suffit d’envoyer une seule fois un CLA Adobe.
 1. Cliquez sur **`Edit this page`** dans la colonne de droite pour accéder au fichier source Markdown sur GitHub.
@@ -89,4 +89,4 @@ L’expérience d’édition intégrée au navigateur est préférable pour les 
 
 Avec une solution aussi vaste que celle d’Adobe, la documentation est toujours une œuvre inachevée. Si vous détectez des erreurs, consignez un problème, si vous avez des suggestions sur le matériel, partagez-les avec nous. Indiquez les informations que vous recherchez. Dites-nous si vous ne trouvez pas ce dont vous avez besoin ou, si vous avez rencontré des difficultés pour mener à bien votre tâche, faites-nous savoir comment nous pouvons vous aider à assimiler nos solutions.
 
-L’équipe en charge de la documentation collaborative et tous les auteurs et producteurs de contenu vous adressent leurs remerciements[!UICONTROL Adobe Experience Cloud].
+L’équipe en charge de la documentation collaborative et tous les auteurs et producteurs de contenu vous adressent leurs remerciements [!UICONTROL Adobe Experience Cloud].
