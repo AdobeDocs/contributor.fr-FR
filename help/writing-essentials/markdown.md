@@ -1,18 +1,18 @@
 ---
-lastModified: '2018-06-28'
+lastModified: 2018-06-28T00:00:00Z
 title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
 
 ---
 
 
 # Utilisation de Markdown pour la rédaction de documentation technique
 
-Les articles de documentation technique Adobe sont rédigés dans un langage de marquage léger appelé [Markdown](https://daringfireball.net/projects/markdown/), qui est à la fois facile à lire et à apprendre.
+Les articles de documentation technique d’Adobe sont rédigés dans un langage de marquage léger appelé [Markdown](https://daringfireball.net/projects/markdown/), qui est à la fois facile à lire et à apprendre.
 
 À mesure que nous stockons le contenu de documents Adobe dans GitHub, il peut utiliser une version de Markdown appelée [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), qui offre des fonctionnalités supplémentaires pour les besoins de formatage courants. De plus, Adobe a élargi le champ d’application de Markdown afin de prendre en charge certaines fonctionnalités d’aide, telles que les notes, les conseils et les vidéos intégrées.
 
@@ -58,7 +58,7 @@ This is not \*italicized\* type.
 
 ### Listes numérotées et listes à puces
 
-Pour créer des listes numérotées, insérez 1. en début de ligne ou 1), mais n’utilisez pas les deux formats dans la même liste ou vous allez démarrer une nouvelle liste. Il n’est pas nécessaire de spécifier les nombres. GitHub le fait pour vous.
+To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both formats within the same list. Il n’est pas nécessaire de spécifier les nombres. GitHub le fait pour vous.
 
 ```markdown
 1. This is step 1.
@@ -73,20 +73,20 @@ Contenu affiché :
 1. Ceci est encore une autre étape, la troisième.
 
 <!-- markdownlint-disable MD037 -->
-Pour créer des listes à puces, commencez une ligne par \* ou - ou +, mais ne mélangez pas les formats dans la même liste. (Si vous mélangez les formats, comme \* et \+, vous démarrez en fait une nouvelle liste.)
+Pour créer des listes à puces, commencez une ligne par \* ou - ou +, mais ne mélangez pas les formats dans la même liste. (Ne mélangez pas les formats de puces, tels que \* et \+, dans le même document.)
 <!-- markdownlint-disable MD037 -->
 
 ```markdown
-- First item in an unordered list.
-- Another item.
-- Here we go again.
+* First item in an unordered list.
+* Another item.
+* Here we go again.
 ```
 
 Contenu affiché :
 
-- Premier élément dans une liste non numérotée.
-- Autre élément.
-- Et un de plus.
+* Premier élément dans une liste non numérotée.
+* Autre élément.
+* Et un de plus.
 
 Vous pouvez également intégrer des listes dans d’autres listes et ajouter du contenu entre les éléments de la liste.
 
@@ -97,9 +97,9 @@ Vous pouvez également intégrer des listes dans d’autres listes et ajouter du
    ![screen](assets/no-localize/adobe_standard_logo.png)
 1. Make sure that your table looks like this: 
 
-    | Hello | World |
-    |---|---|
-    | How | are you? |  
+   | Hello | World |
+   |---|---|
+   | How | are you? |  
 1. This is the fourth step.
 
    >[!NOTE]
@@ -132,25 +132,25 @@ Les tableaux ne font pas partie de la spécification Markdown de base, mais Adob
 
 ```markdown
 | Header | Another header | Yet another header |
-|------------|:---------------:|-----------------------:|
-| row 1 | centered column 2 | right-aligned column 3 |
+|--- |--- |--- |
+| row 1 | column 2 | column 3 |
 | row 2 | row 2 column 2 | row 2 column 3 |
 ```
 
 Contenu affiché :
 
 | En-tête | Autre en-tête | Encore un autre en-tête |
-|------------|:---------------:|-----------------------:|
-| ligne 1 | colonne centrée 2 | colonne alignée à droite 3 |
+|--- |--- |--- |
+| ligne 1 | colonne 2 | colonne 3 |
 | ligne 2 | ligne 2 colonne 2 | ligne 2 colonne 3 |
 
 Les tableaux simples fonctionnent correctement dans Markdown. Toutefois, les tableaux contenant plusieurs paragraphes ou listes dans une cellule sont difficiles à utiliser. Pour ce type de contenu, nous recommandons d’utiliser un autre format, comme des titres et du texte.
 
 Pour plus d’informations sur la création de tableaux, voir :
 
-- [Organisation des informations de GitHub avec des tableaux](https://help.github.com/articles/organizing-information-with-tables/)
-- L’application Web [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
-- [Convertir des tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
+* [Organisation des informations de GitHub avec des tableaux](https://help.github.com/articles/organizing-information-with-tables/)
+* L’application Web [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
+* [Convertir les tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### Liens
 
@@ -159,12 +159,12 @@ La syntaxe Markdown d’un lien inséré se compose de la partie `[link text]`, 
 `[link text](file-name.md)`
 
 ```markdown
-[Adobe](https://www.adobe.com) or <https://www.adobe.com>
+[Adobe](https://www.adobe.com)
 ```
 
 Contenu affiché :
 
-[Adobe](https://www.adobe.com) or <https://www.adobe.com>
+[Adobe](https://www.adobe.com)
 
 Pour les liens vers des articles (références croisées) dans le référentiel, utilisez des liens relatifs. Vous pouvez utiliser tous les opérandes de liens relatifs, tels que./(répertoire actuel), ../ (retour d’un répertoire) et ../../ (retour de deux répertoires).
 
@@ -254,12 +254,12 @@ Les commentaires (remarques) n’apparaissent pas dans les articles d’aide des
 
 Les articles Adobe utilisent Markdown standard pour la plupart des mises en forme d’articles, tels que les paragraphes, les liens, les listes et les en-têtes. Pour une mise en forme plus riche, les articles peuvent utiliser des fonctions Markdown étendues telles que :
 
-- Blocs de notes
-- Vidéos intégrées
-- Ne pas localiser
-- Propriétés du composant, comme l’attribution d’un ID d’en-tête différent à un en-tête
+* Blocs de notes
+* Vidéos intégrées
+* Ne pas localiser
+* Propriétés du composant, comme l’attribution d’un ID d’en-tête différent à un en-tête
 
-Utilisez le guillemet anglais Markdown (&gt;) au début de chaque ligne pour associer un composant étendu, comme une note. Si vous devez utiliser des sous-composants dans des composants, ajoutez un niveau supplémentaire de guillemets (&gt;  &gt;) pour cette section de sous-composant. Par exemple, une NOTE dans une section DONOTLOCALIZE doit commencer par &gt;    &gt;.
+Utilisez le guillemet anglais Markdown (>) au début de chaque ligne pour associer un composant étendu, comme une note. Si vous devez utiliser des sous-composants dans des composants, ajoutez un niveau supplémentaire de guillemets (>  >) pour cette section de sous-composant. Par exemple, une NOTE dans une section DONOTLOCALIZE doit commencer par >    >.
 
 Certains éléments de Markdown courants, tels que les en-têtes et les blocs de code, incluent des propriétés étendues. Si vous devez modifier les propriétés par défaut, ajoutez les paramètres entre crochets français /{ /} après le composant. Les propriétés étendues sont décrites en contexte.
 
@@ -267,10 +267,10 @@ Certains éléments de Markdown courants, tels que les en-têtes et les blocs de
 
 Vous pouvez choisir parmi quatre types de blocs de notes afin d’attirer l’attention sur un contenu spécifique :
 
-- `[!NOTE]`
-- `[!CAUTION]`
-- `[!TIP]`
-- `[!IMPORTANT]`
+* `[!NOTE]`
+* `[!CAUTION]`
+* `[!TIP]`
+* `[!IMPORTANT]`
 
 En général, les blocs de notes doivent être utilisés avec parcimonie, car ils peuvent être perturbateurs. Bien qu’ils prennent également en charge les blocs de code, les images, les listes et les liens, faites en sorte que les blocs de notes restent simples et directs.
 
@@ -311,19 +311,18 @@ Contenu affiché :
 
 Le composant « More Like This » dans AEM s’affiche à la fin d’un article. Il affiche les liens connexes. Lorsque l’article est rendu, il peut être formaté comme les en-têtes de niveau 2 (# #) sans être ajouté à la mini-table des matières.
 
-<!--
 ```markdown
->[!MORE]
+>[!MORELIKETHIS]
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
 
-Displayed:
+Contenu affiché :
 
->[!MORE]
+>[!MORELIKETHIS]
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html){target="new-window"}
--->
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
+
 
 ### DNL - Do Not Localize - et UICONTROL
 
@@ -361,13 +360,13 @@ Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your 
 Le texte alternatif qui contient des tirets bas ne sera pas rendu correctement. Par exemple, au lieu d’utiliser :
 
 ```markdown
-![Settings_Step_2] (/assets/settings_step_2.png)
+![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
 Nous conseillons d’utiliser des tirets (-) plutôt que des tirets bas (_) dans les noms de fichier.
 
 ```markdown
-![Settings-Step-2] (/assets/settings-step-2.png)
+![Settings-Step-2](/assets/settings-step-2.png)
 ```
 
 ### Apostrophes et guillemets
@@ -376,10 +375,10 @@ Si vous copiez du texte dans un éditeur Markdown, il peut contenir des apostrop
 
 Voici les encodages des versions « intelligentes » de ces signes de ponctuation :
 
-- Guillemet gauche (ouvrant) : `&#8220;`
-- Guillemet droit (fermant) : `&#8221;`
-- Guillemet ou apostrophe simple droit (fermant) : `&#8217;`
-- Guillemet ou apostrophe simple gauche (ouvrant) (rarement utilisé) : `&#8216;`
+* Guillemet gauche (ouvrant) : `&#8220;`
+* Guillemet droit (fermant) : `&#8221;`
+* Guillemet ou apostrophe simple droit (fermant) : `&#8217;`
+* Guillemet ou apostrophe simple gauche (ouvrant) (rarement utilisé) : `&#8216;`
 
 ### Chevrons
 
@@ -395,5 +394,5 @@ Les esperluettes (&amp;) ne sont pas autorisées dans les titres. Utilisez plut�
 
 ### Ressources Markdown
 
-- [Présentation de Markdown](https://daringfireball.net/projects/markdown/syntax)
-- [Bases de Github Markdown](https://help.github.com/articles/markdown-basics/)
+* [Présentation de Markdown](https://daringfireball.net/projects/markdown/syntax)
+* [Concepts de base de GitHub Markdown](https://help.github.com/articles/markdown-basics/)
