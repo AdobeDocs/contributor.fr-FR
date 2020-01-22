@@ -4,7 +4,7 @@ title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
 
 ---
@@ -58,7 +58,7 @@ This is not \*italicized\* type.
 
 ### Listes numérotées et listes à puces
 
-To create numbered lists, begin a line with `1.` or `1)`, but don&#39;t use both formats within the same list. Il n’est pas nécessaire de spécifier les nombres. GitHub le fait pour vous.
+Pour créer des listes numérotées, commencez une ligne par `1.` ou `1)`, mais n’utilisez pas les deux formats dans la même liste. Il n’est pas nécessaire de spécifier les nombres. GitHub le fait pour vous.
 
 ```markdown
 1. This is step 1.
@@ -141,7 +141,7 @@ Contenu affiché :
 
 | En-tête | Autre en-tête | Encore un autre en-tête |
 |--- |--- |--- |
-| ligne 1 | colonne 2 | colonne 3 |
+| ligne 1 | colonne 2 | colonne 3 |
 | ligne 2 | ligne 2 colonne 2 | ligne 2 colonne 3 |
 
 Les tableaux simples fonctionnent correctement dans Markdown. Toutefois, les tableaux contenant plusieurs paragraphes ou listes dans une cellule sont difficiles à utiliser. Pour ce type de contenu, nous recommandons d’utiliser un autre format, comme des titres et du texte.
@@ -166,7 +166,7 @@ Contenu affiché :
 
 [Adobe](https://www.adobe.com)
 
-Pour les liens vers des articles (références croisées) dans le référentiel, utilisez des liens relatifs. Vous pouvez utiliser tous les opérandes de liens relatifs, tels que./(répertoire actuel), ../ (retour d’un répertoire) et ../../ (retour de deux répertoires).
+Pour les liens vers des articles (références croisées) dans le référentiel, utilisez des liens relatifs. Vous pouvez utiliser tous les opérandes de liens relatifs, tels que ./ (répertoire actuel), ../ (retour d’un répertoire) et ../../ (retour de deux répertoires).
 
 ```markdown
 See [Overview example article](../../overview.md)
@@ -320,8 +320,8 @@ Le composant « More Like This » dans AEM s’affiche à la fin d’un articl
 Contenu affiché :
 
 >[!MORELIKETHIS]
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
 
 
 ### DNL - Do Not Localize - et UICONTROL
@@ -331,7 +331,7 @@ Les mots, phrases et autres éléments doivent être déclarés dans nos systèm
 
 Pour les mots ou expressions qui ne doivent pas être localisés, utilisez l’extension `[!DNL]` pour entourer le mot ou la section.
 
-Pour les éléments de l’interface utilisateur et des menus d’une solution, nous utilisons l’extension ``.
+Pour les éléments de l’interface utilisateur et des menus d’une solution, nous utilisons l’extension ``.
 
 **Exemple :**
 
@@ -373,7 +373,7 @@ Nous conseillons d’utiliser des tirets (-) plutôt que des tirets bas (_) dans
 
 Si vous copiez du texte dans un éditeur Markdown, il peut contenir des apostrophes ou des guillemets « intelligentes » (courbes). Ils doivent être codés ou remplacés par des apostrophes ou des guillemets de base. Sinon, vous obtenez des caractères bizarres tels que celui-ci lorsque le fichier est publié : Itâ€™s.
 
-Voici les encodages des versions « intelligentes » de ces signes de ponctuation :
+Voici les encodages des versions « intelligentes » de ces signes de ponctuation :
 
 * Guillemet gauche (ouvrant) : `&#8220;`
 * Guillemet droit (fermant) : `&#8221;`
