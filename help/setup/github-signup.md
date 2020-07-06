@@ -1,12 +1,15 @@
 ---
-lastModified: 15/10/2018
+lastModified: 2018-10-15T00:00:00Z
 title: Procédure de configuration du compte GitHub
 seo-title: Procédure de configuration du compte Github pour la documentation Adobe Experience Cloud
 description: Suivez le processus de configuration de comptes pour GitHub nécessaire pour apporter du contenu à la documentation Adobe.
 seo-description: Suivez le processus de configuration de comptes pour GitHub nécessaire pour apporter du contenu à la documentation Adobe.
 index: true
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 
 Pour contribuer aux modifications ou aux ajouts apportés à la documentation Adobe (ou d’autres organisations) sur GitHub, vous devez configurer votre propre compte GitHub. C’est très simple.
 
-1. Si vous n’avez pas déjà de compte GitHub, accédez à [https://github.com/join](https://github.com/join).
+1. Si vous ne possédez pas encore de compte GitHub, accédez à [https://github.com/join](https://github.com/join).
 1. Suivez les invites pour créer votre compte.
 1. Si GitHub vous est inconnu, suivez le didacticiel à la fin du processus de configuration.
 
