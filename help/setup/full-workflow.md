@@ -1,11 +1,14 @@
 ---
-lastModified: '2018-06-28'
+lastModified: 2018-06-28T00:00:00Z
 title: Workflow de contributions GitHub pour les modifications majeures
 seo-title: Workflow de contributions GitHub pour les modifications majeures apportées à la documentation Adobe
 description: Cet article vous explique comment utiliser le workflow de contributions « majeures » pour apporter des contributions à la documentation Adobe.
 seo-description: Cet article vous explique comment utiliser le workflow de contributions « majeures » pour apporter des contributions à la documentation Adobe.
-translation-type: ht
-source-git-commit: cb9e20da64bb04a2b1765338b237825cae7aabeb
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '1006'
+ht-degree: 99%
 
 ---
 
@@ -50,6 +53,7 @@ L’article [Git and GitHub fundamentals](git-fundamentals.md) rappelle qu’un 
 L’isolation des modifications liées à une branche spécifique vous permet de contrôler et d’introduire ces modifications indépendamment, en les ciblant à une heure de publication spécifique du cycle de publication. En réalité, en fonction du type de travail que vous réalisez, vous pouvez facilement obtenir plusieurs branches opérationnelles dans votre référentiel. Il n’est pas rare de travailler simultanément sur plusieurs branches, chacune représentant un projet différent.
 
 >[!NOTE]
+>
 >Il *n’est pas recommandé* d’apporter vos modifications à la branche principale. Imaginez que vous utilisiez la branche principale pour introduire un ensemble de modifications à une publication de fonctionnalité minutée. Vous avez terminé les modifications et vous attendez avant de les publier. Ensuite, pendant ce temps, une demande urgente vous demandant de corriger quelque chose vous parvient. Vous apportez donc la modification à un fichier dans la branche principale et vous la publiez. Dans cet exemple, vous publiez par inadvertance le correctif *et* les modifications que vous attendiez de publier à une date spécifique.
 
 L’étape suivante consiste à créer une branche opérationnelle dans votre référentiel local afin de tenir compte de vos modifications proposées. Chaque client Git est différent. Vous pouvez donc consulter l’aide relative à votre client préféré. Vous pouvez afficher un aperçu du processus dans le guide GitHub sur [GitHub flow](https://guides.github.com/introduction/flow/).
