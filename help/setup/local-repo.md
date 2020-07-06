@@ -3,8 +3,11 @@ title: Configuration locale du référentiel Git
 seo-title: Configuration locale du référentiel Git pour la documentation Adobe
 description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
 seo-description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 97%
 
 ---
 
@@ -58,8 +61,9 @@ Un double personnel est requis, car tous les référentiels de documentation pri
 
    Certains référentiels peuvent être volumineux. Choisissez un emplacement disposant d’un espace disque disponible.
 
-   > [!NOTE]
-   > Évitez de choisir un chemin d’accès au dossier local imbriqué dans un autre emplacement de dossier de référentiel Git. Bien qu’il soit acceptable de stocker les dossiers clonés Git les uns à côté des autres, l’imbrication de dossiers Git les uns dans les autres provoque des erreurs au niveau du suivi des fichiers.
+   >[!NOTE]
+   >
+   >Évitez de choisir un chemin d’accès au dossier local imbriqué dans un autre emplacement de dossier de référentiel Git. Bien qu’il soit acceptable de stocker les dossiers clonés Git les uns à côté des autres, l’imbrication de dossiers Git les uns dans les autres provoque des erreurs au niveau du suivi des fichiers.
 
 ## Créer un clone local du référentiel
 
@@ -73,4 +77,4 @@ Ces étapes supposent que vous utilisez GitHub Desktop. Si vous utilisez un autr
 
 1. Utilisez GitHub Desktop pour que les fichiers locaux restent synchronisés avec le référentiel forké.
 
-Pour plus d’informations, reportez-vous à la page [Documentation GitHub Desktop](https://help.github.com/desktop/).
+Pour plus d’informations, reportez-vous à [GitHub Desktop Documentation](https://help.github.com/desktop/).
