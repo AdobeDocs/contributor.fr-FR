@@ -1,11 +1,14 @@
 ---
-lastModified: '2018-06-28'
+lastModified: 2018-06-28T00:00:00Z
 title: Installer des outils de création
 seo-title: Installer des outils de création Git et GitHub pour la documentation Adobe
 description: Cet article vous aide à télécharger et à installer les outils client dont vous aurez besoin pour Git/GitHub et pour modifier des fichiers Markdown.
 seo-description: Cet article vous aide à télécharger et à installer les outils client dont vous aurez besoin pour Git/GitHub et pour modifier des fichiers Markdown pour la documentation Adobe.
-translation-type: ht
-source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 91%
 
 ---
 
@@ -15,25 +18,26 @@ source-git-commit: e7382ef4aefc69c6b4e7d78b7f34eaf897596eaf
 *Cet article décrit les étapes d’installation interactive des outils client et des outils de modification Git.*
 
 >[!NOTE]
-> Si vous apportez uniquement des modifications mineures à un article, il n’est *pas* nécessaire de suivre les étapes décrites dans cet article. Vous pouvez simplement apporter des modifications dans votre navigateur Web.
+>
+>Si vous apportez uniquement des modifications mineures à un article, il n’est *pas* nécessaire de suivre les étapes décrites dans cet article. Vous pouvez simplement apporter des modifications dans votre navigateur Web.
 >
 > Les principaux contributeurs sont encouragés à effectuer ces étapes, ce qui vous permet d’utiliser le [workflow de modifications majeures](local-repo.md). Même si vous disposez d’autorisations d’écriture dans le référentiel principal, nous vous recommandons vivement (comme le suppose ce guide) de dupliquer le référentiel et de le cloner, de sorte que vous disposiez des autorisations de lecture/écriture vous permettant de stocker les modifications proposées dans votre double.
 
 ## Installation des outils client Git
 
-Pour un outil d’interface utilisateur graphique qui vous aide à synchroniser vos fichiers locaux avec vos fichiers serveur, téléchargez [GitHub Desktop](https://desktop.github.com/). Les autres options populaires sont les suivantes : [page clients GUI de Software Freedom Conservancy](https://git-scm.com/downloads/guis) ou [Microsoft Visual Studio Code](https://www.visualstudio.com/products/code-vs.aspx).
+Pour un outil d’interface utilisateur graphique qui vous aide à synchroniser vos fichiers locaux avec vos fichiers serveur, téléchargez [GitHub Desktop](https://desktop.github.com/). D’autres options fréquemment utilisées sont les suivantes : [la page Clients disponible de l’interface graphique utilisateur de Software Freedom Conservancy](https://git-scm.com/downloads/guis) ou [Microsoft Visual Studio Code](https://www.visualstudio.com/products/code-vs.aspx).
 
-Si vous préférez une interface de ligne de commande (CLI) à une interface utilisateur graphique (GUI), installez la dernière version des [outils client Git de Software Freedom Conservancy](https://git-scm.com/downloads). L’installation inclut le système de contrôle de version Git et Git Bash, l’application de ligne de commande que vous pouvez utiliser pour interagir avec votre référentiel Git local.
+Si vous préférez une interface de ligne de commande à une interface utilisateur graphique, installez la dernière version des [outils client Git de Software Freedom Conservancy](https://git-scm.com/downloads). L’installation inclut le système de contrôle de version Git et Git Bash, l’application de ligne de commande que vous pouvez utiliser pour interagir avec votre référentiel Git local.
 
 Les ressources d’apprentissage Git sont disponibles ici :
 
-* [Bases de Git](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
-* [Formation Git et GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+* [Concepts de base de Git](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+* [Apprentissage de Git et GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 * [Terminologie Git](https://help.github.com/articles/github-glossary)
 
 ## Comprendre les éditeurs Markdown
 
-Markdown est un langage de marquage léger à la fois facile à lire et à apprendre. Il est donc rapidement devenu une norme du secteur. Pour écrire des articles en Markdown, nous vous recommandons de télécharger et d’installer préalablement un éditeur Markdown. Les options les plus populaires sont [Visual Studio Code](https://code.visualstudio.com/), [Adobe bracketshttps://brackets.io](https://brackets.io), et [Atom](https://atom.io).
+Markdown est un langage de marquage léger à la fois facile à lire et à apprendre. Il est donc rapidement devenu une norme du secteur. Pour écrire des articles en Markdown, nous vous recommandons de télécharger et d’installer préalablement un éditeur Markdown. Les options les plus fréquemment utilisées sont les suivantes : [Visual Studio Code](https://code.visualstudio.com/), [Adobe Brackets](https://brackets.io) et [Atom](https://atom.io).
 
 Le texte Markdown est enregistré dans des fichiers avec extension. md.
 
