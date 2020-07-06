@@ -4,8 +4,11 @@ title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: ht
-source-git-commit: 883f9d7a9a232fdb69db09d5e9409575c7f3bdd0
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 100%
 
 ---
 
@@ -105,6 +108,7 @@ Vous pouvez également intégrer des listes dans d’autres listes et ajouter du
    >[!NOTE]
    >
    >This is note text.
+
 1. Do another step.
 ```
 
@@ -124,6 +128,7 @@ Contenu affiché :
    >[!NOTE]
    >
    >Ceci est le texte de la note.
+
 1. Effectuez une autre étape.
 
 ### Tableaux
@@ -277,22 +282,26 @@ En général, les blocs de notes doivent être utilisés avec parcimonie, car il
 
 ```markdown
 >[!NOTE]
+>
 >This is a standard NOTE block.
 ```
 
 Contenu affiché :
 
 >[!NOTE]
+>
 >Il s’agit d’un bloc de NOTES standard.
 
 ```markdown
 >[!TIP]
+>
 >This is a standard tip.
 ```
 
 Contenu affiché :
 
 >[!TIP]
+>
 >Il s’agit d’un conseil standard.
 
 ### Vidéos
