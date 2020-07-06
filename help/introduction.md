@@ -3,8 +3,11 @@ title: Guide du contributeur pour la documentation Adobe
 seo-title: Présentation du guide du contributeur pour la documentation technique d’Adobe Experience Cloud
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: Ce guide explique comment contribuer à la documentation technique [!UICONTROL Adobe Experience Cloud].
-translation-type: ht
-source-git-commit: afcd9363375adbc21a0e9a027d3f5ce59e08cd70
+translation-type: tm+mt
+source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 100%
 
 ---
 
@@ -44,8 +47,9 @@ Apporter des modifications rapides est un bon moyen de corriger de petites erreu
 1. Cliquez sur **`Edit this page`** dans la colonne de droite pour accéder au fichier source Markdown sur GitHub.
 1. Cliquez sur l’icône représentant un crayon pour modifier l’article.
 
-   > [!NOTE]
-   > Si l’icône en forme de crayon est grisée, vous devez vous connecter à votre compte GitHub ou créer un compte.
+   >[!NOTE]
+   >
+   >Si l’icône en forme de crayon est grisée, vous devez vous connecter à votre compte GitHub ou créer un compte.
 
    ![Emplacement de l’icône en forme de crayon](assets/edit-icon.png)
 
@@ -54,7 +58,9 @@ Apporter des modifications rapides est un bon moyen de corriger de petites erreu
 
    ![votre suggestion de modification](assets/submit-pull-request.png)
 
-   >[!NOTE] Si vous recevez un message d’erreur de validation sur la signature d’un contrat de licence du contributeur (CLA), cliquez sur **Détails** pour ouvrir le contrat de licence. Signez l’accord, si acceptable. Fermez et ouvrez ensuite la demande de tirage, puis continuez.
+   >[!NOTE]
+   >
+   >Si vous recevez un message d’erreur de validation sur la signature d’un contrat de licence du contributeur (CLA), cliquez sur **Détails** pour ouvrir le contrat de licence. Signez l’accord, si acceptable. Fermez et ouvrez ensuite la demande de tirage, puis continuez.
 
 C’est aussi simple que cela. Merci ! Les membres de l’équipe de documentation vont examiner et fusionner votre requête de tirage.
 
@@ -66,8 +72,9 @@ Une autre manière simple de nous informer d’un problème lié à un élément
 
    ![](assets/git_log_issue.png)
 
-   > [!NOTE]
-   > Vous devez vous connecter à votre compte GitHub ou créer un compte pour consigner un problème.
+   >[!NOTE]
+   >
+   >Vous devez vous connecter à votre compte GitHub ou créer un compte pour consigner un problème.
 
    En cliquant sur ce lien, vous pouvez consigner un ticket rapide chez nous, à l’aide de l’interface GitHub Issues.
 
