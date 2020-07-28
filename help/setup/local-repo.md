@@ -4,7 +4,7 @@ seo-title: Configuration locale du référentiel Git pour la documentation Adobe
 description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
 seo-description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
 translation-type: tm+mt
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
+source-git-commit: d69ca7ee25e2a79151779687ef58d67a800f92e6
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 97%
@@ -16,8 +16,8 @@ ht-degree: 97%
 
 Cet article décrit les étapes de configuration d’un référentiel Git sur votre ordinateur local, dans le but de contribuer à la documentation Adobe. Les contributeurs peuvent utiliser un référentiel cloné localement pour ajouter de nouveaux articles, effectuer des modifications majeures sur des articles existants ou modifier les illustrations.
 
-> [!IMPORTANT]
-> Si vous apportez uniquement des modifications mineures à un article, il n’est *pas* nécessaire de suivre les étapes décrites dans cet article. Vous pouvez simplement cliquer sur l’icône Edit et effectuer les modifications textuelles dans votre navigateur.
+>[!IMPORTANT]
+>Si vous apportez uniquement des modifications mineures à un article, il n’est *pas* nécessaire de suivre les étapes décrites dans cet article. Vous pouvez simplement cliquer sur l’icône Edit et effectuer les modifications textuelles dans votre navigateur.
 
 ## Aperçu
 
