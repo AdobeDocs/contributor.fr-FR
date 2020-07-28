@@ -1,11 +1,14 @@
 ---
-lastModified: '2018-06-28'
+lastModified: 2018-06-28T00:00:00Z
 title: Utilisation de liens dans la documentation
 seo-title: Utilisation de liens dans la documentation Adobe Git/Markdown
 description: Cet article fournit des conseils sur la création de liens vers les contenus et les images.
 seo-description: Cet article fournit des conseils sur la création de liens vers les contensu et les images pour la documentation Adobe.
-translation-type: ht
-source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
+translation-type: tm+mt
+source-git-commit: 73ec3b8b63769a192ee16bec2720930ea6a9aaed
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 100%
 
 ---
 
@@ -14,8 +17,8 @@ source-git-commit: 9060d24142e0f03283b42a2a4bbc638abe2952aa
 
 Cet article décrit l’utilisation d’hyperliens dans les pages de documentation. Les liens sont faciles à ajouter dans Markdown avec quelques conventions variables. Les liens orientent les utilisateurs vers le contenu d’une même page, désignent d’autres pages adjacentes ou des sites et des URL externes.
 
-> [!IMPORTANT]
-> Tous les liens doivent être sécurisés (`https` plutôt que `http`) chaque fois que l’objectif le permet (comme dans le cas de la grande majorité des liens).
+>[!IMPORTANT]
+>Tous les liens doivent être sécurisés (`https` plutôt que `http`) chaque fois que l’objectif le permet (comme dans le cas de la grande majorité des liens).
 
 ## Lien vers des URL
 
