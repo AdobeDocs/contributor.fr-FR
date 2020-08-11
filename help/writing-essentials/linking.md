@@ -4,9 +4,9 @@ title: Utilisation de liens dans la documentation
 seo-title: Utilisation de liens dans la documentation Adobe Git/Markdown
 description: Cet article fournit des conseils sur la création de liens vers les contenus et les images.
 seo-description: Cet article fournit des conseils sur la création de liens vers les contensu et les images pour la documentation Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73ec3b8b63769a192ee16bec2720930ea6a9aaed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
 ht-degree: 100%
 
