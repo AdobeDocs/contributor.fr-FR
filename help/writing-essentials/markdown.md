@@ -4,9 +4,9 @@ title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
 ht-degree: 100%
 
@@ -71,9 +71,9 @@ Pour créer des listes numérotées, commencez une ligne par `1.` ou `1)`, mais 
 
 Contenu affiché :
 
-1. Ceci est l’étape 1.
-1. Ceci est l’étape suivante.
-1. Ceci est encore une autre étape, la troisième.
+1. This is step 1.
+1. This is the next step.
+1. This is yet another step, the third.
 
 <!-- markdownlint-disable MD037 -->
 Pour créer des listes à puces, commencez une ligne par \* ou - ou +, mais ne mélangez pas les formats dans la même liste. (Ne mélangez pas les formats de puces, tels que \* et \+, dans le même document.)
@@ -87,9 +87,9 @@ Pour créer des listes à puces, commencez une ligne par \* ou - ou +, mais ne m
 
 Contenu affiché :
 
-* Premier élément dans une liste non numérotée.
-* Autre élément.
-* Et un de plus.
+* First item in an unordered list.
+* Another item.
+* Here we go again.
 
 Vous pouvez également intégrer des listes dans d’autres listes et ajouter du contenu entre les éléments de la liste.
 
@@ -114,22 +114,22 @@ Vous pouvez également intégrer des listes dans d’autres listes et ajouter du
 
 Contenu affiché :
 
-1. Configurez le tableau et les blocs de code.
-1. Effectuez cette étape.
+1. Set up your table and code blocks.
+1. Perform this step.
 
    ![écran](assets/no-localize/adobe_standard_logo.png)
-1. Assurez-vous que votre tableau ressemble à ceci :
+1. Make sure that your table looks like this:
 
-   | Bonjour | le monde |
+   | Hello | World |
    |---|---|
-   | Comment | allez-vous ? |
-1. Ceci est la quatrième étape.
+   | How | are you? |
+1. This is the fourth step.
 
    >[!NOTE]
    >
-   >Ceci est le texte de la note.
+   >This is note text.
 
-1. Effectuez une autre étape.
+1. Do another step.
 
 ### Tableaux
 
@@ -144,10 +144,10 @@ Les tableaux ne font pas partie de la spécification Markdown de base, mais Adob
 
 Contenu affiché :
 
-| En-tête | Autre en-tête | Encore un autre en-tête |
+| Header | Another header | Yet another header |
 |--- |--- |--- |
-| ligne 1 | colonne 2 | colonne 3 |
-| ligne 2 | ligne 2 colonne 2 | ligne 2 colonne 3 |
+| row 1 | column 2 | column 3 |
+| row 2 | row 2 column 2 | row 2 column 3 |
 
 Les tableaux simples fonctionnent correctement dans Markdown. Toutefois, les tableaux contenant plusieurs paragraphes ou listes dans une cellule sont difficiles à utiliser. Pour ce type de contenu, nous recommandons d’utiliser un autre format, comme des titres et du texte.
 
@@ -171,7 +171,7 @@ Contenu affiché :
 
 [Adobe](https://www.adobe.com)
 
-Pour les liens vers des articles (références croisées) dans le référentiel, utilisez des liens relatifs. Vous pouvez utiliser tous les opérandes de liens relatifs, tels que ./ (répertoire actuel), ../ (retour d’un répertoire) et ../../ (retour de deux répertoires).
+Pour les liens vers des articles (références croisées) dans le référentiel, utilisez des liens relatifs. Vous pouvez utiliser tous les opérandes de liens relatifs, tels que./ (répertoire actuel), ../ (retour d’un répertoire) et ../../ (retour de deux répertoires).
 
 ```markdown
 See [Overview example article](../../overview.md)
@@ -203,7 +203,7 @@ This is `inline code` within a paragraph of text.
 
 Contenu affiché :
 
-Il s’agit de `inline code` dans un paragraphe de texte.
+This is `inline code` within a paragraph of text.
 
 Il s’agit d’un bloc de code clôturé :
 
@@ -290,7 +290,7 @@ Contenu affiché :
 
 >[!NOTE]
 >
->Il s’agit d’un bloc de NOTES standard.
+>This is a standard NOTE block.
 
 ```markdown
 >[!TIP]
@@ -302,7 +302,7 @@ Contenu affiché :
 
 >[!TIP]
 >
->Il s’agit d’un conseil standard.
+>This is a standard tip.
 
 ### Vidéos
 
@@ -329,8 +329,8 @@ Le composant « More Like This » dans AEM s’affiche à la fin d’un articl
 Contenu affiché :
 
 >[!MORELIKETHIS]
->* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
 
 
 ### DNL - Do Not Localize - et UICONTROL
@@ -344,7 +344,7 @@ Pour les éléments de l’interface utilisateur et des menus d’une solution, 
 
 **Exemple :**
 
-Dans [!DNL Adobe Target] vous pouvez créer vos tests directement sur une page activée [!DNL Target].
+In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
 
 **Source :**
 
@@ -354,7 +354,7 @@ In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-ena
 
 **Exemple**
 
-Utilisez [!UICONTROL Visual Experience Composer] dans [!DNL Target] pour créer directement votre test sur une page.
+Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
 
 **Source :**
 
