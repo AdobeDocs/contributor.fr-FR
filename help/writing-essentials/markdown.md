@@ -4,10 +4,10 @@ title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: ht
-source-git-commit: 46674c112935a2a98a12210db92129a1bc475c46
-workflow-type: ht
-source-wordcount: '1377'
+translation-type: tm+mt
+source-git-commit: 27ba164070996d192c84493d83232484d2badb28
+workflow-type: tm+mt
+source-wordcount: '1329'
 ht-degree: 100%
 
 ---
@@ -220,13 +220,6 @@ Contenu affiché :
 function test() {
  console.log("notice the blank line before this function?");
 ```
-
-Vous pouvez spécifier des propriétés pour les blocs de code afin de désactiver la numérotation des lignes (activée par défaut) ou d’ajouter un retour à la ligne (désactivé par défaut). Utilisez {line-numbers=&quot;no&quot;} et {line-wrap=&quot;yes&quot;}. Ces propriétés sont des extensions Markdown personnalisées.
-
-\`\`\`javascript {line-numbers=&quot;no&quot;}
-function test() {
-console.log(&quot;notice the blank line before this function?&quot;);
-\`\`\`
 
 ### Listes de définitions
 
