@@ -4,9 +4,9 @@ title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27ba164070996d192c84493d83232484d2badb28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1329'
 ht-degree: 100%
 
@@ -171,7 +171,7 @@ Contenu affiché :
 
 [Adobe](https://www.adobe.com)
 
-Pour les liens vers des articles (références croisées) dans le référentiel, utilisez des liens relatifs. Vous pouvez utiliser tous les opérandes de liens relatifs, tels que./ (répertoire actuel), ../ (retour d’un répertoire) et ../../ (retour de deux répertoires).
+Pour les liens vers des articles (références croisées) dans le référentiel, utilisez des liens relatifs. Vous pouvez utiliser tous les opérandes de liens relatifs, tels que ./ (répertoire actuel), ../ (retour d’un répertoire) et ../../ (retour de deux répertoires).
 
 ```markdown
 See [Overview example article](../../overview.md)
@@ -187,7 +187,7 @@ Pour plus d’informations sur les liens, consultez l’article [Liens](linking.
 
 Contenu affiché :
 
-![Logo Adobee](assets/no-localize/adobe_standard_logo.png "Texte de l’info-bulle")
+![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
 
 ### Blocs de code
 
@@ -322,8 +322,8 @@ Le composant « More Like This » dans AEM s’affiche à la fin d’un articl
 Contenu affiché :
 
 >[!MORELIKETHIS]
->* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 
 
 ### DNL - Do Not Localize - et UICONTROL
