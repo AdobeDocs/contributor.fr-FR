@@ -4,10 +4,10 @@ title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: ht
-source-git-commit: 27ba164070996d192c84493d83232484d2badb28
-workflow-type: ht
-source-wordcount: '1329'
+translation-type: tm+mt
+source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
+workflow-type: tm+mt
+source-wordcount: '1322'
 ht-degree: 100%
 
 ---
@@ -302,12 +302,12 @@ Contenu affiché :
 Les vidéos intégrées ne sont pas rendues nativement dans Markdown, mais vous pouvez utiliser cette extension Markdown.
 
 ```markdown
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 ```
 
 Contenu affiché :
 
->[!VIDEO](https://www.youtube.com/watch?v=A0EcD2AxvJE)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### More Like This
 
