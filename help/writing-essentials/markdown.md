@@ -4,9 +4,9 @@ title: Utilisation de Markdown pour la rédaction de documentation
 seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -307,7 +307,7 @@ Les vidéos intégrées ne sont pas rendues nativement dans Markdown, mais vous 
 
 Contenu affiché :
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=fre_fr)
 
 ### More Like This
 
@@ -322,8 +322,8 @@ Le composant « More Like This » dans AEM s’affiche à la fin d’un articl
 Contenu affiché :
 
 >[!MORELIKETHIS]
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
 
 
 ### DNL - Do Not Localize - et UICONTROL
