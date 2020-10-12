@@ -4,10 +4,10 @@ title: Workflow de contributions GitHub pour les modifications majeures
 seo-title: Workflow de contributions GitHub pour les modifications majeures apportées à la documentation Adobe
 description: Cet article vous explique comment utiliser le workflow de contributions « majeures » pour apporter des contributions à la documentation Adobe.
 seo-description: Cet article vous explique comment utiliser le workflow de contributions « majeures » pour apporter des contributions à la documentation Adobe.
-translation-type: ht
-source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
-workflow-type: ht
-source-wordcount: '1006'
+translation-type: tm+mt
+source-git-commit: 6ec1d13f80698cb5963c07656ef8183db735ff75
+workflow-type: tm+mt
+source-wordcount: '976'
 ht-degree: 100%
 
 ---
@@ -75,5 +75,3 @@ Lorsque la requête de tirage ne présente pas de problème et est validée, vos
 ### Publication
 
 Souvenez-vous que la requête de tirage doit être fusionnée par un réviseur de requête de tirage avant que les modifications ne puissent être incluses dans le prochain cycle de publication planifié. Les requêtes de tirage sont normalement examinées/fusionnées dans l’ordre de la soumission. Si votre requête de tirage nécessite une fusion pour un cycle de publication spécifique, vous devrez préalablement collaborer avec votre réviseur de requête de tirage pour vous assurer que la fusion se produit avant la publication.
-
-Une fois vos contributions approuvées et fusionnées, le processus de publication docs.microsoft.com les sélectionne. Selon l’équipe qui gère le référentiel auquel vous contribuez, les temps de publication peuvent varier.
