@@ -3,11 +3,11 @@ title: Guide du contributeur pour la documentation Adobe
 seo-title: Présentation du guide du contributeur pour la documentation technique d’Adobe Experience Cloud
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: Ce guide explique comment contribuer à la documentation technique [!UICONTROL Adobe Experience Cloud].
-translation-type: ht
-source-git-commit: c788a71cecf7b69698b649b6053e6740bcc22730
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8943af2fdf406b2e33db037bb60dfea97df2959a
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,10 @@ Apporter des modifications rapides est un bon moyen de corriger de petites erreu
 1. Signez le [contrat de licence du contributeur (CLA)](http://opensource.adobe.com/cla.html) si acceptable.
 
    Il suffit d’envoyer une seule fois un CLA Adobe.
-1. Cliquez sur **`Edit this page`** dans la colonne de droite pour accéder au fichier source Markdown sur GitHub.
+1. Click the **`Edit this page`** icon in the right column to go to the markdown source file on GitHub.
+
+   ![Modifier cette icône de page](/help/assets/git_edit.png)
+
 1. Cliquez sur l’icône représentant un crayon pour modifier l’article.
 
    >[!NOTE]
@@ -68,13 +71,13 @@ C’est aussi simple que cela. Merci ! Les membres de l’équipe de documentat
 
 Une autre manière simple de nous informer d’un problème lié à un élément de contenu consiste à consigner un problème.
 
-1. Si vous constatez un problème lié à un élément de contenu, cliquez sur le lien `Log an Issue` dans l’angle inférieur droit d’une page. Voir la figure ci-dessous :
+1. If you see a problem with a piece of content, click the **`Log an Issue`** icon in the right column.
 
    ![](assets/git_log_issue.png)
 
    >[!NOTE]
    >
-   >Vous devez vous connecter à votre compte GitHub ou créer un compte pour consigner un problème.
+   >Vous devrez vous connecter à votre compte GitHub ou créer un nouveau compte pour enregistrer un problème.
 
    En cliquant sur ce lien, vous pouvez consigner un ticket rapide chez nous, à l’aide de l’interface GitHub Issues.
 
