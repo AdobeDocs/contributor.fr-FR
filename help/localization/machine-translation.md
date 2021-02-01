@@ -1,10 +1,11 @@
 ---
 title: Prise en charge linguistique de la documentation Adobe Experience Cloud
-seo-title: Prise en charge linguistique de la documentation Adobe Experience Cloud
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
-seo-description: Ce guide explique comment contribuer à la documentation technique [!UICONTROL Adobe Experience Cloud].
-translation-type: ht
-source-git-commit: 9db7dd1fb9b22bc35f887d0441a1837813efc9cc
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 100%
 
 ---
 
@@ -29,13 +30,15 @@ Vous pouvez consulter la documentation Adobe Experience Cloud dans de nombreuses
 
    ![Page traduite](assets/french.png)
 
-   Si la version dans votre langue n’est pas encore disponible, Adobe peut traduire automatiquement le contenu. Le service de traduction automatique d’Adobe affiche un message en haut de la page dans un champ bleu :
+<!--
+   In cases where your language version is not yet available, Adobe can automatically translate your content. Adobe's automatic translation service displays a message at the top of the page in a blue field:
 
-   ![Message de traduction](assets/machine-translation-message.png)
+   ![Translation message](assets/machine-translation-message.png)
 
-   Le contenu peut être traduit automatiquement dans votre langue ou vous pouvez cliquer sur un lien pour activer la traduction. (C’est parfois le cas lorsque vous avez cliqué sur l’hyperlien pour revenir à la source anglaise de la page traduite. Vous avez ainsi la possibilité de visualiser la page traduite dans votre langue sur demande.) Vous pouvez retourner à la page source en anglais à tout moment.
+   The content may be rendered in your language automatically, or you can click a link to trigger the translation. (This scenario may occur when you have clicked on the hyperlink to return to the English source from the translated page. It gives you the option of viewing the translated page on-demand.) You can at any time return to the English source.
 
-   Il arrive que le contenu source en anglais ait été mis à jour et publié récemment avant la fin des traductions. Lorsque vous cliquez sur votre langue dans le menu déroulant, une notification s’affichera dans la barre horizontale bleu clair en haut de la page pour vous informer que la page a été automatiquement traduite à partir de la version précédente et que le contenu sera bientôt mis à jour. Si vous préférez, vous aurez la possibilité de consulter le contenu source en anglais le plus récent dans une nouvelle fenêtre de votre navigateur.
+   Occasionally, the English source content might have been recently updated and published before the translations were completed. Upon clicking on your language in the dropdown menu, you will see a notification — in the light-blue horizontal bar at the top of the page — informing that the page was automatically translated from the previous version, with updated content to be available soon. You will be offered the choice to view the most recent English source content in a new browser window, if you prefer.
+-->
 
 ## Pourquoi utiliser la traduction automatique ?
 
@@ -63,7 +66,9 @@ Chaque fois que du contenu est traduit automatiquement, que ce soit par défaut 
 
 À l’avenir, nous prévoyons de vous permettre de fournir des commentaires plus complets, en signalant un problème, en proposant des améliorations et même en demandant des langues supplémentaires. Certaines de ces fonctionnalités sont déjà disponibles sur les pages en anglais. Sur le long terme, nous pensons que cela nous aidera à améliorer l’expérience utilisateur sur ces pages.
 
-![Améliorer cette page](assets/feedback.png)
+<!--
+![Improve this page](assets/feedback.png)
+-->
 
 ### Avertissement de traduction
 
