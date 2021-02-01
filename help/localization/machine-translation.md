@@ -2,10 +2,10 @@
 title: Prise en charge linguistique de la documentation Adobe Experience Cloud
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 translation-type: tm+mt
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+source-git-commit: fe6adf7414680d4835a6402be2e8d1a5547cc7d8
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -30,15 +30,13 @@ Vous pouvez consulter la documentation Adobe Experience Cloud dans de nombreuses
 
    ![Page traduite](assets/french.png)
 
-<!--
-   In cases where your language version is not yet available, Adobe can automatically translate your content. Adobe's automatic translation service displays a message at the top of the page in a blue field:
+   Si la version dans votre langue n’est pas encore disponible, Adobe peut traduire automatiquement le contenu. Le service de traduction automatique de l’Adobe affiche un message en haut de la barre de navigation de droite :
 
-   ![Translation message](assets/machine-translation-message.png)
+   ![Message de traduction](assets/machine-translation-message.png)
 
-   The content may be rendered in your language automatically, or you can click a link to trigger the translation. (This scenario may occur when you have clicked on the hyperlink to return to the English source from the translated page. It gives you the option of viewing the translated page on-demand.) You can at any time return to the English source.
+   Le contenu peut être traduit automatiquement dans votre langue ou vous pouvez cliquer sur un lien pour activer la traduction. (C’est parfois le cas lorsque vous avez cliqué sur l’hyperlien pour revenir à la source anglaise de la page traduite. Vous avez ainsi la possibilité de visualiser la page traduite dans votre langue sur demande.) Vous pouvez retourner à la page source en anglais à tout moment.
 
-   Occasionally, the English source content might have been recently updated and published before the translations were completed. Upon clicking on your language in the dropdown menu, you will see a notification — in the light-blue horizontal bar at the top of the page — informing that the page was automatically translated from the previous version, with updated content to be available soon. You will be offered the choice to view the most recent English source content in a new browser window, if you prefer.
--->
+   Il arrive que le contenu source en anglais ait été mis à jour et publié récemment avant la fin des traductions. Lorsque vous cliquez sur votre langue dans le menu déroulant, une notification s’affichera dans la barre horizontale bleu clair en haut de la page pour vous informer que la page a été automatiquement traduite à partir de la version précédente et que le contenu sera bientôt mis à jour. Si vous préférez, vous aurez la possibilité de consulter le contenu source en anglais le plus récent dans une nouvelle fenêtre de votre navigateur.
 
 ## Pourquoi utiliser la traduction automatique ?
 
