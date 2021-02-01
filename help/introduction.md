@@ -3,11 +3,11 @@ title: Guide du contributeur pour la documentation Adobe
 seo-title: Présentation du guide du contributeur pour la documentation technique d’Adobe Experience Cloud
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: Ce guide explique comment contribuer à la documentation technique [!UICONTROL Adobe Experience Cloud].
-translation-type: ht
-source-git-commit: 8943af2fdf406b2e33db037bb60dfea97df2959a
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Présentation de la documentation collaborative
 
-En 2019, tous les contenus d’activation et la documentation technique d’Adobe Experience Cloud passent sur une nouvelle plateforme, reposant sur des principes open source, utilisant les solutions GitHub, Markdown et Adobe Experience Cloud, notamment Adobe Experience Manager, Analytics, Launch et Target.
+La documentation technique et le contenu d’activation pour Adobe Experience Cloud et d’autres produits Adobe Enterprise ont été transférés vers une nouvelle plateforme. Cette nouvelle plate-forme repose sur des principes open source qui utilisent les solutions Github, Markdown et Adobe Experience Cloud.
 
 Ce modèle open source améliore la qualité du contenu et la communication entre les clients, les équipes de documentation et les équipes produit. Sur chaque page, vous pouvez désormais évaluer l’utilité du contenu, les problèmes de journalisation, et même contribuer à des suggestions de contenu sous la forme de requêtes de tirage Git (PR). Les équipes de documentation Adobe surveillent quotidiennement les contributions et les problèmes et effectuent des mises à jour et des ajustements, le cas échéant.
 
