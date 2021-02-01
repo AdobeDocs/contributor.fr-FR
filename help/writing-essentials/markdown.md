@@ -1,14 +1,11 @@
 ---
-lastModified: 2018-06-28T00:00:00Z
 title: Utilisation de Markdown pour la rédaction de documentation
-seo-title: Utilisation de Markdown pour la rédaction de documentation Adobe
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
-seo-description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles relatifs à la documentation Adobe.
-translation-type: ht
-source-git-commit: 4ebbbde3337183a19fd3a59ae091b621a092e6f8
-workflow-type: ht
-source-wordcount: '1322'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 98%
 
 ---
 
@@ -26,11 +23,11 @@ Les articles de documentation technique d’Adobe sont rédigés dans un langage
 Pour créer un titre, utilisez un signe dièse (#) en début de ligne :
 
 ```
-   # This is level 1 (article title)
-   ## This is level 2
-   ### This is level 3
-   #### This is level 4
-   ##### This is level 5
+# This is level 1 (article title)
+## This is level 2
+### This is level 3
+#### This is level 4
+##### This is level 5
 ```
 
 ### Texte de base
@@ -40,18 +37,10 @@ Un paragraphe ne nécessite pas de syntaxe spéciale dans Markdown.
 Pour mettre le texte en **gras**, entourez-le de deux astérisques. Pour mettre le texte en *italique*, entourez-le d’astérisques uniques :
 
 ```markdown
-    This text is **bold**.
-    This text is *italic*.
-    This text is both ***bold and italic***.
+   This text is **bold**.
+   This text is *italic*.
+   This text is both ***bold and italic***.
 ```
-
-<!--
-To format superscript (H<sub>2</sub>O) and subscript (e=mc<sup>2</sup>) text:
-
-```markdown
-This is subscript H<sub>2</sub>O and superscript e=mc<sup>2</sup>.
-```
--->
 
 Pour ignorer les caractères de formatage Markdown, utilisez \ avant le caractère :
 
@@ -75,9 +64,7 @@ Contenu affiché :
 1. This is the next step.
 1. This is yet another step, the third.
 
-<!-- markdownlint-disable MD037 -->
 Pour créer des listes à puces, commencez une ligne par \* ou - ou +, mais ne mélangez pas les formats dans la même liste. (Ne mélangez pas les formats de puces, tels que \* et \+, dans le même document.)
-<!-- markdownlint-disable MD037 -->
 
 ```markdown
 * First item in an unordered list.
@@ -221,33 +208,6 @@ function test() {
  console.log("notice the blank line before this function?");
 ```
 
-### Listes de définitions
-
-Une liste de définitions est une extension Markdown qui prend en charge le composant Liste de définitions dans AEM. Une liste de définitions se compose d’un terme et de sa définition.
-
-<!--
-
-```markdown
-Frog
-: An amphibious green creature. Likes flies.
-
-Cat
-: A less amphibious creature than frogs.
-```
-
-Displayed:
-
-Frog
-: An amphibious green creature. Likes flies.
-
-Cat
-: A less amphibious creature than frogs.
---->
-
-#### Remarques et commentaires
-
-Les commentaires (remarques) n’apparaissent pas dans les articles d’aide destinés au public. Toutefois, les commentaires apparaissent dans les fichiers Markdown destinés au public que les utilisateurs peuvent consulter et modifier.
-
 ## Extensions Markdown personnalisées
 
 Les articles Adobe utilisent Markdown standard pour la plupart des mises en forme d’articles, tels que les paragraphes, les liens, les listes et les en-têtes. Pour une mise en forme plus riche, les articles peuvent utiliser des fonctions Markdown étendues telles que :
@@ -263,12 +223,16 @@ Certains éléments de Markdown courants, tels que les en-têtes et les blocs de
 
 ### Blocs de notes
 
-Vous pouvez choisir parmi quatre types de blocs de notes afin d’attirer l’attention sur un contenu spécifique :
+Vous pouvez choisir parmi ces types de blocs de notes pour attirer l’attention sur un contenu spécifique :
 
 * `[!NOTE]`
-* `[!CAUTION]`
 * `[!TIP]`
 * `[!IMPORTANT]`
+* `[!CAUTION]`
+* `[!WARNING]`
+* `[!ADMINISTRATION]`
+* `[!AVAILABILITY]`
+* `[!PREREQUISITES]`
 
 En général, les blocs de notes doivent être utilisés avec parcimonie, car ils peuvent être perturbateurs. Bien qu’ils prennent également en charge les blocs de code, les images, les listes et les liens, faites en sorte que les blocs de notes restent simples et directs.
 
@@ -307,7 +271,7 @@ Les vidéos intégrées ne sont pas rendues nativement dans Markdown, mais vous 
 
 Contenu affiché :
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### More Like This
 
@@ -386,7 +350,7 @@ Voici les encodages des versions « intelligentes » de ces signes de ponctuat
 
 Si vous utilisez des chevrons dans le texte (et non dans le code) de votre fichier (par exemple, pour désigner un caractère générique), vous devez encoder les chevrons manuellement. Sinon, Markdown pense qu’il s’agit d’une balise HTML.
 
-Par exemple, encodez `<script name>` comme `&lt;script name&gt;`
+Par exemple, encodez `<script name>` comme  `&lt;script name&gt;`
 
 ### Esperluettes dans les titres
 
