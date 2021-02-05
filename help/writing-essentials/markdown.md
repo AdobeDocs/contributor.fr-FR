@@ -1,11 +1,11 @@
 ---
 title: Utilisation de Markdown pour la rédaction de documentation
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -223,7 +223,7 @@ Certains éléments de Markdown courants, tels que les en-têtes et les blocs de
 
 ### Blocs de notes
 
-Vous pouvez choisir parmi ces types de blocs de notes pour attirer l’attention sur un contenu spécifique :
+Vous pouvez choisir parmi ces types de blocs-notes afin d’attirer l’attention sur un contenu spécifique :
 
 * `[!NOTE]`
 * `[!TIP]`
@@ -271,7 +271,7 @@ Les vidéos intégrées ne sont pas rendues nativement dans Markdown, mais vous 
 
 Contenu affiché :
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=fre_fr)
 
 ### More Like This
 
@@ -350,7 +350,7 @@ Voici les encodages des versions « intelligentes » de ces signes de ponctuat
 
 Si vous utilisez des chevrons dans le texte (et non dans le code) de votre fichier (par exemple, pour désigner un caractère générique), vous devez encoder les chevrons manuellement. Sinon, Markdown pense qu’il s’agit d’une balise HTML.
 
-Par exemple, encodez `<script name>` comme  `&lt;script name&gt;`
+Par exemple, encodez `<script name>` comme `&lt;script name&gt;`
 
 ### Esperluettes dans les titres
 
