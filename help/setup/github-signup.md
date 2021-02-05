@@ -1,9 +1,9 @@
 ---
 title: Procédure de configuration du compte GitHub
 description: Suivez le processus de configuration de comptes pour GitHub nécessaire pour apporter du contenu à la documentation Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
