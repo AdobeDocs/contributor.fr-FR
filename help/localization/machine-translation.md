@@ -1,11 +1,11 @@
 ---
 title: Prise en charge linguistique de la documentation Adobe Experience Cloud
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe6adf7414680d4835a6402be2e8d1a5547cc7d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez consulter la documentation Adobe Experience Cloud dans de nombreuses
 
    ![Page traduite](assets/french.png)
 
-   Si la version dans votre langue n’est pas encore disponible, Adobe peut traduire automatiquement le contenu. Le service de traduction automatique de l’Adobe affiche un message en haut de la barre de navigation de droite :
+   Si la version dans votre langue n’est pas encore disponible, Adobe peut traduire automatiquement le contenu. Le service de traduction automatique d’Adobe affiche un message en haut de la barre de navigation de droite :
 
    ![Message de traduction](assets/machine-translation-message.png)
 
