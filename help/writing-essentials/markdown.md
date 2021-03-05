@@ -1,11 +1,11 @@
 ---
 title: Utilisation de Markdown pour la rédaction de documentation
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
-translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
-workflow-type: ht
-source-wordcount: '1240'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
+workflow-type: tm+mt
+source-wordcount: '1491'
+ht-degree: 76%
 
 ---
 
@@ -176,6 +176,8 @@ Contenu affiché :
 
 ![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
 
+**REMARQUE :** Pour les images qui ne doivent pas être localisées, créez un  `do-not-localize` dossier distinct dans le dossier assets. En règle générale, les images sans texte ou les images contenant uniquement des exemples de contenu y sont placées. Cela supprime tout &quot;bruit&quot; du dossier des ressources et réduit le nombre de questions.
+
 ### Blocs de code
 
 Markdown prend en charge le placement de blocs inséré dans une phrase et en tant que bloc « clôturé » séparé entre des phrases. Pour plus d’informations, reportez-vous [à l’assistance native de Markdown pour les blocs de code.](https://daringfireball.net/projects/markdown/syntax#precode)
@@ -271,7 +273,7 @@ Les vidéos intégrées ne sont pas rendues nativement dans Markdown, mais vous 
 
 Contenu affiché :
 
->[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29770/?quality=12)
 
 ### More Like This
 
@@ -290,33 +292,44 @@ Contenu affiché :
 >* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
 
 
-### DNL - Do Not Localize - et UICONTROL
+### UICONTROL et DNL
 
-Dans certains cas, nous devons signaler certaines sections de contenu d’un article comme étant en anglais uniquement.
-Les mots, phrases et autres éléments doivent être déclarés dans nos systèmes de traduction et permettent de gérer un lexique contrôlé.
+Tout notre contenu d’aide Markdown est initialement localisé à l’aide de la traduction automatique. Si l&#39;aide n&#39;a jamais été localisée, nous conservons la traduction automatique. Cependant, si le contenu de l’aide a été localisé dans le passé, le contenu traduit par l’ordinateur agit comme espace réservé pendant que le contenu est en cours de traduction humaine.
 
-Pour les mots ou expressions qui ne doivent pas être localisés, utilisez l’extension `[!DNL]` pour entourer le mot ou la section.
+**``**
 
-Pour les éléments de l’interface utilisateur et des menus d’une solution, nous utilisons l’extension ``.
+Lors de la traduction automatique, les éléments balisés avec `` sont comparés à une base de données de localisation pour la traduction appropriée. Dans le cas où l’interface utilisateur n’est pas localisée, cette balise permet au système de laisser la référence de l’interface utilisateur en anglais pour cette langue particulière (c.-à-d. Références Analytics en italien).
 
 **Exemple :**
 
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+1. Accédez à l&#39;écran **[!UICONTROL Run Process]**.
+1. Sélectionnez **[!UICONTROL File > Print > Print All]** pour imprimer tous les fichiers sur votre serveur.
+1. La boîte de dialogue [!UICONTROL Processing Rules] s&#39;affiche.
 
 **Source :**
 
 ```markdown
-In [!DNL Adobe Target] you can create your tests directly on a [!DNL Target]-enabled page.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File > Print > Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**Exemple**
+**REMARQUE :** Parmi les trois options de balisage, il s&#39;agit du plus important pour fournir une qualité élevée et est obligatoire.
 
-Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+**`[!DNL]`**
+
+En règle générale, nous utilisons une liste &quot;Ne pas traduire&quot; pour dire aux moteurs de traduction ce qu&#39;il faut garder en anglais. Les éléments les plus répandus sont les noms de solution longue comme &quot;Adobe Analytics&quot;, &quot;Adobe Campaign&quot; et &quot;Adobe Target&quot;. Cependant, il peut y avoir des cas où nous devons forcer le moteur à utiliser l&#39;anglais parce que le terme en question peut être utilisé d&#39;une manière spécifique ou générale. Ce cas le plus évident serait celui des noms courts des solutions telles que &quot;Analytics&quot;, &quot;Campaign&quot;, &quot;Cible&quot;, etc. Il serait difficile pour une machine de comprendre qu&#39;il s&#39;agit de noms de solution et non de termes généraux. La balise peut également être utilisée pour les noms ou fonctionnalités tiers qui restent toujours en anglais ou pour des sections de texte plus courtes comme une phrase ou une phrase qui doit rester en anglais.
+
+**Exemple :**
+
+* Avec [!DNL Target], vous pouvez créer des tests A/B afin de trouver la solution optimale
+* Adobe Analytics est une solution puissante pour collecter les analyses sur votre site. [!DNL Analytics] peut également vous aider à digérer facilement ces données avec le rapports.
 
 **Source :**
 
 ```markdown
-Use the [!UICONTROL Visual Experience Composer] in [!DNL Target] to create your test directly on a page.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 
 ## Pièges et résolution de problèmes
@@ -350,7 +363,7 @@ Voici les encodages des versions « intelligentes » de ces signes de ponctuat
 
 Si vous utilisez des chevrons dans le texte (et non dans le code) de votre fichier (par exemple, pour désigner un caractère générique), vous devez encoder les chevrons manuellement. Sinon, Markdown pense qu’il s’agit d’une balise HTML.
 
-Par exemple, encodez `<script name>` comme `&lt;script name&gt;`
+Par exemple, encodez `<script name>` comme  `&lt;script name&gt;`
 
 ### Esperluettes dans les titres
 
