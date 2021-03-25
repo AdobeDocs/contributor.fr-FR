@@ -1,11 +1,11 @@
 ---
 title: Utilisation de Markdown pour la rédaction de documentation
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ Contenu affiché :
 
 ![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
 
-**REMARQUE :** Pour les images qui ne doivent pas être localisées, créez un  `do-not-localize` dossier distinct dans le dossier assets. En règle générale, les images sans texte ou les images contenant uniquement des exemples de contenu y sont placées. Cela supprime tout &quot;bruit&quot; du dossier des ressources et réduit le nombre de questions.
+**REMARQUE :** pour les images qui ne doivent pas être localisées, créez un dossier `do-not-localize` distinct dans le dossier des ressources. En règle générale, les images sans texte ou les images contenant uniquement des exemples de contenu y sont placées. Cela supprime tout « bruit » du dossier des ressources et réduit le nombre de questions.
 
 ### Blocs de code
 
@@ -294,17 +294,17 @@ Contenu affiché :
 
 ### UICONTROL et DNL
 
-Tout notre contenu d’aide Markdown est initialement localisé à l’aide de la traduction automatique. Si l&#39;aide n&#39;a jamais été localisée, nous conservons la traduction automatique. Cependant, si le contenu de l’aide a été localisé dans le passé, le contenu traduit par l’ordinateur agit comme espace réservé pendant que le contenu est en cours de traduction humaine.
+Tout notre contenu dʼaide Markdown est initialement localisé à lʼaide de la traduction automatique. Si lʼaide nʼa jamais été localisée, nous conservons la traduction automatique. Cependant, si le contenu dʼaide a été localisé dans le passé, le contenu traduit par lʼordinateur agit comme espace réservé pendant que le contenu est en cours de traduction humaine.
 
 **``**
 
-Lors de la traduction automatique, les éléments balisés avec `` sont comparés à une base de données de localisation pour la traduction appropriée. Dans le cas où l’interface utilisateur n’est pas localisée, cette balise permet au système de laisser la référence de l’interface utilisateur en anglais pour cette langue particulière (c.-à-d. Références Analytics en italien).
+Lors de la traduction automatique, les éléments balisés avec `` sont comparés à une base de données de localisation pour la traduction appropriée. Dans le cas où lʼinterface utilisateur nʼest pas localisée, cette balise permet au système de laisser la référence de lʼinterface utilisateur en anglais pour cette langue spécifique (c.-à-d. les références Analytics en italien).
 
 **Exemple :**
 
-1. Accédez à l&#39;écran **[!UICONTROL Run Process]**.
+1. Accédez à lʼécran **[!UICONTROL Run Process]**.
 1. Sélectionnez **[!UICONTROL File > Print > Print All]** pour imprimer tous les fichiers sur votre serveur.
-1. La boîte de dialogue [!UICONTROL Processing Rules] s&#39;affiche.
+1. La boîte de dialogue [!UICONTROL Processing Rules] sʼaffiche.
 
 **Source :**
 
@@ -314,16 +314,16 @@ Lors de la traduction automatique, les éléments balisés avec `` sont comparé
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**REMARQUE :** Parmi les trois options de balisage, il s&#39;agit du plus important pour fournir une qualité élevée et est obligatoire.
+**REMARQUE :** parmi les trois options de balisage, il sʼagit de la plus importante pour fournir une qualité élevée et elle est obligatoire.
 
 **`[!DNL]`**
 
-En règle générale, nous utilisons une liste &quot;Ne pas traduire&quot; pour dire aux moteurs de traduction ce qu&#39;il faut garder en anglais. Les éléments les plus répandus sont les noms de solution longue comme &quot;Adobe Analytics&quot;, &quot;Adobe Campaign&quot; et &quot;Adobe Target&quot;. Cependant, il peut y avoir des cas où nous devons forcer le moteur à utiliser l&#39;anglais parce que le terme en question peut être utilisé d&#39;une manière spécifique ou générale. Ce cas le plus évident serait celui des noms courts des solutions telles que &quot;Analytics&quot;, &quot;Campaign&quot;, &quot;Cible&quot;, etc. Il serait difficile pour une machine de comprendre qu&#39;il s&#39;agit de noms de solution et non de termes généraux. La balise peut également être utilisée pour les noms ou fonctionnalités tiers qui restent toujours en anglais ou pour des sections de texte plus courtes comme une phrase ou une phrase qui doit rester en anglais.
+En règle générale, nous utilisons une liste « Ne pas traduire » pour signifier aux moteurs de traduction ce quʼil faut garder en anglais. Les éléments les plus courants sont les noms de solutions longs comme « Adobe Analytics », « Adobe Campaign » et « Adobe Target ». Cependant, dans certains cas, il peut être nécessaire de forcer le moteur à utiliser lʼanglais parce que le terme en question peut être utilisé dʼune manière spécifique ou générale. Le cas le plus évident est celui des noms courts de solutions comme « Analytics », « Campaign », « Target », etc. Il est difficile pour une machine de comprendre quʼil sʼagit de noms de solutions et non de termes généraux. La balise peut également être utilisée pour les noms ou fonctionnalités de tiers qui restent toujours en anglais ou pour des sections de texte plus courtes telles quʼune phrase ou un mot qui doivent rester en anglais.
 
 **Exemple :**
 
-* Avec [!DNL Target], vous pouvez créer des tests A/B afin de trouver la solution optimale
-* Adobe Analytics est une solution puissante pour collecter les analyses sur votre site. [!DNL Analytics] peut également vous aider à digérer facilement ces données avec le rapports.
+* Grâce à [!DNL Target], vous pouvez créer des tests A/B afin de trouver la solution optimale
+* Adobe Analytics est une solution performante pour collecter des données et analyses sur votre site. [!DNL Analytics] peut également vous aider grâce à la création de rapports afin dʼassimiler facilement ces données.
 
 **Source :**
 
@@ -363,7 +363,7 @@ Voici les encodages des versions « intelligentes » de ces signes de ponctuat
 
 Si vous utilisez des chevrons dans le texte (et non dans le code) de votre fichier (par exemple, pour désigner un caractère générique), vous devez encoder les chevrons manuellement. Sinon, Markdown pense qu’il s’agit d’une balise HTML.
 
-Par exemple, encodez `<script name>` comme  `&lt;script name&gt;`
+Par exemple, encodez `<script name>` comme `&lt;script name&gt;`
 
 ### Esperluettes dans les titres
 
