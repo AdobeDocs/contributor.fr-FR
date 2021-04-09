@@ -2,16 +2,16 @@
 git-repo: https://git.corp.adobe.com/AdobeDocs/contributor.fr-FR
 cloud: Adobe
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1acc8373c778c65b378a7e74d5c41418ce069ffe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 
 ---
 
 
-# Guide du contributeur pour la documentation Adobe{#contributor-guide}
+# Guide du contributeur pour la documentation Adobe {#contributor-guide}
 
 + [Introduction](introduction.md)
 + Configuration avec GitHub {#setup}
