@@ -1,14 +1,14 @@
 ---
 title: Bases de la documentation Git et GitHub
 description: Cet article donne un aperçu du référentiel Git et GitHub, ainsi que de la manière dont le contenu est organisé et dont les conventions d’attribution de noms sont utilisées pour la documentation Adobe.
+exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
 translation-type: ht
-source-git-commit: df6c4152df0c1ee87c9fc4ca22e36a3f13cb620b
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
 workflow-type: ht
 source-wordcount: '660'
 ht-degree: 100%
 
 ---
-
 
 # Bases de la documentation Git et GitHub
 
