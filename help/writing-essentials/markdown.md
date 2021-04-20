@@ -1,14 +1,14 @@
 ---
 title: Utilisation de Markdown pour la rédaction de documentation
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
+exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 translation-type: ht
-source-git-commit: b8090869aa7b5a2ab62f7af09e1b5e289d8a392b
+source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
 workflow-type: ht
 source-wordcount: '1491'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation de Markdown pour la rédaction de documentation technique
 
@@ -140,7 +140,7 @@ Les tableaux simples fonctionnent correctement dans Markdown. Toutefois, les tab
 
 Pour plus d’informations sur la création de tableaux, voir :
 
-* [Organisation des informations de GitHub avec des tableaux](https://help.github.com/articles/organizing-information-with-tables/)
+* [Organisation des informations de GitHub avec des tableaux](https://docs.github.com/fr/github/writing-on-github/organizing-information-with-tables)
 * L’application Web [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 * [Convertir les tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
 
@@ -174,7 +174,7 @@ Pour plus d’informations sur les liens, consultez l’article [Liens](linking.
 
 Contenu affiché :
 
-![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
+![Adobe Logo ](assets/no-localize/adobe_standard_logo.png " Hover text ")
 
 **REMARQUE :** pour les images qui ne doivent pas être localisées, créez un dossier `do-not-localize` distinct dans le dossier des ressources. En règle générale, les images sans texte ou les images contenant uniquement des exemples de contenu y sont placées. Cela supprime tout « bruit » du dossier des ressources et réduit le nombre de questions.
 
@@ -374,4 +374,4 @@ Les esperluettes (&amp;) ne sont pas autorisées dans les titres. Utilisez plut�
 ### Ressources Markdown
 
 * [Présentation de Markdown](https://daringfireball.net/projects/markdown/syntax)
-* [Concepts de base de GitHub Markdown](https://help.github.com/articles/markdown-basics/)
+* [Concepts de base de GitHub Markdown](https://docs.github.com/fr/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
