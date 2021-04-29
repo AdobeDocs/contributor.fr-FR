@@ -1,9 +1,9 @@
 ---
 title: Code de conduite Adobe
 description: 'Code de conduite Adobe '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -52,4 +52,4 @@ Les membres du projet qui ne suivent ou qui n’appliquent pas le présent Code 
 ## Attribution
 
 Ce Code de conduite est adapté du[Contributor Covenant](https://contributor-covenant.org), version 1.4,
-disponible à l’adresse [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+disponible à l’adresse [https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct](https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct)
