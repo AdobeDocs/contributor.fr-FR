@@ -2,11 +2,10 @@
 title: Utilisation de Markdown pour la rédaction de documentation
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
-source-wordcount: '1491'
-ht-degree: 100%
+source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
+workflow-type: tm+mt
+source-wordcount: '1504'
+ht-degree: 96%
 
 ---
 
@@ -182,7 +181,7 @@ Contenu affiché :
 
 Markdown prend en charge le placement de blocs inséré dans une phrase et en tant que bloc « clôturé » séparé entre des phrases. Pour plus d’informations, reportez-vous [à l’assistance native de Markdown pour les blocs de code.](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Utilisez des apostrophes ouvrantes ( \` ) pour créer des styles de code intégrés au sein d’un paragraphe. Pour créer un bloc de code spécifique sur plusieurs lignes, ajoutez trois apostrophes ouvrantes (\`\`\`) avant et après le bloc de code (appelé bloc de code « clôturé » dans Markdown et simplement composant « bloc de code » dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’apostrophes ouvrantes afin que Markdown mette correctement en évidence la syntaxe du code. Example : \`\`\`javascript
+Utilisez les apostrophes ouvrantes (&amp;grave; ) pour créer des styles de code intégrés dans un paragraphe. Pour créer un bloc de code multiligne spécifique, ajoutez trois apostrophes ouvrantes (&amp;grave;&amp;grave;&amp;grave;) avant et après le bloc de code (appelé &quot;bloc de code clôturé&quot; dans Markdown et simplement composant &quot;bloc de code&quot; dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’apostrophes ouvrantes afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : &amp;grave;&amp;grave;&amp;grave;grave;javascript
 
 Exemples :
 
@@ -195,15 +194,6 @@ Contenu affiché :
 This is `inline code` within a paragraph of text.
 
 Il s’agit d’un bloc de code clôturé :
-
-```markdown
-\```javascript
-function test() {
- console.log("notice the blank line before this function?");
-\```
-```
-
-Contenu affiché :
 
 ```javascript
 function test() {
@@ -363,7 +353,7 @@ Voici les encodages des versions « intelligentes » de ces signes de ponctuat
 
 Si vous utilisez des chevrons dans le texte (et non dans le code) de votre fichier (par exemple, pour désigner un caractère générique), vous devez encoder les chevrons manuellement. Sinon, Markdown pense qu’il s’agit d’une balise HTML.
 
-Par exemple, encodez `<script name>` comme `&lt;script name&gt;`
+Par exemple, encodez `<script name>` comme  `&lt;script name&gt;`
 
 ### Esperluettes dans les titres
 
