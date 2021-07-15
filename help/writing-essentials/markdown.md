@@ -3,9 +3,9 @@ title: Utilisation de Markdown pour la rédaction de documentation
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1504'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -139,7 +139,7 @@ Les tableaux simples fonctionnent correctement dans Markdown. Toutefois, les tab
 
 Pour plus d’informations sur la création de tableaux, voir :
 
-* [Organisation des informations de GitHub avec des tableaux](https://docs.github.com/fr/github/writing-on-github/organizing-information-with-tables)
+* [Organisation des informations de GitHub avec des tableaux](https://help.github.com/articles/organizing-information-with-tables/)
 * L’application Web [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 * [Convertir les tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
 
@@ -181,7 +181,7 @@ Contenu affiché :
 
 Markdown prend en charge le placement de blocs inséré dans une phrase et en tant que bloc « clôturé » séparé entre des phrases. Pour plus d’informations, reportez-vous [à l’assistance native de Markdown pour les blocs de code.](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Utilisez les apostrophes ouvrantes (&amp;grave; ) pour créer des styles de code intégrés dans un paragraphe. Pour créer un bloc de code multiligne spécifique, ajoutez trois apostrophes ouvrantes (&amp;grave;&amp;grave;&amp;grave;) avant et après le bloc de code (appelé &quot;bloc de code clôturé&quot; dans Markdown et simplement composant &quot;bloc de code&quot; dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’apostrophes ouvrantes afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : &amp;grave;&amp;grave;&amp;grave;grave;javascript
+Utilisez des apostrophes ouvrantes ( &amp;grave; ) pour créer des styles de code intégrés au sein dʼun paragraphe. Pour créer un bloc de code spécifique sur plusieurs lignes, ajoutez trois apostrophes ouvrantes (&amp;grave;&amp;grave;&amp;grave;) avant et après le bloc de code (appelé bloc de code « clôturé » dans Markdown et simplement composant « bloc de code » dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’apostrophes ouvrantes afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : &amp;grave;&amp;grave;&amp;grave;javascript
 
 Exemples :
 
@@ -353,7 +353,7 @@ Voici les encodages des versions « intelligentes » de ces signes de ponctuat
 
 Si vous utilisez des chevrons dans le texte (et non dans le code) de votre fichier (par exemple, pour désigner un caractère générique), vous devez encoder les chevrons manuellement. Sinon, Markdown pense qu’il s’agit d’une balise HTML.
 
-Par exemple, encodez `<script name>` comme  `&lt;script name&gt;`
+Par exemple, encodez `<script name>` comme `&lt;script name&gt;`
 
 ### Esperluettes dans les titres
 
@@ -364,4 +364,4 @@ Les esperluettes (&amp;) ne sont pas autorisées dans les titres. Utilisez plut�
 ### Ressources Markdown
 
 * [Présentation de Markdown](https://daringfireball.net/projects/markdown/syntax)
-* [Concepts de base de GitHub Markdown](https://docs.github.com/fr/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+* [Concepts de base de GitHub Markdown](https://help.github.com/articles/markdown-basics/)
