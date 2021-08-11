@@ -1,10 +1,11 @@
 ---
+title: Code de conduite Adobe
+description: Code de conduite Adobe pour les problèmes de création de rapports et l’envoi de modifications
 exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,4 +52,5 @@ Les membres du projet qui ne suivent ou qui n’appliquent pas le présent Code 
 
 ## Attribution
 
-Le présent Code de conduite est une adaptation de la [Convention du contributeur](https://contributor-covenant.org), version 1.4, disponible à l’adresse [https://contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct)
+Ce Code de conduite est adapté du[Contributor Covenant](https://contributor-covenant.org), version 1.4,
+disponible à l’adresse [https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct](https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct)
