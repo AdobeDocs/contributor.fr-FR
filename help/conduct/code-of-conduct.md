@@ -1,11 +1,11 @@
 ---
 title: Code de conduite Adobe
-description: Code de conduite Adobe pour les problèmes de création de rapports et l’envoi de modifications
+description: Code de conduite Adobe pour le signalement de problèmes et l’envoi de modifications de révision
 exl-id: ff9c1cc5-8f65-40bb-8d5b-b7d42a5c08c2
 source-git-commit: 06b0a397f0612e5ecfca82fc7105a45ed167efc9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '446'
+ht-degree: 100%
 
 ---
 
