@@ -2,10 +2,10 @@
 title: Utilisation de Markdown pour la rédaction de documentation
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 4104aa1481263dabe20f2e3a117944f55a6fd800
-workflow-type: ht
-source-wordcount: '1504'
-ht-degree: 100%
+source-git-commit: 9e70d10dc1ba27b593de7febf32a3ba3910bfe21
+workflow-type: tm+mt
+source-wordcount: '1489'
+ht-degree: 97%
 
 ---
 
@@ -175,13 +175,13 @@ Contenu affiché :
 
 ![Adobe Logo ](assets/no-localize/adobe_standard_logo.png " Hover text ")
 
-**REMARQUE :** pour les images qui ne doivent pas être localisées, créez un dossier `do-not-localize` distinct dans le dossier des ressources. En règle générale, les images sans texte ou les images contenant uniquement des exemples de contenu y sont placées. Cela supprime tout « bruit » du dossier des ressources et réduit le nombre de questions.
+**REMARQUE :** pour les images qui ne doivent pas être localisées, créez un dossier `do-not-localize` distinct dans le dossier des ressources. En règle générale, les images sans texte ou les images contenant uniquement des exemples de contenu y sont placées. Cela supprime tout « bruit » du dossier des ressources et réduit le nombre de questions.
 
 ### Blocs de code
 
 Markdown prend en charge le placement de blocs inséré dans une phrase et en tant que bloc « clôturé » séparé entre des phrases. Pour plus d’informations, reportez-vous [à l’assistance native de Markdown pour les blocs de code.](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Utilisez des apostrophes ouvrantes ( &amp;grave; ) pour créer des styles de code intégrés au sein dʼun paragraphe. Pour créer un bloc de code spécifique sur plusieurs lignes, ajoutez trois apostrophes ouvrantes (&amp;grave;&amp;grave;&amp;grave;) avant et après le bloc de code (appelé bloc de code « clôturé » dans Markdown et simplement composant « bloc de code » dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’apostrophes ouvrantes afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : &amp;grave;&amp;grave;&amp;grave;javascript
+Utiliser les apostrophes ouvrantes (`` ` ``) pour créer des styles de code intégrés dans un paragraphe. Pour créer un bloc de code multiligne spécifique, ajoutez trois apostrophes ouvrantes (` ``` `) avant et après le bloc de code (appelé &quot;bloc de code clôturé&quot; dans Markdown et juste un composant &quot;bloc de code&quot; dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’apostrophes ouvrantes afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : ` ```javascript`
 
 Exemples :
 
@@ -308,12 +308,12 @@ Lors de la traduction automatique, les éléments balisés avec `` sont compar
 
 **`[!DNL]`**
 
-En règle générale, nous utilisons une liste « Ne pas traduire » pour signifier aux moteurs de traduction ce quʼil faut garder en anglais. Les éléments les plus courants sont les noms de solutions longs comme « Adobe Analytics », « Adobe Campaign » et « Adobe Target ». Cependant, dans certains cas, il peut être nécessaire de forcer le moteur à utiliser lʼanglais parce que le terme en question peut être utilisé dʼune manière spécifique ou générale. Le cas le plus évident est celui des noms courts de solutions comme « Analytics », « Campaign », « Target », etc. Il est difficile pour une machine de comprendre quʼil sʼagit de noms de solutions et non de termes généraux. La balise peut également être utilisée pour les noms ou fonctionnalités de tiers qui restent toujours en anglais ou pour des sections de texte plus courtes telles quʼune phrase ou un mot qui doivent rester en anglais.
+En règle générale, nous utilisons une liste « Ne pas traduire » pour signifier aux moteurs de traduction ce quʼil faut garder en anglais. Les éléments les plus courants sont les noms de solutions longs comme « Adobe Analytics », « Adobe Campaign » et « Adobe Target ». Cependant, dans certains cas, il peut être nécessaire de forcer le moteur à utiliser lʼanglais parce que le terme en question peut être utilisé dʼune manière spécifique ou générale. Le cas le plus évident est celui des noms courts de solutions comme « Analytics », « Campaign », « Target », etc. Il est difficile pour une machine de comprendre quʼil sʼagit de noms de solutions et non de termes généraux. La balise peut également être utilisée pour les noms ou fonctionnalités de tiers qui restent toujours en anglais ou pour des sections de texte plus courtes telles quʼune phrase ou un mot qui doivent rester en anglais.
 
 **Exemple :**
 
 * Grâce à [!DNL Target], vous pouvez créer des tests A/B afin de trouver la solution optimale
-* Adobe Analytics est une solution performante pour collecter des données et analyses sur votre site. [!DNL Analytics] peut également vous aider grâce à la création de rapports afin dʼassimiler facilement ces données.
+* Adobe Analytics est une solution performante pour collecter des données et analyses sur votre site. [!DNL Analytics] peut également vous aider grâce à la création de rapports afin dʼassimiler facilement ces données.
 
 **Source :**
 
