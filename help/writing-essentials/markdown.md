@@ -3,9 +3,9 @@ title: Utilisation de Markdown pour la rédaction de documentation
 description: cet article fournit les concepts de base et les informations de référence relatives au langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 9e70d10dc1ba27b593de7febf32a3ba3910bfe21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1489'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -181,7 +181,7 @@ Contenu affiché :
 
 Markdown prend en charge le placement de blocs inséré dans une phrase et en tant que bloc « clôturé » séparé entre des phrases. Pour plus d’informations, reportez-vous [à l’assistance native de Markdown pour les blocs de code.](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Utiliser les apostrophes ouvrantes (`` ` ``) pour créer des styles de code intégrés dans un paragraphe. Pour créer un bloc de code multiligne spécifique, ajoutez trois apostrophes ouvrantes (` ``` `) avant et après le bloc de code (appelé &quot;bloc de code clôturé&quot; dans Markdown et juste un composant &quot;bloc de code&quot; dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’apostrophes ouvrantes afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : ` ```javascript`
+Utilisez des accents graves (`` ` ``) pour créer des styles de code intraligne au sein d’un paragraphe. Pour créer un bloc de code multi-lignes spécifique, ajoutez trois accents graves (` ``` `) avant et après le bloc de code (appelé « bloc de code clôturés » en Markdown et un composant de « bloc de code » dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’accents graves afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : ` ```javascript`
 
 Exemples :
 
