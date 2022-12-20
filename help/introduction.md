@@ -1,22 +1,23 @@
 ---
 title: Guide du contributeur pour la documentation Adobe
-seo-title: Présentation du guide du contributeur pour la documentation technique d’Adobe Experience Cloud
+seo-title: Contributor guide overview for Adobe Experience Cloud technical documentation
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
-seo-description: Ce guide explique comment contribuer à la documentation technique [!UICONTROL Adobe Experience Cloud].
+seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 5a9bbe0663a1efa8a683e892a42faed18f072e8a
+workflow-type: tm+mt
+source-wordcount: '819'
+ht-degree: 87%
 
 ---
 
-# Présentation du guide du contributeur pour la documentation Adobe
+# Guide du contributeur pour la documentation Adobe
 
-## Présentation de la documentation collaborative
+Ce guide explique comment contribuer à l’aide d’Adobe Enterprise sur Experience League.
 
-La documentation technique et le contenu relatif à l’activation d’Adobe Experience Cloud et d’autres produits Adobe Enterprise ont été transférés vers une nouvelle plateforme. Cette nouvelle plateforme est fondée sur des principes open source qui utilisent les solutions Github, Markdown et Adobe Experience Cloud.
+## Qu’est-ce que la documentation collaborative ?
+
+La documentation technique et le contenu d’activation pour Adobe Experience Cloud et d’autres produits Adobe Enterprise reposent sur des principes open source qui utilisent les solutions GitHub, Markdown et Adobe Experience Cloud.
 
 Ce modèle open source améliore la qualité du contenu et la communication entre les clients, les équipes de documentation et les équipes produit. Sur chaque page, vous pouvez désormais évaluer l’utilité du contenu, les problèmes de journalisation, et même contribuer à des suggestions de contenu sous la forme de requêtes de tirage Git (PR). Les équipes de documentation Adobe surveillent quotidiennement les contributions et les problèmes et effectuent des mises à jour et des ajustements, le cas échéant.
 
@@ -24,9 +25,9 @@ Ce modèle open source améliore la qualité du contenu et la communication entr
 
 En tant qu’utilisateur de ce contenu, que vous soyez employé, partenaire, client ou même client potentiel, vous avez le choix de contribuer à cette documentation de plusieurs manières simples ;
 
-* évaluer l’utilité de la page
-* enregistrer un problème sur une page spécifique
-* et même envoyer une modification rapide, jusqu’à la création d’articles entiers, avec des ressources et des exemples de code
+* Évaluer l’utilité de la page
+* Consigne un problème sur une page spécifique
+* Envoi rapide de modifications pour créer des articles entiers, avec des ressources et des exemples de code
 
 Ce guide décrit tout ce que vous devez savoir pour interagir avec ce jeu de contenu et y contribuer.
 
@@ -67,7 +68,7 @@ Apporter des modifications rapides est un bon moyen de corriger de petites erreu
 
 C’est aussi simple que cela. Merci ! Les membres de l’équipe de documentation vont examiner et fusionner votre requête de tirage.
 
-## Consigner un problème
+## Enregistrer un problème
 
 Une autre manière simple de nous informer d’un problème lié à un élément de contenu consiste à consigner un problème.
 
