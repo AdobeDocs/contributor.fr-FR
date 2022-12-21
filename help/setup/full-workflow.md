@@ -1,12 +1,11 @@
 ---
 title: Workflow de contributions GitHub pour les modifications majeures
-description: Cet article vous explique comment utiliser le workflow de contributions « majeures » pour apporter des contributions à la documentation Adobe.
+description: Découvrez comment apporter des contributions à la documentation Adobe sur Experience League.
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
-source-wordcount: '950'
-ht-degree: 100%
+source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 82%
 
 ---
 
@@ -45,19 +44,19 @@ Dans ce workflow, les modifications s’effectuent en suivant un cycle répétit
 
 ### Utilisation du flux GitHub
 
-L’article [Git and GitHub fundamentals](git-fundamentals.md) rappelle qu’un référentiel Git contient une branche principale, plus d’autres branches de travail en cours qui n’ont pas été intégrées à la branche principale. Chaque fois que vous introduisez un ensemble de modifications logiquement liées, il est recommandé de créer une *branche opérationnelle* pour gérer vos modifications par le biais du workflow. Nous l’appelons ici branche opérationnelle, car il s’agit d’un espace de travail permettant d’itérer/affiner les modifications jusqu’à ce qu’elles puissent être intégrées à la branche principale.
+Rappel de [Principes de base de Git et GitHub](git-fundamentals.md) qu’un référentiel Git contient une branche principale, plus toutes les branches de travail supplémentaires en cours qui n’ont pas été intégrées à main. Chaque fois que vous introduisez un ensemble de modifications logiquement liées, il est recommandé de créer une *branche de travail* pour gérer vos modifications par le biais du workflow. Nous l’appelons ici branche opérationnelle, car c’est un espace de travail pour itérer/affiner les modifications, jusqu’à ce qu’elles puissent être intégrées à la branche principale.
 
 L’isolation des modifications liées à une branche spécifique vous permet de contrôler et d’introduire ces modifications indépendamment, en les ciblant à une heure de publication spécifique du cycle de publication. En réalité, en fonction du type de travail que vous réalisez, vous pouvez facilement obtenir plusieurs branches opérationnelles dans votre référentiel. Il n’est pas rare de travailler simultanément sur plusieurs branches, chacune représentant un projet différent.
 
 >[!NOTE]
 >
->Il *n’est pas recommandé* d’apporter vos modifications à la branche principale. Imaginez que vous utilisiez la branche principale pour introduire un ensemble de modifications à une publication de fonctionnalité minutée. Vous avez terminé les modifications et vous attendez avant de les publier. Ensuite, pendant ce temps, une demande urgente vous demandant de corriger quelque chose vous parvient. Vous apportez donc la modification à un fichier dans la branche principale et vous la publiez. Dans cet exemple, vous publiez par inadvertance le correctif *et* les modifications que vous attendiez de publier à une date spécifique.
+>Apport de modifications dans la branche principale *n’est pas une bonne pratique*. Imaginez que vous utilisiez la branche principale pour introduire un ensemble de modifications pour une version de fonction minutée. Vous avez terminé les modifications et vous attendez avant de les publier. Ensuite, dans l’intervalle, vous avez une demande urgente pour corriger quelque chose. Vous apportez donc la modification à un fichier dans la branche principale, puis vous publiez la modification. Dans cet exemple, vous publiez par inadvertance le correctif *et* les modifications que vous attendiez de publier à une date spécifique.
 
 L’étape suivante consiste à créer une branche opérationnelle dans votre référentiel local afin de tenir compte de vos modifications proposées. Chaque client Git est différent. Vous pouvez donc consulter l’aide relative à votre client préféré. Vous pouvez afficher un aperçu du processus dans le guide GitHub sur [GitHub flow](https://guides.github.com/introduction/flow/).
 
 ## Traitement de la requête de tirage
 
-Vous envoyez les modifications proposées en les regroupant dans une nouvelle requête de tirage ajoutée à la file d’attente de requêtes de tirage du référentiel de destination. Une requête de tirage active le modèle de collaboration de GitHub en demandant les modifications de votre branche opérationnelle à extraire et à fusionner dans une autre branche. Dans la plupart des cas, cette branche est la branche par défaut/principale du référentiel principal.
+Vous envoyez les modifications proposées en les regroupant dans une nouvelle requête de tirage ajoutée à la file d’attente de requêtes de tirage du référentiel de destination. Une requête de tirage active le modèle de collaboration de GitHub en demandant les modifications de votre branche opérationnelle à extraire et à fusionner dans une autre branche. Dans la plupart des cas, cette autre branche est la branche par défaut/principale du référentiel principal.
 
 ### Validation
 
