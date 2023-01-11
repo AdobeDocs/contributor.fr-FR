@@ -1,11 +1,11 @@
 ---
 title: Utilisation de Markdown pour la rédaction de documentation
-description: Découvrez les principes de base de la création Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
+description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1500'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Les articles de documentation technique d’Adobe sont rédigés dans un langage
 
 ## Concepts de base de Markdown
 
-Les sections suivantes décrivent les principes de base de la création dans Markdown.
+Les sections suivantes décrivent les principes de base de la création en Markdown.
 
 ### Titres
 
@@ -141,7 +141,7 @@ Les tableaux simples fonctionnent correctement dans Markdown. Toutefois, les tab
 
 Pour plus d’informations sur la création de tableaux, voir :
 
-* [Organisation des informations de GitHub avec des tableaux](https://help.github.com/articles/organizing-information-with-tables/)
+* [Organisation des informations de GitHub avec des tableaux](https://docs.github.com/fr/github/writing-on-github/organizing-information-with-tables)
 * L’application Web [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 * [Convertir les tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
 
@@ -366,4 +366,4 @@ Les esperluettes (&amp;) ne sont pas autorisées dans les titres. Utilisez plut�
 ### Ressources Markdown
 
 * [Présentation de Markdown](https://daringfireball.net/projects/markdown/syntax)
-* [Concepts de base de GitHub Markdown](https://help.github.com/articles/markdown-basics/)
+* [Concepts de base de GitHub Markdown](https://docs.github.com/fr/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)
