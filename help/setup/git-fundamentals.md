@@ -3,9 +3,9 @@ title: Bases de la documentation Git et GitHub
 description: Cet article donne un aperçu du référentiel Git et GitHub, ainsi que de la manière dont le contenu est organisé et dont les conventions d’attribution de noms sont utilisées pour la documentation Adobe.
 exl-id: 2b2ec764-4201-4bcd-802d-a034d6675793
 source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Git dispose d’un workflow et d’une terminologie de contribution uniques pour
 Git utilise également une structure à niveaux pour stocker et gérer le contenu d’un projet :
 
 - *Référentiel* : également appelé *repo*. Il s’agit de la plus grande unité de stockage. Un référentiel contient une ou plusieurs branches.
-- *Branche*: Tous les référentiels contiennent une branche par défaut (généralement appelée &quot;main&quot;) et une ou plusieurs branches devant être fusionnées à nouveau dans la branche principale. La branche principale sert de version et de source actuelles à partir de laquelle le contenu est publié. Il s’agit du parent à partir desquelles toutes les autres branches du référentiel sont créées.
+- *Branche* : tous les référentiels contiennent une branche par défaut (généralement appelée « principale ») et une ou plusieurs branches devant être fusionnées à nouveau dans la branche principale. La branche principale sert de version et de source actuelles à partir desquelles le contenu est publié. Il s’agit du parent à partir desquelles toutes les autres branches du référentiel sont créées.
 
 Les contributeurs interagissent avec Git pour mettre à jour et manipuler des référentiels tant au niveau local qu’au niveau de GitHub :
 
@@ -41,7 +41,7 @@ Tous les workflows commencent et se terminent au niveau de GitHub, où est stock
 
 ### Organisation du répertoire
 
-La branche par défaut/principale d’un projet sert de version actuelle du contenu pour le projet. Le contenu de la branche principale (et des branches créées à partir de celle-ci) s’aligne sur l’organisation des rubriques de l’article. Les sous-répertoires servent à organiser le contenu et les actifs d’image.
+La branche par défaut/principale d’un projet sert de version actuelle du contenu destiné au projet. Le contenu dans la branche principale (et dans les embranchements créés à partir de cette dernière) s’aligne sur l’organisation des rubriques de l’article. Les sous-répertoires servent à organiser le contenu et les actifs d’image.
 
 Vous pouvez généralement trouver un répertoire `help` principal sur la racine du référentiel. Le répertoire d’articles contient un ensemble de sous-répertoires. Les articles dans les sous-répertoires sont formatés sous la forme de fichiers Markdown, qui utilisent une extension *.md*.
 
