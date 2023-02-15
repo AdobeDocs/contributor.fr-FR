@@ -1,17 +1,17 @@
 ---
-title: Guide de contribution pour la documentation Adobe
+title: Guide du contributeur pour la documentation des Adobes
 seo-title: Contributor guide overview for Adobe Experience Cloud technical documentation
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
-workflow-type: ht
+source-git-commit: 8e7d5fb9dc5686df32f7d917ebfb290547d299be
+workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Guide de contribution pour la documentation Adobe
+# Guide du contributeur pour la documentation Adobe
 
 Ce guide explique comment contribuer à l’aide d’Adobe Enterprise sur Experience League.
 
