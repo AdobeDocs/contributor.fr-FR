@@ -2,7 +2,7 @@
 title: Workflow de contributions GitHub pour les modifications majeures
 description: Découvrez comment apporter des contributions à la documentation Adobe sur Experience League.
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
-source-git-commit: 90122796acee9214ba96360eb7b5ff5c321a4bd6
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: ht
 source-wordcount: '944'
 ht-degree: 100%
@@ -38,6 +38,7 @@ Si vous ne connaissez pas les concepts Git et GitHub tels qu’un référentiel 
 ## Workflow
 
 >[!IMPORTANT]
+>
 > Si vous ne l’avez pas encore fait, vous devez suivre la procédure de la section [Setup](github-signup.md).
 
 Dans ce workflow, les modifications s’effectuent en suivant un cycle répétitif. À partir du référentiel local de votre appareil, elles refluent vers votre double GitHub, puis vers le référentiel GitHub principal, pour ensuite revenir au référentiel local lorsque vous intégrez les modifications d’autres contributeurs.
