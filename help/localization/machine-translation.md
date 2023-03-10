@@ -1,24 +1,23 @@
 ---
-title: Prise en charge linguistique de la documentation Adobe Experience Cloud
+title: Prise en charge linguistique de la documentation Adobe Experience Cloud
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 exl-id: 6ba93c9f-15c3-47ba-aa41-d226f5d4e435
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
-# Prise en charge linguistique de la documentation Adobe Experience Cloud
+# Prise en charge linguistique de la documentation Adobe Experience Cloud
 
 Nous sommes conscients que vous comptez sur le fait que la documentation, l’aide et le contenu de support des produits soient rapidement disponibles dans les langues prises en charge par les produits Adobe. Pour y parvenir, nous vous offrons une expérience de traduction unique qui vous permet de sélectionner la langue de votre choix et de donner votre avis sur la qualité du contenu traduit.
 
 ## Sélection d’une langue
 
-Vous pouvez consulter la documentation Adobe Experience Cloud dans de nombreuses langues.
+Vous pouvez consulter la documentation Adobe Experience Cloud dans de nombreuses langues.
 
-1. Accédez à la [documentation](https://helpx.adobe.com/fr/support/experience-cloud.html) Experience Cloud.
+1. Accédez à la [documentation](https://helpx.adobe.com/fr/support/experience-cloud.html) Experience Cloud.
 
 1. Recherchez une page d’aide (par exemple celle d’[Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html)).
 
@@ -36,7 +35,7 @@ Vous pouvez consulter la documentation Adobe Experience Cloud dans de nombreuses
 
    Le contenu peut être traduit automatiquement dans votre langue ou vous pouvez cliquer sur un lien pour activer la traduction. (C’est parfois le cas lorsque vous avez cliqué sur l’hyperlien pour revenir à la source anglaise de la page traduite. Vous avez ainsi la possibilité de visualiser la page traduite dans votre langue sur demande.) Vous pouvez retourner à la page source en anglais à tout moment.
 
-   Il arrive que le contenu source en anglais ait été mis à jour et publié récemment avant la fin des traductions. Lorsque vous cliquez sur votre langue dans le menu déroulant, une notification s’affichera dans la barre horizontale bleu clair en haut de la page pour vous informer que la page a été automatiquement traduite à partir de la version précédente et que le contenu sera bientôt mis à jour. Si vous préférez, vous aurez la possibilité de consulter le contenu source en anglais le plus récent dans une nouvelle fenêtre de votre navigateur.
+   Il arrive que le contenu source en anglais ait été mis à jour et publié récemment avant la fin des traductions. Lorsque vous cliquez sur votre langue dans le menu déroulant, une notification s’affiche (dans la barre horizontale bleu clair en haut de la page) pour vous informer que la page a été automatiquement traduite à partir de la version précédente et que du contenu mis à jour sera bientôt disponible. Si vous préférez, vous aurez la possibilité de consulter le contenu source en anglais le plus récent dans une nouvelle fenêtre de votre navigateur.
 
 ## Pourquoi utiliser la traduction automatique ?
 
@@ -54,11 +53,11 @@ Il se peut que vous rencontriez occasionnellement des problèmes avec le résult
 
 | **ID DU PROBLÈME** | **DESCRIPTION** | **STATUT** |
 |--------------|-------------------------------------------------------------------------------------|------------|
-| G11N3558 | Certaines pages d’Audience Manager sont à moitié en anglais et à moitié traduites (en français et en espagnol). | OUVRIR |
+| G11N3558 | Certaines pages d’Audience Manager sont à moitié en anglais et à moitié traduites (en français et en espagnol). | OUVRIR |
 
 ### Commentaires
 
-Chaque fois que du contenu est traduit automatiquement, que ce soit par défaut ou à la demande de l’utilisateur, il est possible de faire parvenir à Adobe des commentaires sur les traductions. Dans la barre horizontale bleu clair en haut de la page, vous pouvez répondre « Oui » ou « Non » à la question « Cette traduction a-t-elle été utile ? ». Adobe recueille ces précieuses mesures, les compile, puis les analyse afin de prendre des décisions concernant la traduction du contenu. Nous apprécions vos commentaires et nous vous encourageons à répondre à cette question.
+Chaque fois que du contenu est traduit automatiquement, que ce soit par défaut ou à la demande de l’utilisateur, il est possible de faire parvenir à Adobe des commentaires sur les traductions. Dans la barre horizontale bleu clair en haut de la page, vous pouvez répondre &quot;Oui&quot; ou &quot;Non&quot; à la question &quot;Cette traduction a-t-elle été utile ?&quot;. Adobe recueille ces précieuses mesures, les compile, puis les analyse afin de prendre des décisions concernant la traduction du contenu. Nous apprécions vos commentaires et nous vous encourageons à répondre à cette question.
 
 ![Commentaires](assets/machine-translation-feedback.png)
 

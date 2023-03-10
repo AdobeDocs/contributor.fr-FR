@@ -4,10 +4,10 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 8e7d5fb9dc5686df32f7d917ebfb290547d299be
-workflow-type: ht
-source-wordcount: '800'
-ht-degree: 100%
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 69%
 
 ---
 
@@ -23,11 +23,15 @@ Ce modèle open source améliore la qualité du contenu et la communication entr
 
 ## Utiliser la documentation collaborative
 
-En tant qu’utilisateur ou utilisatrice de ce contenu, que vous soyez employé(e), partenaire, client(e) ou même client(e) potentiel(le), vous avez le choix de contribuer à cette documentation de plusieurs manières simples ;
+En tant qu’utilisateur de ce contenu, que vous soyez employé, partenaire, client ou même client potentiel, vous avez le choix de contribuer à cette documentation de plusieurs manières simples.
 
-* Évaluer l’utilité de la page
-* Consigner un problème sur une page spécifique
-* Envoyer une modification rapide ou des articles entiers, avec des ressources et des exemples de code
+* Évaluez l’utilité de la page ❶ et écrivez un commentaire facultatif ❷
+* Signaler un problème sur une page spécifique (nécessite une connexion Git) ❸
+* Envoyez une modification rapide jusqu’à la création d’articles entiers, avec des ressources et des exemples de code (nécessite une connexion Git) ❹
+
+![Commentaires](assets/feedback-options.png)
+
+Ces options apparaissent au bas de la page quelques secondes après son ouverture. Si vous ignorez la zone de retour, vous pouvez recharger la page pour la rétablir.
 
 Ce guide décrit tout ce que vous devez savoir pour interagir avec ce jeu de contenu et y contribuer.
 
@@ -38,16 +42,23 @@ Ce guide décrit tout ce que vous devez savoir pour interagir avec ce jeu de con
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
 -->
 
+## Évaluer l’utilité de la page et écrire un commentaire
+
+Quelques secondes après l’ouverture d’une page, une zone de commentaire s’affiche au bas de la page. Cliquez sur Haut ou Bas pour indiquer si la page s’est révélée utile.
+
+N’hésitez pas à laisser un commentaire pour fournir des commentaires supplémentaires.
+
 ## Apporter des modifications rapides aux documents existants
 
-Apporter des modifications rapides est un bon moyen de corriger de petites erreurs et omissions dans des documents. Si un article affiche un bouton de modification comme illustré ci-dessous, vous pouvez effectuer une correction rapide par vous-même. Lorsque vous modifiez le document, vous envoyez une requête de tirage pour nous soumettre la correction/suggestion, que nous pouvons ensuite refuser, approuver et publier.
+Si vous souhaitez fournir des commentaires plus détaillés, apporter des modifications rapides est un bon moyen de corriger les petites erreurs et omissions dans les documents. Lorsque vous suggérez une modification, vous envoyez une requête de tirage (PR) pour nous soumettre le correctif/suggestion, et nous pouvons approuver, et publier la suggestion.
 
 1. Signez le [contrat de licence du contributeur (CLA)](http://opensource.adobe.com/cla.html) si acceptable.
 
    Il suffit d’envoyer une seule fois un CLA Adobe.
-1. Cliquez sur **[!UICONTROL Edit this page]** dans la colonne de droite pour accéder au fichier source Markdown sur GitHub.
 
-   ![Modifier cette icône de page](/help/assets/git_edit.png)
+1. Dans la zone de commentaire qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Detailed feedback options]**, puis cliquez sur **[!UICONTROL Suggest an edit]** pour accéder au fichier source Markdown sur GitHub.
+
+   ![Modifier cette icône de page](/help/assets/feedback-suggest-edit.png)
 
 1. Cliquez sur l’icône représentant un crayon pour modifier l’article.
 
@@ -55,11 +66,12 @@ Apporter des modifications rapides est un bon moyen de corriger de petites erreu
    >
    >Si l’icône en forme de crayon est grisée, vous devez vous connecter à votre compte GitHub ou créer un compte.
 
-   ![Emplacement de l’icône en forme de crayon](assets/edit-icon.png)
+   ![Emplacement de l’icône en forme de crayon](assets/git_edit.png)
 
 1. Apportez vos modifications dans l’éditeur Web.
 
    Vous pouvez cliquer sur l’onglet **[!UICONTROL Preview changes]** pour vérifier la mise en forme de votre modification.
+
 1. Une fois les modifications effectuées, faites défiler vers le bas de la page.
 
    Saisissez un titre et une description pour votre requête de tirage, puis cliquez sur **[!UICONTROL Propose file change]**, comme le montre l’image suivante :
@@ -72,17 +84,17 @@ Apporter des modifications rapides est un bon moyen de corriger de petites erreu
 
 C’est aussi simple que cela. Les membres de l’équipe de documentation examineront et fusionneront votre requête de tirage. Merci !
 
-## Consigner un problème
+## Signaler un problème
 
-Une autre manière simple de nous informer d’un problème lié à un élément de contenu consiste à utiliser **[!UICONTROL Log an Issue]**.
+Une autre manière simple de nous informer d’un problème lié à un élément de contenu consiste à utiliser **[!UICONTROL Report an issue]**.
 
-1. Si vous constatez un problème lié à un élément de contenu, cliquez sur l’icône **[!UICONTROL Log an Issue]** dans la colonne de droite.
+1. Dans la zone de commentaire qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Detailed feedback options]**, puis cliquez sur **[!UICONTROL Report an issue]** pour accéder au fichier source Markdown sur GitHub.
 
-   ![](assets/git_log_issue.png)
+   ![Problème de rapport](assets/feedback-report-issue.png)
 
    >[!NOTE]
    >
-   >Pour consigner un problème, vous devez vous connecter à votre compte GitHub ou créer un compte.
+   >Pour signaler un problème, vous devez vous connecter à votre compte GitHub ou créer un compte.
 
    En cliquant sur ce lien, vous pouvez consigner un ticket rapide avec Experience League, à l’aide de l’interface GitHub Issues.
 

@@ -2,9 +2,8 @@
 title: Configuration locale du référentiel Git
 description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
 exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
-workflow-type: ht
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 
@@ -71,8 +70,8 @@ Ces étapes supposent que vous utilisez GitHub Desktop. Si vous utilisez un autr
 
 1. Cliquez sur **Clone or download**, puis sélectionnez **Open in Desktop** pour extraire une copie du référentiel (votre double) vers votre ordinateur sur le répertoire actuel.
 
-  ![Cloner le référentiel](assets/clone-pulldown.png)
+   ![Cloner le référentiel](assets/clone-pulldown.png)
 
-1. Utilisez GitHub Desktop pour que les fichiers locaux restent synchronisés avec le référentiel forké.
+1. Utilisez GitHub Desktop pour que les fichiers locaux restent synchronisés avec le référentiel dupliqué.
 
 Pour plus d’informations, reportez-vous à [GitHub Desktop Documentation](https://help.github.com/desktop/).
