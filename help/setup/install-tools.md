@@ -2,8 +2,7 @@
 title: Installer des outils de création
 description: Cet article vous aide à télécharger et à installer les outils client dont vous aurez besoin pour Git/GitHub et pour modifier des fichiers Markdown.
 exl-id: 930185cf-fff5-485a-9824-70c32c55800d
-translation-type: ht
-source-git-commit: dad1df81797e6078645449501ed0661cf4bcf3ce
+source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: ht
 source-wordcount: '345'
 ht-degree: 100%
@@ -18,7 +17,7 @@ ht-degree: 100%
 >
 >Si vous apportez uniquement des modifications mineures à un article, il n’est *pas* nécessaire de suivre les étapes décrites dans cet article. Vous pouvez simplement apporter des modifications dans votre navigateur Web.
 >
-> Les principaux contributeurs sont encouragés à effectuer ces étapes, ce qui vous permet d’utiliser le [workflow de modifications majeures](local-repo.md). Même si vous disposez d’autorisations d’écriture dans le référentiel principal, nous vous recommandons vivement (comme le suppose ce guide) de dupliquer le référentiel et de le cloner, de sorte que vous disposiez des autorisations de lecture/écriture vous permettant de stocker les modifications proposées dans votre double.
+>Les principaux contributeurs sont encouragés à effectuer ces étapes, ce qui vous permet d’utiliser le [workflow de modifications majeures](local-repo.md). Même si vous disposez d’autorisations d’écriture dans le référentiel principal, nous vous recommandons vivement (comme le suppose ce guide) de dupliquer le référentiel et de le cloner, de sorte que vous disposiez des autorisations de lecture/écriture vous permettant de stocker les modifications proposées dans votre double.
 
 ## Installation des outils client Git
 
