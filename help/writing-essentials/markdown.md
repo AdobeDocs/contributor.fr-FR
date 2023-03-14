@@ -2,10 +2,10 @@
 title: Utilisation de Markdown pour la rédaction de documentation
 description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: e9cd46132a673d5acd1e3db2f05a9c3c8e5bc30b
-workflow-type: ht
-source-wordcount: '1500'
-ht-degree: 100%
+source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
+workflow-type: tm+mt
+source-wordcount: '1430'
+ht-degree: 97%
 
 ---
 
@@ -86,11 +86,13 @@ Vous pouvez également intégrer des listes dans d’autres listes et ajouter du
 1. Perform this step.
 
    ![screen](assets/no-localize/adobe_standard_logo.png)
+
 1. Make sure that your table looks like this: 
 
    | Hello | World |
    |---|---|
    | How | are you? |  
+
 1. This is the fourth step.
 
    >[!NOTE]
@@ -106,11 +108,13 @@ Contenu affiché :
 1. Perform this step.
 
    ![écran](assets/no-localize/adobe_standard_logo.png)
+
 1. Make sure that your table looks like this:
 
    | Hello | World |
    |---|---|
    | How | are you? |
+
 1. This is the fourth step.
 
    >[!NOTE]
@@ -175,9 +179,7 @@ Pour plus d’informations sur les liens, consultez l’article [Liens](linking.
 
 Contenu affiché :
 
-![Adobe Logo ](assets/no-localize/adobe_standard_logo.png " Hover text ")
-
-**REMARQUE :** pour les images qui ne doivent pas être localisées, créez un dossier `do-not-localize` distinct dans le dossier des ressources. En règle générale, les images sans texte ou les images contenant uniquement des exemples de contenu y sont placées. Cela supprime tout « bruit » du dossier des ressources et réduit le nombre de questions.
+![Adobe Logo](assets/no-localize/adobe_standard_logo.png "Hover text")
 
 ### Blocs de code
 
@@ -208,10 +210,10 @@ Les articles Adobe utilisent Markdown standard pour la plupart des mises en form
 
 * Blocs de notes
 * Vidéos intégrées
-* Ne pas localiser
-* Propriétés du composant, comme l’attribution d’un ID d’en-tête différent à un en-tête
+* Balises de traduction
+* Propriétés des composants, telles que l’attribution d’un autre ID d’en-tête à un en-tête et la spécification d’une taille d’image
 
-Utilisez le guillemet anglais Markdown (>) au début de chaque ligne pour associer un composant étendu, comme une note. Si vous devez utiliser des sous-composants dans des composants, ajoutez un niveau supplémentaire de guillemets (>  >) pour cette section de sous-composant. Par exemple, une NOTE dans une section DONOTLOCALIZE doit commencer par >    >.
+Utilisez le guillemet anglais Markdown (>) au début de chaque ligne pour associer un composant étendu, comme une note.
 
 Certains éléments de Markdown courants, tels que les en-têtes et les blocs de code, incluent des propriétés étendues. Si vous devez modifier les propriétés par défaut, ajoutez les paramètres entre crochets français /{ /} après le composant. Les propriétés étendues sont décrites en contexte.
 
@@ -229,7 +231,6 @@ Vous pouvez choisir parmi ces types de blocs-notes afin d’attirer l’attentio
 * `[!PREREQUISITES]`
 
 En général, les blocs de notes doivent être utilisés avec parcimonie, car ils peuvent être perturbateurs. Bien qu’ils prennent également en charge les blocs de code, les images, les listes et les liens, faites en sorte que les blocs de notes restent simples et directs.
-
 
 ```markdown
 >[!NOTE]
@@ -273,6 +274,7 @@ Le composant « More Like This » dans AEM s’affiche à la fin d’un articl
 
 ```markdown
 >[!MORELIKETHIS]
+>
 >* [Article 1](https://helpx.adobe.com/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
 ```
@@ -280,6 +282,7 @@ Le composant « More Like This » dans AEM s’affiche à la fin d’un articl
 Contenu affiché :
 
 >[!MORELIKETHIS]
+>
 >* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
 >* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
 
@@ -334,7 +337,7 @@ Le texte alternatif qui contient des tirets bas ne sera pas rendu correctement. 
 ![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
-Nous conseillons d’utiliser des tirets (-) plutôt que des tirets bas (_) dans les noms de fichier.
+Il est recommandé d’utiliser des tirets (-) au lieu de tirets bas (_) dans les noms de fichier.
 
 ```markdown
 ![Settings-Step-2](/assets/settings-step-2.png)
