@@ -3,7 +3,7 @@ title: Configuration locale du référentiel Git
 description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
 exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
 ht-degree: 100%
 
