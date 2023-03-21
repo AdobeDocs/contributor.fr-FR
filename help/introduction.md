@@ -7,7 +7,7 @@ exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 69%
+ht-degree: 98%
 
 ---
 
@@ -15,25 +15,25 @@ ht-degree: 69%
 
 Ce guide explique comment contribuer à l’aide d’Adobe Enterprise sur Experience League.
 
-## Présentation de la documentation collaborative
+## Qu’est-ce que la documentation collaborative ?
 
 La documentation technique et le contenu d’activation pour Adobe Experience Cloud et d’autres produits Adobe Enterprise reposent sur des principes open source qui utilisent les solutions GitHub, Markdown et Adobe Experience Cloud.
 
-Ce modèle open source améliore la qualité du contenu et la communication entre les client(e)s, les équipes de documentation et les équipes produit. Sur chaque page, vous pouvez désormais évaluer l’utilité du contenu, les problèmes de journalisation, et même contribuer à des suggestions de contenu sous la forme de requêtes de tirage Git (PR). Les équipes de documentation Adobe surveillent quotidiennement les contributions et les problèmes et effectuent des mises à jour et des ajustements, le cas échéant.
+Ce modèle open source améliore la qualité du contenu et la communication entre la clientèle, les équipes de documentation et les équipes produit. Sur chaque page, vous pouvez désormais évaluer l’utilité du contenu, les problèmes de journalisation, et même contribuer à des suggestions de contenu sous la forme de requêtes de tirage Git (PR). Les équipes de documentation Adobe surveillent quotidiennement les contributions et les problèmes et effectuent des mises à jour et des ajustements, le cas échéant.
 
 ## Utiliser la documentation collaborative
 
-En tant qu’utilisateur de ce contenu, que vous soyez employé, partenaire, client ou même client potentiel, vous avez le choix de contribuer à cette documentation de plusieurs manières simples.
+Lors de l’utilisation de ce contenu, que vous fassiez partie d’une équipe ou de la clientèle, même potentielle, ou que vous soyez partenaire, vous avez le choix de contribuer à cette documentation de plusieurs manières simples.
 
 * Évaluez l’utilité de la page ❶ et écrivez un commentaire facultatif ❷
 * Signaler un problème sur une page spécifique (nécessite une connexion Git) ❸
-* Envoyez une modification rapide jusqu’à la création d’articles entiers, avec des ressources et des exemples de code (nécessite une connexion Git) ❹
+* Envoyer une modification rapide ou des articles entiers, avec des ressources et des exemples de code (nécessite une connexion Git) ❹
 
 ![Commentaires](assets/feedback-options.png)
 
-Ces options apparaissent au bas de la page quelques secondes après son ouverture. Si vous ignorez la zone de retour, vous pouvez recharger la page pour la rétablir.
+Ces options apparaissent au bas de la page quelques secondes après son ouverture. Si vous ignorez la zone de commentaires, vous pouvez recharger la page pour la rétablir.
 
-Ce guide décrit tout ce que vous devez savoir pour interagir avec ce jeu de contenu et y contribuer.
+Ce guide décrit tout ce que vous devez savoir pour interagir avec cet ensemble de contenu et y contribuer.
 
 <!--
 >[!IMPORTANT]
@@ -44,19 +44,19 @@ Ce guide décrit tout ce que vous devez savoir pour interagir avec ce jeu de con
 
 ## Évaluer l’utilité de la page et écrire un commentaire
 
-Quelques secondes après l’ouverture d’une page, une zone de commentaire s’affiche au bas de la page. Cliquez sur Haut ou Bas pour indiquer si la page s’est révélée utile.
+Quelques secondes après l’ouverture d’une page, une zone de commentaires s’affiche au bas de la page. Cliquez sur le pouce levé ou le pouce baissé pour indiquer si la page s’est avérée utile.
 
-N’hésitez pas à laisser un commentaire pour fournir des commentaires supplémentaires.
+N’hésitez pas à laisser un commentaire pour fournir des retours supplémentaires.
 
 ## Apporter des modifications rapides aux documents existants
 
-Si vous souhaitez fournir des commentaires plus détaillés, apporter des modifications rapides est un bon moyen de corriger les petites erreurs et omissions dans les documents. Lorsque vous suggérez une modification, vous envoyez une requête de tirage (PR) pour nous soumettre le correctif/suggestion, et nous pouvons approuver, et publier la suggestion.
+Si vous souhaitez fournir des retours plus détaillés, apportez des modifications rapides pour corriger les petites erreurs et omissions dans les documents. Lorsque vous suggérez une modification, vous envoyez une requête de tirage pour nous soumettre la correction/suggestion, que nous pouvons ensuite refuser, approuver et publier.
 
 1. Signez le [contrat de licence du contributeur (CLA)](http://opensource.adobe.com/cla.html) si acceptable.
 
    Il suffit d’envoyer une seule fois un CLA Adobe.
 
-1. Dans la zone de commentaire qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Detailed feedback options]**, puis cliquez sur **[!UICONTROL Suggest an edit]** pour accéder au fichier source Markdown sur GitHub.
+1. Dans la zone de commentaires qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Detailed feedback options]**, puis sur **[!UICONTROL Suggest an edit]** pour accéder au fichier source Markdown sur GitHub.
 
    ![Modifier cette icône de page](/help/assets/feedback-suggest-edit.png)
 
@@ -76,7 +76,7 @@ Si vous souhaitez fournir des commentaires plus détaillés, apporter des modifi
 
    Saisissez un titre et une description pour votre requête de tirage, puis cliquez sur **[!UICONTROL Propose file change]**, comme le montre l’image suivante :
 
-   ![Votre suggestion de modification.](assets/submit-pull-request.png)
+   ![Votre suggestion de modification](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
@@ -88,9 +88,9 @@ C’est aussi simple que cela. Les membres de l’équipe de documentation exami
 
 Une autre manière simple de nous informer d’un problème lié à un élément de contenu consiste à utiliser **[!UICONTROL Report an issue]**.
 
-1. Dans la zone de commentaire qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Detailed feedback options]**, puis cliquez sur **[!UICONTROL Report an issue]** pour accéder au fichier source Markdown sur GitHub.
+1. Dans la zone de commentaire qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Detailed feedback options]**, puis sur **[!UICONTROL Report an issue]** pour accéder au fichier source Markdown sur GitHub.
 
-   ![Problème de rapport](assets/feedback-report-issue.png)
+   ![Signaler un problème](assets/feedback-report-issue.png)
 
    >[!NOTE]
    >
