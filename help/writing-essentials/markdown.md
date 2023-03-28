@@ -3,9 +3,9 @@ title: Utilisation de Markdown pour la rédaction de documentation
 description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -211,7 +211,7 @@ Les articles Adobe utilisent Markdown standard pour la plupart des mises en form
 * Blocs de notes
 * Vidéos intégrées
 * Balises de traduction
-* Propriétés des composants, telles que l’attribution d’un autre ID d’en-tête à un en-tête et la spécification d’une taille d’image
+* Propriétés des composants, telles que l’attribution d’un ID d’en-tête différent à un en-tête et la spécification d’une taille d’image
 
 Utilisez le guillemet anglais Markdown (>) au début de chaque ligne pour associer un composant étendu, comme une note.
 
@@ -337,7 +337,7 @@ Le texte alternatif qui contient des tirets bas ne sera pas rendu correctement. 
 ![Settings_Step_2](/assets/settings_step_2.png)
 ```
 
-Il est recommandé d’utiliser des tirets (-) au lieu de tirets bas (_) dans les noms de fichier.
+Nous vous conseillons d’utiliser des tirets (-) plutôt que des tirets bas (_) dans les noms de fichier.
 
 ```markdown
 ![Settings-Step-2](/assets/settings-step-2.png)
