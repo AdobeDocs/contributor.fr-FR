@@ -2,10 +2,10 @@
 title: Utilisation de Markdown pour la rédaction de documentation
 description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 065e43d5251f80050deef02e9c18b3fb4e9c1204
-workflow-type: ht
-source-wordcount: '1430'
-ht-degree: 100%
+source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
+workflow-type: tm+mt
+source-wordcount: '1420'
+ht-degree: 99%
 
 ---
 
@@ -229,32 +229,35 @@ Vous pouvez choisir parmi ces types de blocs-notes afin d’attirer l’attentio
 * `[!ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
+* `[!ERROR]`
+* `[!ADMINISTRATION]`
+* `[!INFO]`
+* `[!SUCCESS]`
 
 En général, les blocs de notes doivent être utilisés avec parcimonie, car ils peuvent être perturbateurs. Bien qu’ils prennent également en charge les blocs de code, les images, les listes et les liens, faites en sorte que les blocs de notes restent simples et directs.
 
+
 ```markdown
 >[!NOTE]
 >
 >This is a standard NOTE block.
 ```
 
-Contenu affiché :
-
->[!NOTE]
->
->This is a standard NOTE block.
-
 ```markdown
 >[!TIP]
 >
->This is a standard tip.
+>This is a standard TIP.
+```
+
+```markdown
+>[!IMPORTANT]
+>
+>This is an IMPORTANT note.
 ```
 
 Contenu affiché :
 
->[!TIP]
->
->This is a standard tip.
+![Notes de rendu](assets/notes-rendered.png)
 
 ### Vidéos
 
