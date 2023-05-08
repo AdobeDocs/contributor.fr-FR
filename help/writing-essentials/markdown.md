@@ -2,9 +2,9 @@
 title: Utilisation de Markdown pour la rédaction de documentation
 description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: aec38dde9195855f96e7469c91c28d50ad516ae6
+source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1421'
 ht-degree: 97%
 
 ---
@@ -275,12 +275,7 @@ Contenu affiché :
 
 Le composant « More Like This » dans AEM s’affiche à la fin d’un article. Il affiche les liens connexes. Lorsque l’article est rendu, il peut être formaté comme les en-têtes de niveau 2 (# #) sans être ajouté à la mini-table des matières.
 
-```markdown
->[!MORELIKETHIS]
->
->* [Article 1](https://helpx.adobe.com/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/support/audience-manager.html)
-```
+![morelikethis syntaxe](assets/more-like-this-syntax.png)
 
 Contenu affiché :
 
