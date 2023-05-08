@@ -2,10 +2,10 @@
 title: Utilisation de Markdown pour la rédaction de documentation
 description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: 19ea281ffce60c91edd0a47449152fc1138031c5
+source-git-commit: aec38dde9195855f96e7469c91c28d50ad516ae6
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 99%
+source-wordcount: '1419'
+ht-degree: 97%
 
 ---
 
@@ -77,7 +77,7 @@ Contenu affiché :
 
 * First item in an unordered list.
 * Another item.
-* Here we go again.
+* On y va à nouveau.
 
 Vous pouvez également intégrer des listes dans d’autres listes et ajouter du contenu entre les éléments de la liste.
 
@@ -119,7 +119,7 @@ Contenu affiché :
 
    >[!NOTE]
    >
-   >This is note text.
+   >Il s’agit de texte de note.
 
 1. Do another step.
 
@@ -285,9 +285,8 @@ Le composant « More Like This » dans AEM s’affiche à la fin d’un articl
 Contenu affiché :
 
 >[!MORELIKETHIS]
->
->* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
->* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
+* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
+* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
 
 
 ### UICONTROL et DNL
@@ -312,7 +311,8 @@ Lors de la traduction automatique, les éléments balisés avec `` sont compar
 1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 
-**REMARQUE :** parmi les trois options de balisage, il sʼagit de la plus importante pour fournir une qualité élevée et elle est obligatoire.
+>[!NOTE]
+Des trois options de balisage, il s’agit de la plus importante pour offrir une qualité élevée et elle est obligatoire.
 
 **`[!DNL]`**
 
