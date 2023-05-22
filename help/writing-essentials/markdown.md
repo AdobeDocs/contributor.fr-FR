@@ -3,9 +3,9 @@ title: Utilisation de Markdown pour la rédaction de documentation
 description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: 73c2a6b0abb9b0c8e1febc4b7dc5d74a3753ebac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Contenu affiché :
 
 * First item in an unordered list.
 * Another item.
-* On y va à nouveau.
+* Et un de plus.
 
 Vous pouvez également intégrer des listes dans d’autres listes et ajouter du contenu entre les éléments de la liste.
 
@@ -119,7 +119,7 @@ Contenu affiché :
 
    >[!NOTE]
    >
-   >Il s’agit de texte de note.
+   >Ceci est le texte de la note.
 
 1. Do another step.
 
@@ -275,13 +275,13 @@ Contenu affiché :
 
 Le composant « More Like This » dans AEM s’affiche à la fin d’un article. Il affiche les liens connexes. Lorsque l’article est rendu, il peut être formaté comme les en-têtes de niveau 2 (# #) sans être ajouté à la mini-table des matières.
 
-![morelikethis syntaxe](assets/more-like-this-syntax.png)
+![syntaxe morelikethis](assets/more-like-this-syntax.png)
 
 Contenu affiché :
 
 >[!MORELIKETHIS]
-* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
-* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
+* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
+* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
 
 
 ### UICONTROL et DNL
@@ -307,7 +307,7 @@ Lors de la traduction automatique, les éléments balisés avec `` sont compar
 ```
 
 >[!NOTE]
-Des trois options de balisage, il s’agit de la plus importante pour offrir une qualité élevée et elle est obligatoire.
+Parmi les trois options de balisage, il sʼagit de la plus importante pour fournir une qualité élevée. Elle est obligatoire.
 
 **`[!DNL]`**
 
