@@ -4,8 +4,8 @@ title: Consignes de style de création pour les contributeurs et contributrices 
 description: Découvrez les consignes de création et de rédaction destinées aux contributeurs et contributrices externes d’Experience League.
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
-workflow-type: ht
-source-wordcount: '2227'
+workflow-type: tm+mt
+source-wordcount: '2224'
 ht-degree: 100%
 
 ---
@@ -162,7 +162,7 @@ Voici quelques moyens simples d’améliorer la conception, la clarté et la lis
 | Remplacez _cliquer sur_ par _accéder à_ ou _sélectionner_. | _Cliquez sur_ est un mot spécifique à l’appareil (avec des problèmes d’accessibilité). Il est recommandé de s’en éloigner. Voici quelques suggestions pour le modifier :<ul><li>Navigation : _Accédez à Fichier > Imprimer_.</li><li>Cliquez sur : _Sélectionnez Fichier > Imprimer_ ou _Sélectionnez OK_. </li></ul>Consultez la [description des interactions avec l’interface utilisateur](https://docs.microsoft.com/fr-fr/style-guide/procedures-instructions/describing-interactions-with-ui) pour découvrir le meilleur choix de mots dans diverses situations. |
 | Exécuter Acrolinx dans VSC | Acrolinx recherche les problèmes de style et de grammaire. Il vérifie les URL, la terminologie, l’orthographe, etc. Cela vous permet d’améliorer la clarté et la traduction du contenu Experience League. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Bonnes pratiques et ressources supplémentaires :
 

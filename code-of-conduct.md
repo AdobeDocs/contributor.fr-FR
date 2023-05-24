@@ -1,9 +1,8 @@
 ---
 title: Code de conduite Adobe
-description: 'Code de conduite Adobe '
-translation-type: ht
+description: Code de conduite Adobe
 source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
