@@ -185,7 +185,7 @@ Contenu affiché :
 
 Markdown prend en charge le placement de blocs inséré dans une phrase et en tant que bloc « clôturé » séparé entre des phrases. Pour plus d’informations, reportez-vous [à l’assistance native de Markdown pour les blocs de code.](https://daringfireball.net/projects/markdown/syntax#precode)
 
-Utilisez des accents graves (`` ` ``) pour créer des styles de code intraligne au sein d’un paragraphe. Pour créer un bloc de code multi-lignes spécifique, ajoutez trois accents graves (` ``` `) avant et après le bloc de code (appelé « bloc de code clôturés » en Markdown et un composant de « bloc de code » dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’accents graves afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : ` ```javascript`
+Utilisez des accents graves (`` ` ``) pour créer des styles de code intraligne au sein d’un paragraphe. Pour créer un bloc de code multi-lignes spécifique, ajoutez trois accents graves (` ` `` `) avant et après le bloc de code (appelé « bloc de code clôturés » en Markdown et un composant de « bloc de code » dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’accents graves afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : ` `` `javascript`
 
 Exemples :
 
@@ -280,17 +280,17 @@ Le composant « More Like This » dans AEM s’affiche à la fin d’un articl
 Contenu affiché :
 
 >[!MORELIKETHIS]
-* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
-* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
 
 
 ### UICONTROL et DNL
 
 Tout notre contenu dʼaide Markdown est initialement localisé à lʼaide de la traduction automatique. Si lʼaide nʼa jamais été localisée, nous conservons la traduction automatique. Cependant, si le contenu dʼaide a été localisé dans le passé, le contenu traduit par lʼordinateur agit comme espace réservé pendant que le contenu est en cours de traduction humaine.
 
-**``**
+**&grave;&grave;**
 
-Lors de la traduction automatique, les éléments balisés avec `` sont comparés à une base de données de localisation pour la traduction appropriée. Dans le cas où lʼinterface utilisateur nʼest pas localisée, cette balise permet au système de laisser la référence de lʼinterface utilisateur en anglais pour cette langue spécifique (c.-à-d. les références Analytics en italien).
+Lors de la traduction automatique, les éléments balisés avec &grave;&grave; sont comparés à une base de données de localisation pour la traduction appropriée. Dans le cas où lʼinterface utilisateur nʼest pas localisée, cette balise permet au système de laisser la référence de lʼinterface utilisateur en anglais pour cette langue spécifique (c.-à-d. les références Analytics en italien).
 
 **Exemple :**
 
@@ -307,7 +307,7 @@ Lors de la traduction automatique, les éléments balisés avec `` sont compar
 ```
 
 >[!NOTE]
-Parmi les trois options de balisage, il sʼagit de la plus importante pour fournir une qualité élevée. Elle est obligatoire.
+>Parmi les trois options de balisage, il sʼagit de la plus importante pour fournir une qualité élevée. Elle est obligatoire.
 
 **`[!DNL]`**
 
