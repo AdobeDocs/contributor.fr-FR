@@ -2,10 +2,10 @@
 title: Utilisation de Markdown pour la rédaction de documentation
 description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: d3d478f8745c14ee500a43021597eecfebc7b06b
+source-git-commit: 109b2b72bd842a8d3f45bd5667690d8e71a6e329
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 92%
+source-wordcount: '1378'
+ht-degree: 97%
 
 ---
 
@@ -294,17 +294,15 @@ Lors de la traduction automatique, les éléments balisés avec `` sont compar
 
 **Exemple de contenu source :**
 
-1. Accédez au **&amp;lbrack;!UICONTROL Run Process&amp;track;** écran.
-1. Choisir **&amp;lbrack;!UICONTROL File&amp;track; > &amp;lbrack;!UICONTROL Print&amp;rbrack; > &amp;lbrack;!UICONTROL Print All&amp;Brack;** pour imprimer tous les fichiers de votre serveur.
-1. La boîte de dialogue &amp;lbrack;!UICONTROL Règles de traitement&amp;track; s’affiche.
+![exemple de texte uicontrol](assets/sample-uicontrol.png)
 
 <!--
 **Source:**
 
 ```markdown
-1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
-1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
-1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
+1. Go to the **[!UICONTROL Run Process]** screen.
+1. Choose **[!UICONTROL File] > [!UICONTROL Print] > [!UICONTROL Print All]** to print all the files on your server.
+1. The [!UICONTROL Processing Rules] dialog box appears.
 ```
 -->
 
@@ -316,17 +314,16 @@ Des deux options de balisage, il s’agit de la plus importante pour une qualit�
 
 En règle générale, nous utilisons une liste « Ne pas traduire » pour signifier aux moteurs de traduction ce quʼil faut garder en anglais. Les éléments les plus courants sont les noms de solutions longs comme « Adobe Analytics », « Adobe Campaign » et « Adobe Target ». Cependant, dans certains cas, il peut être nécessaire de forcer le moteur à utiliser lʼanglais parce que le terme en question peut être utilisé dʼune manière spécifique ou générale. Le cas le plus évident est celui des noms courts de solutions comme « Analytics », « Campaign », « Target », etc. Il est difficile pour une machine de comprendre quʼil sʼagit de noms de solutions et non de termes généraux. La balise peut également être utilisée pour les noms ou fonctionnalités de tiers qui restent toujours en anglais ou pour des sections de texte plus courtes telles quʼune phrase ou un mot qui doivent rester en anglais.
 
-**Exemple :**
+**Exemple de contenu source :**
 
-* Avec &amp;lbrack;!DNL Target&amp;track;, vous pouvez créer des tests A/B afin de trouver la meilleure solution.
-* Adobe Analytics est une solution performante pour collecter des données et analyses sur votre site. &amp;lbrack;!DNL Analytics&amp;track; peut également vous aider à créer des rapports pour digérer facilement ces données.
+![exemple de texte dnl](assets/sample-dnl.png)
 
 <!--
 **Source:**
 
 ```markdown
-* With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
-* Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
+* With [!DNL Target], you can create A/B tests to find the optimal 
+* Adobe Analytics is a powerful solution to collect analytics on your site. [!DNL Analytics] can also help you with reporting to easily digest that data.
 ```
 -->
 
