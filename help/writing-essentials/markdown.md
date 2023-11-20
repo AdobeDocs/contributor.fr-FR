@@ -2,10 +2,10 @@
 title: Utilisation de Markdown pour la rédaction de documentation
 description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: bd0a7b34320435e1cebae95bc267ddf05b06a0f9
+source-git-commit: d3d478f8745c14ee500a43021597eecfebc7b06b
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 96%
+source-wordcount: '1466'
+ht-degree: 92%
 
 ---
 
@@ -292,23 +292,25 @@ Tout notre contenu dʼaide Markdown est initialement localisé à lʼaide de la 
 
 Lors de la traduction automatique, les éléments balisés avec `` sont comparés à une base de données de localisation pour la traduction appropriée. Dans le cas où lʼinterface utilisateur nʼest pas localisée, cette balise permet au système de laisser la référence de lʼinterface utilisateur en anglais pour cette langue spécifique (c.-à-d. les références Analytics en italien).
 
-**Exemple :**
+**Exemple de contenu source :**
 
-1. Accédez au **Exécuter le processus** écran.
-1. Choisir **Fichier** > **Imprimer** > **Imprimer tout** pour imprimer tous les fichiers de votre serveur.
-1. La boîte de dialogue Règles de traitement s’affiche.
+1. Accédez au **&amp;lbrack;!UICONTROL Run Process&amp;track;** écran.
+1. Choisir **&amp;lbrack;!UICONTROL File&amp;track; > &amp;lbrack;!UICONTROL Print&amp;rbrack; > &amp;lbrack;!UICONTROL Print All&amp;Brack;** pour imprimer tous les fichiers de votre serveur.
+1. La boîte de dialogue &amp;lbrack;!UICONTROL Règles de traitement&amp;track; s’affiche.
 
-**Source :**
+<!--
+**Source:**
 
 ```markdown
 1. Go to the **&lbrack;!UICONTROL Run Process&rbrack;** screen.
 1. Choose **&lbrack;!UICONTROL File&rbrack; > &lbrack;!UICONTROL Print&rbrack; > &lbrack;!UICONTROL Print All&rbrack;** to print all the files on your server.
 1. The &lbrack;!UICONTROL Processing Rules&rbrack; dialog box appears.
 ```
+-->
 
 >[!NOTE]
 >
-Parmi les trois options de balisage, il sʼagit de la plus importante pour fournir une qualité élevée. Elle est obligatoire.
+Des deux options de balisage, il s’agit de la plus importante pour une qualité élevée et elle est obligatoire.
 
 **`[!DNL]`**
 
@@ -316,15 +318,17 @@ En règle générale, nous utilisons une liste « Ne pas traduire » pour sign
 
 **Exemple :**
 
-* Avec Target, vous pouvez créer des tests A/B afin de trouver la méthode optimale.
-* Adobe Analytics est une solution performante pour collecter des données et analyses sur votre site. Analytics peut également vous aider à créer des rapports pour digérer facilement ces données.
+* Avec &amp;lbrack;!DNL Target&amp;track;, vous pouvez créer des tests A/B afin de trouver la meilleure solution.
+* Adobe Analytics est une solution performante pour collecter des données et analyses sur votre site. &amp;lbrack;!DNL Analytics&amp;track; peut également vous aider à créer des rapports pour digérer facilement ces données.
 
-**Source :**
+<!--
+**Source:**
 
 ```markdown
 * With &lbrack;!DNL Target&rbrack;, you can create A/B tests to find the optimal 
 * Adobe Analytics is a powerful solution to collect analytics on your site. &lbrack;!DNL Analytics&rbrack; can also help you with reporting to easily digest that data.
 ```
+-->
 
 ## Pièges et résolution de problèmes
 
