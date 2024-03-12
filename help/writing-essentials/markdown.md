@@ -3,9 +3,9 @@ title: Utilisation de Markdown pour la rédaction de documentation
 description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
 source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
-workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1340'
+ht-degree: 100%
 
 ---
 
@@ -183,7 +183,7 @@ Contenu affiché :
 
 ### Blocs de code
 
-Markdown prend en charge le placement de blocs inséré dans une phrase et en tant que bloc « clôturé » séparé entre des phrases. Pour plus d’informations, reportez-vous [à l’assistance native de Markdown pour les blocs de code.](https://daringfireball.net/projects/markdown/syntax#precode)
+Markdown prend en charge le placement de blocs inséré dans une phrase et en tant que bloc « clôturé » séparé entre des phrases. Pour plus d’informations, voir [l’assistance native de Markdown pour les blocs de code](https://daringfireball.net/projects/markdown/syntax#precode).
 
 Utilisez des accents graves (`` ` ``) pour créer des styles de code intraligne au sein d’un paragraphe. Pour créer un bloc de code multi-lignes spécifique, ajoutez trois accents graves (` ``` `) avant et après le bloc de code (appelé « bloc de code clôturés » en Markdown et un composant de « bloc de code » dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’accents graves afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : ` ```javascript`
 
@@ -281,8 +281,8 @@ Contenu affiché :
 
 >[!MORELIKETHIS]
 >
-* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
-* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
+>* [Article 1](https://helpx.adobe.com/fr/support/analytics.html)
+>* [Article 2](https://helpx.adobe.com/fr/support/audience-manager.html)
 
 ### UICONTROL et DNL
 
@@ -292,9 +292,9 @@ Tout notre contenu dʼaide Markdown est initialement localisé à lʼaide de la 
 
 Lors de la traduction automatique, les éléments balisés avec `` sont comparés à une base de données de localisation pour la traduction appropriée. Dans le cas où lʼinterface utilisateur nʼest pas localisée, cette balise permet au système de laisser la référence de lʼinterface utilisateur en anglais pour cette langue spécifique (c.-à-d. les références Analytics en italien).
 
-**Exemple de contenu source :**
+**Exemple de contenu source :**
 
-![exemple de texte uicontrol](assets/sample-uicontrol.png)
+![Exemple de texte uicontrol](assets/sample-uicontrol.png)
 
 <!--
 **Source:**
@@ -314,9 +314,9 @@ Lors de la traduction automatique, les éléments balisés avec `` sont compar
 
 En règle générale, nous utilisons une liste « Ne pas traduire » pour signifier aux moteurs de traduction ce quʼil faut garder en anglais. Les éléments les plus courants sont les noms de solutions longs comme « Adobe Analytics », « Adobe Campaign » et « Adobe Target ». Cependant, dans certains cas, il peut être nécessaire de forcer le moteur à utiliser lʼanglais parce que le terme en question peut être utilisé dʼune manière spécifique ou générale. Le cas le plus évident est celui des noms courts de solutions comme « Analytics », « Campaign », « Target », etc. Il est difficile pour une machine de comprendre quʼil sʼagit de noms de solutions et non de termes généraux. La balise peut également être utilisée pour les noms ou fonctionnalités de tiers qui restent toujours en anglais ou pour des sections de texte plus courtes telles quʼune phrase ou un mot qui doivent rester en anglais.
 
-**Exemple de contenu source :**
+**Exemple de contenu source :**
 
-![exemple de texte dnl](assets/sample-dnl.png)
+![Exemple de texte dnl](assets/sample-dnl.png)
 
 <!--
 **Source:**
@@ -358,7 +358,7 @@ Voici les encodages des versions « intelligentes » de ces signes de ponctuat
 
 Si vous utilisez des chevrons dans le texte (et non dans le code) de votre fichier (par exemple, pour désigner un caractère générique), vous devez encoder les chevrons manuellement. Sinon, Markdown pense qu’il s’agit d’une balise HTML.
 
-Par exemple, encodez `<script name>` comme `&lt;script name&gt;`
+Par exemple, encodez `<script name>` comme `&lt;script name&gt;`.
 
 ### Esperluettes dans les titres
 
