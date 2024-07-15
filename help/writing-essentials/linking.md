@@ -35,27 +35,27 @@ Pour créer un lien intégré d’un article vers un autre dans le même référ
 
 - Un article dans un répertoire renvoie à un autre article dans le même répertoire :
 
-   `[link text](article-name.md)`
+  `[link text](article-name.md)`
 
 - Un article renvoie à un article dans le répertoire racine à partir d’un sous-répertoire :
 
-   `[link text](../article-name.md)`
+  `[link text](../article-name.md)`
 
 - Un article renvoie à un article dans le répertoire racine à partir d’un sous-répertoire secondaire :
 
-   `[link text](../../article-name.md)`
+  `[link text](../../article-name.md)`
 
 - Un article du répertoire racine renvoie à un article dans un sous-répertoire :
 
-   `[link text](./directory/article-name.md)`
+  `[link text](./directory/article-name.md)`
 
 - Un article dans un sous-répertoire renvoie à un article dans un autre sous-répertoire :
 
-   `[link text](../directory/article-name.md)`
+  `[link text](../directory/article-name.md)`
 
 - Un article dans un sous-répertoire secondaire renvoie à un article dans un autre sous-répertoire :
 
-   `[link text](../../directory/article-name.md)`
+  `[link text](../../directory/article-name.md)`
 
 ## Lien vers les ancres de lien
 
@@ -63,21 +63,21 @@ Vous ne devez pas créer d’ancres de lien. Elles sont automatiquement génér�
 
 - Pour créer un lien vers un titre dans le même article :
 
-   `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
+  `[link](#the-text-of-the-level2-section-separated-by-hyphens)`
 
-   `[Link to anchors](#links-to-anchors)`
+  `[Link to anchors](#links-to-anchors)`
 
 - Pour créer un lien vers une ancre de lien dans un autre article du même sous-répertoire :
 
-   `[link text](article-name.md#anchor-name)`
+  `[link text](article-name.md#anchor-name)`
 
-   `[Configure your profile](overview.md#getting-started)`
+  `[Configure your profile](overview.md#getting-started)`
 
 - Pour créer un lien vers une ancre de lien dans un autre sous-répertoire de service :
 
-   `[link text](../directory/article-name.md#anchor-name)`
+  `[link text](../directory/article-name.md#anchor-name)`
 
-   `[Configure your profile](../overview.md#configure-your-profile)`
+  `[Configure your profile](../overview.md#configure-your-profile)`
 
 ## Lien vers des images
 
@@ -85,8 +85,8 @@ Les images et les fichiers sont de préférence stockés dans un répertoire `as
 
 - Un article renvoie à une image dans le sous-répertoire `assets` :
 
-   `![alt text](assets/image-name.png)`
+  `![alt text](assets/image-name.png)`
 
 - Un article renvoie à une image dans le sous-répertoire `assets/no-localize` :
 
-   `![alt text](assets/no-localize/image-name.png)`
+  `![alt text](assets/no-localize/image-name.png)`

@@ -5,8 +5,8 @@ description: Découvrez les consignes de création et de rédaction destinées a
 exl-id: 874f88d7-18ad-4ac8-bfa3-737255652bbc
 source-git-commit: 03d46c9ffb664824f9526f781d776069d486f271
 workflow-type: tm+mt
-source-wordcount: '2224'
-ht-degree: 100%
+source-wordcount: '2203'
+ht-degree: 99%
 
 ---
 
@@ -188,17 +188,17 @@ Vous n’avez pas à vous soucier de savoir si votre produit est localisé ou de
 
 * `DNL`
 
-   DNL signifie _ne pas localiser_ (do not localize). Vous l’utilisez uniquement pour les noms de produits Adobes de marques déposées, qui doivent tous rester en anglais.
+  DNL signifie _ne pas localiser_ (do not localize). Vous l’utilisez uniquement pour les noms de produits Adobes de marques déposées, qui doivent tous rester en anglais.
 
-   Exemples de syntaxe : `[!DNL Adobe Campaign]` ou `[!DNL Workfront]`.
+  Exemples de syntaxe : `[!DNL Adobe Campaign]` ou `[!DNL Workfront]`.
 
-   La balise DNL ne concerne pas les noms de fichier ou les URL.
+  La balise DNL ne concerne pas les noms de fichier ou les URL.
 
 * `UICONTROL`
 
-   UICONTROL indique une commande d’interface (par exemple, une option, un champ, un onglet, une page, un groupe d’options ou un nom de fonction sur l’interface utilisateur).
+  UICONTROL indique une commande d’interface (par exemple, une option, un champ, un onglet, une page, un groupe d’options ou un nom de fonction sur l’interface utilisateur).
 
-   Exemple de syntaxe : `Select **[!UICONTROL Project]**, then select **[!UICONTROL Save]**.`.
+  Exemple de syntaxe : `Select **[!UICONTROL Project]**, then select **[!UICONTROL Save]**.`.
 
 >[!IMPORTANT]
 >
@@ -218,7 +218,7 @@ _Les audiences sont des collections de visiteurs et visiteuses (une liste d’id
 
 Exemple de premier paragraphe (tâche) :
 
-_Créez une source d’attributs du ou de la client(e) (fichiers CSV et FIN) et téléchargez les données. Vous pouvez activer la source de données lorsque vous êtes prêt. Une fois que la source de données est active, partagez les données d’attributs avec Analytics et Target._
+_Créez une source d’attributs du ou de la client(e) (fichiers CSV et FIN) et téléchargez les données. Vous pouvez activer la source de données lorsque vous êtes prêt. Une fois que la source de données est active, partagez les données d’attribut avec Analytics et Target._
 
 ### Conseils d’optimisation du moteur de recherche (SEO) pour les premiers paragraphes {#seo}
 

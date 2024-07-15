@@ -4,7 +4,7 @@ description: Suivez cet ensemble de directives lorsque vous contribuez à ce pro
 exl-id: 01dc5fd4-4676-41b1-be7b-aa4a9ea2fe14
 source-git-commit: 758ff966b959b614dd9250017c2a4eb5df47ffd2
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
@@ -42,4 +42,4 @@ Nous apprécions les contributions de notre communauté ! Si vous souhaitez all
 
 ## Problèmes de sécurité
 
-Les problèmes de sécurité ne doivent pas être signalés dans cet analyseur d’anomalies. Soulevez plutôt [un problème auprès de nos experts en sécurité.](https://helpx.adobe.com/fr/security/alertus.html)
+Les problèmes de sécurité ne doivent pas être signalés dans cet analyseur d’anomalies. Veuillez plutôt [signaler un problème auprès de nos spécialistes de la sécurité](https://helpx.adobe.com/fr/security/alertus.html).

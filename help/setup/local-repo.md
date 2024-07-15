@@ -4,8 +4,8 @@ description: Cet article vous sert de guide lorsque vous créez votre référent
 exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
 source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Pour contribuer à la documentation Adobe, vous pouvez dupliquer le référentie
 
 ## Déterminer le référentiel
 
-Vous dupliquez le référentiel approprié de votre compte GitHub afin de disposer des autorisations de lecture/écriture pour y stocker vos modifications proposées. [!UICONTROL Adobe Experience Cloud] la documentation se trouve dans plusieurs référentiels différents sur [github.com](https://www.github.com/adobedocs).
+Vous dupliquez le référentiel approprié de votre compte GitHub afin de disposer des autorisations de lecture/écriture pour y stocker vos modifications proposées. La documentation [!UICONTROL Adobe Experience Cloud] se trouve dans plusieurs référentiels différents à l’adresse [github.com](https://www.github.com/adobedocs).
 
 1. Si vous n’êtes pas sûr du référentiel à utiliser, consultez l’article à l’aide de votre navigateur Web. Sélectionnez le lien **Edit** (icône en forme de crayon) dans l’angle supérieur droit de l’article. (Si vous ne voyez pas de lien Edit, ce contenu n’est pas encore disponible dans GitHub.)
 

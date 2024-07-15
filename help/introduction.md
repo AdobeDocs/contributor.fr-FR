@@ -6,8 +6,8 @@ seo-description: The guide describes how you can contribute to the [!UICONTROL A
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
 source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 100%
+source-wordcount: '927'
+ht-degree: 88%
 
 ---
 
@@ -56,7 +56,7 @@ Si vous souhaitez fournir des retours plus détaillés, apportez des modificatio
 
    Il suffit d’envoyer une seule fois un CLA Adobe.
 
-1. Dans la zone de commentaires qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Detailed feedback options]**, puis sur **[!UICONTROL Suggest an edit]** pour accéder au fichier source Markdown sur GitHub.
+1. Dans la zone de retour qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Options de commentaires détaillées]**, puis sur **[!UICONTROL Suggérer une modification]** pour accéder au fichier source Markdown sur GitHub.
 
    ![Modifier cette icône de page](/help/assets/feedback-suggest-edit.png)
 
@@ -74,21 +74,21 @@ Si vous souhaitez fournir des retours plus détaillés, apportez des modificatio
 
 1. Une fois les modifications effectuées, faites défiler vers le bas de la page.
 
-   Saisissez un titre et une description pour votre requête de tirage, puis cliquez sur **[!UICONTROL Propose file change]**, comme le montre l’image suivante :
+   Saisissez un titre et une description pour votre requête de tirage, puis cliquez sur **[!UICONTROL Propose file change]** comme illustré dans la figure suivante :
 
    ![Votre suggestion de modification](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >Si vous recevez un message d’erreur de validation sur la signature d’un contrat de licence du contributeur ou de la contributrice (CLA), cliquez sur **[!UICONTROL Details]** pour ouvrir le contrat de licence. Signez l’accord, si acceptable. Fermez et ouvrez ensuite la demande de tirage, puis continuez.
+   >Si vous recevez un message d’erreur de validation sur la signature d’un contrat de licence du contributeur (CLA), cliquez sur **[!UICONTROL Détails]** pour ouvrir le contrat de licence. Signez l’accord, si acceptable. Fermez et ouvrez ensuite la demande de tirage, puis continuez.
 
 C’est aussi simple que cela. Les membres de l’équipe de documentation examineront et fusionneront votre requête de tirage. Merci !
 
 ## Signaler un problème
 
-Une autre manière simple de nous informer d’un problème lié à un élément de contenu consiste à utiliser **[!UICONTROL Report an issue]**.
+Un autre moyen facile de nous informer d’un problème lié à un élément de contenu consiste à utiliser **[!UICONTROL Signaler un problème]**.
 
-1. Dans la zone de commentaire qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Detailed feedback options]**, puis sur **[!UICONTROL Report an issue]** pour accéder au fichier source Markdown sur GitHub.
+1. Dans la zone de retour qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Options de commentaire détaillées]**, puis sur **[!UICONTROL Signaler un problème]** pour accéder au fichier source Markdown sur GitHub.
 
    ![Signaler un problème](assets/feedback-report-issue.png)
 
