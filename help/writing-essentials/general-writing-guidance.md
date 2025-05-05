@@ -84,7 +84,7 @@ L’écriture d’une procédure (le type de contenu de la _tâche_) n’est pas
 **Conseils pour les étapes**
 
 * Une procédure est une série d’étapes. Une étape est une commande brève, numérotée, composée _d’une seule phrase_.
-* Commencez chaque étape par un verbe ou la préposition _Pour_ (pour orienter le lecteur vers l’objectif, comme dans _Pour rester connecté(e), activez **Rester connecté**_). Si une étape a un objectif spécifique dans la procédure globale, mentionnez l’objectif avant l’action.
+* Commencez chaque étape par un verbe ou la préposition _Pour_ (pour orienter le lecteur vers l’objectif, comme dans _Pour rester connecté(e), activez **Rester connecté**&#x200B;_). Si une étape a un objectif spécifique dans la procédure globale, mentionnez l’objectif avant l’action.
 * Si vous disposez d’informations sur l’étape (un type de contenu appelé _informations sur l’étape_), ajoutez-les après l’étape (avec la même mise en retrait que l’étape) ou après la ressource (une capture d’écran, une vidéo ou une liste de descriptions d’interface).
 * Si votre étape comporte deux actions (par exemple, _Sélectionnez-ceci, puis cela_), écrivez-la comme une seule phrase brève.
 * Limitez votre tâche à environ sept à dix étapes. Si vous créez plus de dix étapes dans une tâche, vous devrez probablement la diviser en deux tâches. Utilisez votre bon sens.
