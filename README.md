@@ -1,8 +1,8 @@
 ---
-source-git-commit: 99540be2c2310e2250a0ceb14fb133b630ec397e
+source-git-commit: 2b359dd199979fbba8c0491490d9d071b0e5db50
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 99%
 
 ---
 # Article sur les contributions
@@ -15,11 +15,12 @@ Ce projet a adopté le [code de conduite Adobe Open Source](code-of-conduct.md) 
 
 ## À propos de vos contributions au contenu Adobe
 
+
 Consultez le [Guide du contributeur de documents Adobe](https://docs.adobe.com/help/fr-FR/contributor/contributor-guide/introduction.html).
 
 Votre contribution dépend de qui vous êtes et du type de modifications auxquelles vous souhaitez contribuer :
 
-### Modifications mineures ou demandes mineures
+### Modifications ou requêtes mineures
 
 Pour envoyer une requête, cliquez sur le lien **Signaler une issue** dans un article, ce qui ouvre un problème dans GitHub. Saisissez un titre et une description, puis cliquez sur **Envoyer une nouvelle issue**.
 
@@ -37,7 +38,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Modifications majeures d’employés d’Adobe
 
-Si vous êtes rédacteur technique, chef de programme ou développeur au sein de l’équipe produit en charge d’une [!UICONTROL Adobe Experience Cloud] solution, et que votre travail consiste à créer ou contribuer à des articles techniques, utilisez le référentiel privé à l’adresse `https://git.corp.adobe.com/AdobeDocs`. Consultez le [Guide sur la collaboration interne](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=fr).
+Si vous êtes rédacteur technique, chef de programme ou développeur de l’équipe de produits en charge d’une [!UICONTROL solution Adobe Experience Cloud], et que votre travail implique de créer ou de contribuer à des articles techniques, utilisez le référentiel privé à l’adresse `https://git.corp.adobe.com/AdobeDocs`. Consultez le [Guide sur la collaboration interne](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=fr).
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
