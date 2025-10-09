@@ -4,10 +4,10 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 2721a71924c46e1536394625c945bdd791e8ac70
+source-git-commit: 355ed3b7e1873272dd4c0626b51a48f37a026680
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 88%
+ht-degree: 82%
 
 ---
 
@@ -25,9 +25,9 @@ Ce modèle open source améliore la qualité du contenu et la communication entr
 
 Lors de l’utilisation de ce contenu, que vous fassiez partie d’une équipe ou de la clientèle, même potentielle, ou que vous soyez partenaire, vous avez le choix de contribuer à cette documentation de plusieurs manières simples.
 
-* Évaluer l’utilité de la page ❶ et écrire un commentaire facultatif ❷
-* Signaler un problème sur une page spécifique (nécessite une connexion Git) ❸
-* Envoyer une modification rapide ou des articles entiers, avec des ressources et des exemples de code (nécessite une connexion Git) ❹
+* Évaluez l’utilité du ❶ de page et rédigez un commentaire facultatif ❷
+* Signaler un problème sur une page spécifique (connexion Git requise) ❸
+* Envoyez une modification rapide à pour créer des articles entiers, avec des ressources et des exemples de code (nécessite une connexion Git) ❹
 
 ![Commentaires](assets/feedback-options.png)
 
@@ -56,7 +56,7 @@ Si vous souhaitez fournir des retours plus détaillés, apportez des modificatio
 
    Il suffit d’envoyer une seule fois un CLA Adobe.
 
-1. Dans la zone de retour qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Options de commentaires détaillées]**, puis sur **[!UICONTROL Suggérer une modification]** pour accéder au fichier source Markdown sur GitHub.
+1. Dans la zone de commentaires qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Options de commentaires détaillés]**, puis sur **[!UICONTROL Suggérer une modification]** pour accéder au fichier source Markdown sur GitHub.
 
    ![Modifier cette icône de page](/help/assets/feedback-suggest-edit.png)
 
@@ -74,7 +74,7 @@ Si vous souhaitez fournir des retours plus détaillés, apportez des modificatio
 
 1. Une fois les modifications effectuées, faites défiler vers le bas de la page.
 
-   Saisissez un titre et une description pour votre requête de tirage, puis cliquez sur **[!UICONTROL Propose file change]** comme illustré dans la figure suivante :
+   Saisissez un titre et une description pour votre requête de tirage, puis cliquez sur **[!UICONTROL Proposer une modification de fichier]** comme illustré ci-dessous :
 
    ![Votre suggestion de modification](assets/submit-pull-request.png)
 
@@ -86,9 +86,9 @@ C’est aussi simple que cela. Les membres de l’équipe de documentation exami
 
 ## Signaler un problème
 
-Un autre moyen facile de nous informer d’un problème lié à un élément de contenu consiste à utiliser **[!UICONTROL Signaler un problème]**.
+Une autre manière simple de nous informer d’un problème lié à un élément de contenu consiste à utiliser **[!UICONTROL Signaler un problème]**.
 
-1. Dans la zone de retour qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Options de commentaire détaillées]**, puis sur **[!UICONTROL Signaler un problème]** pour accéder au fichier source Markdown sur GitHub.
+1. Dans la zone de commentaires qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Options de commentaires détaillés]**, puis sur **[!UICONTROL Signaler un problème]** pour accéder au fichier source Markdown sur GitHub.
 
    ![Signaler un problème](assets/feedback-report-issue.png)
 
@@ -118,4 +118,4 @@ L’expérience d’édition intégrée au navigateur est préférable pour les 
 
 Avec une solution aussi vaste que celle d’Adobe, la documentation est toujours une œuvre inachevée. Si vous détectez des erreurs, consignez un problème, si vous avez des suggestions sur le matériel, partagez-les avec nous. Indiquez les informations que vous recherchez. Dites-nous si vous ne trouvez pas ce dont vous avez besoin ou, si vous avez rencontré des difficultés pour mener à bien votre tâche, faites-nous savoir comment nous pouvons vous aider à assimiler nos solutions.
 
-L’équipe en charge de la documentation collaborative et tous les auteurs, autrices, producteurs et productrices de contenu d’Experience League vous adressent leurs remerciements.
+L’équipe en charge de la documentation collaborative et tous les auteurs et producteurs de contenu d’Experience League vous adressent leurs remerciements. Nous apprécions votre aide.
