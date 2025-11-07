@@ -4,10 +4,10 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: 355ed3b7e1873272dd4c0626b51a48f37a026680
+source-git-commit: 077555cf4e2c5559f19b8e38ba140ecdad9e5c29
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 82%
+source-wordcount: '906'
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ Si vous souhaitez fournir des retours plus détaillés, apportez des modificatio
 
    Il suffit d’envoyer une seule fois un CLA Adobe.
 
-1. Dans la zone de commentaires qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Options de commentaires détaillés]**, puis sur **[!UICONTROL Suggérer une modification]** pour accéder au fichier source Markdown sur GitHub.
+1. Dans la zone de commentaires qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Detailed feedback options]**, puis sur **[!UICONTROL Suggest an edit]** pour accéder au fichier source Markdown sur GitHub.
 
    ![Modifier cette icône de page](/help/assets/feedback-suggest-edit.png)
 
@@ -74,21 +74,21 @@ Si vous souhaitez fournir des retours plus détaillés, apportez des modificatio
 
 1. Une fois les modifications effectuées, faites défiler vers le bas de la page.
 
-   Saisissez un titre et une description pour votre requête de tirage, puis cliquez sur **[!UICONTROL Proposer une modification de fichier]** comme illustré ci-dessous :
+   Saisissez un titre et une description pour votre requête de tirage, puis cliquez sur **[!UICONTROL Propose file change]**, comme le montre l’image suivante :
 
    ![Votre suggestion de modification](assets/submit-pull-request.png)
 
    >[!NOTE]
    >
-   >Si vous recevez un message d’erreur de validation sur la signature d’un contrat de licence du contributeur (CLA), cliquez sur **[!UICONTROL Détails]** pour ouvrir le contrat de licence. Signez l’accord, si acceptable. Fermez et ouvrez ensuite la demande de tirage, puis continuez.
+   >Si vous recevez un message d’erreur de validation sur la signature d’un contrat de licence du contributeur ou de la contributrice (CLA), cliquez sur **[!UICONTROL Details]** pour ouvrir le contrat de licence. Signez l’accord, si acceptable. Fermez et ouvrez ensuite la demande de tirage, puis continuez.
 
 C’est aussi simple que cela. Les membres de l’équipe de documentation examineront et fusionneront votre requête de tirage. Merci !
 
 ## Signaler un problème
 
-Une autre manière simple de nous informer d’un problème lié à un élément de contenu consiste à utiliser **[!UICONTROL Signaler un problème]**.
+Une autre manière simple de nous informer d’un problème lié à un élément de contenu consiste à utiliser **[!UICONTROL Report an issue]**.
 
-1. Dans la zone de commentaires qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Options de commentaires détaillés]**, puis sur **[!UICONTROL Signaler un problème]** pour accéder au fichier source Markdown sur GitHub.
+1. Dans la zone de commentaire qui s’affiche au bas de l’article, cliquez sur **[!UICONTROL Detailed feedback options]**, puis sur **[!UICONTROL Report an issue]** pour accéder au fichier source Markdown sur GitHub.
 
    ![Signaler un problème](assets/feedback-report-issue.png)
 
@@ -118,4 +118,4 @@ L’expérience d’édition intégrée au navigateur est préférable pour les 
 
 Avec une solution aussi vaste que celle d’Adobe, la documentation est toujours une œuvre inachevée. Si vous détectez des erreurs, consignez un problème, si vous avez des suggestions sur le matériel, partagez-les avec nous. Indiquez les informations que vous recherchez. Dites-nous si vous ne trouvez pas ce dont vous avez besoin ou, si vous avez rencontré des difficultés pour mener à bien votre tâche, faites-nous savoir comment nous pouvons vous aider à assimiler nos solutions.
 
-L’équipe en charge de la documentation collaborative et tous les auteurs et producteurs de contenu d’Experience League vous adressent leurs remerciements. Nous apprécions votre aide.
+L’équipe en charge de la documentation collaborative et tous les auteurs et producteurs de contenu d’Experience League vous adressent leurs remerciements. Merci pour votre aide.

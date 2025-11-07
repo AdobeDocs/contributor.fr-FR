@@ -2,11 +2,13 @@
 git-repo: https://github.com/AdobeDocs/contributor.fr-FR
 solution: Experience Cloud
 cloud: Experience Cloud
+user-guide-title: Guide du contributeur
+user-guide-description: Instructions destinées aux contributeurs et contributrices de la documentation Adobe
 index: true
-source-git-commit: d8a27428d0c264ae95740ad18231f96602a9136f
+source-git-commit: 38494017a88a638b8bf7b5033993c2647cfb09c6
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 100%
+source-wordcount: '74'
+ht-degree: 86%
 
 ---
 
