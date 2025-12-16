@@ -2,9 +2,9 @@
 title: Utilisation de Markdown pour la rédaction de documentation
 description: Découvrez les principes de base de la création en Markdown. Recherchez des informations de référence pour le langage Markdown utilisé pour la rédaction d’articles.
 exl-id: 3e5726e2-139e-4e44-ae5b-8a3ae4782faf
-source-git-commit: fff920c9e98ca821a4180157174c2a2ee1b84cb8
+source-git-commit: 7a14bde440f011f94b9eded63512362146336a9d
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1333'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,7 @@ Contenu affiché :
 * Another item.
 * Et un de plus.
 
-Vous pouvez également intégrer des listes dans d’autres listes et ajouter du contenu entre les éléments de la liste.
+Vous pouvez également incorporer des listes dans d’autres listes et ajouter du contenu entre les éléments de la liste.
 
 ```markdown
 1. Set up your table and code blocks.
@@ -146,7 +146,6 @@ Les tableaux simples fonctionnent correctement dans Markdown. Toutefois, les tab
 Pour plus d’informations sur la création de tableaux, voir :
 
 * [Organisation des informations de GitHub avec des tableaux](https://docs.github.com/fr/github/writing-on-github/organizing-information-with-tables)
-* L’application Web [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 * [Convertir les tableaux HTML en Markdown](https://jmalarcon.github.io/markdowntables/)
 
 ### Liens
