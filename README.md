@@ -1,8 +1,8 @@
 ---
 source-git-commit: 540aa4213e4fe4cb15d065262d88095c977b7b5f
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 99%
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 # Article sur les contributions
@@ -37,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Modifications majeures d’employés d’Adobe
 
-Si vous êtes rédacteur technique, chef de programme ou développeur de l’équipe de produits en charge d’une [!UICONTROL solution Adobe Experience Cloud], et que votre travail implique de créer ou de contribuer à des articles techniques, utilisez le référentiel privé à l’adresse `https://git.corp.adobe.com/AdobeDocs`. Consultez le [Guide sur la collaboration interne](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=fr).
+Si vous êtes rédacteur technique, chef de programme ou développeur au sein de l’équipe produit en charge d’une [!UICONTROL Adobe Experience Cloud] solution, et que votre travail consiste à créer ou contribuer à des articles techniques, utilisez le référentiel privé à l’adresse `https://git.corp.adobe.com/AdobeDocs`. Consultez le [Guide sur la collaboration interne](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=fr).
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -54,9 +54,9 @@ Tous les articles de ce référentiel utilisent GitHub Flavored Markdown. Si vou
 * [Concepts de base de Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 * [Markdown cheatsheet imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## Libellés
+## Étiquettes
 
-Dans le référentiel public, des libellés automatisés sont assignés à des requêtes de tirage afin de nous aider à gérer le workflow de requête de tirage et à vous aider à savoir ce qui se passe avec votre requête de tirage :
+Dans le référentiel public, des étiquettes automatisées sont assignées à des requêtes de tirage afin de nous aider à gérer le workflow de requête de tirage et à vous aider à savoir ce qui se passe avec votre requête de tirage :
 
 * **Change sent to author** : l’auteur a été informé de la requête de tirage en attente.
 * **ready-to-merge** : prêt à être analysé par notre équipe d’analyse de demande de tirage.
