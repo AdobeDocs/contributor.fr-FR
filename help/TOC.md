@@ -5,10 +5,10 @@ cloud: Experience Cloud
 user-guide-title: Guide du contributeur
 user-guide-description: Instructions destinées aux contributeurs et contributrices de la documentation Adobe
 index: true
-source-git-commit: f0552fbba1aac1b8ffd4116bd66f6c06afab0d39
+source-git-commit: 0d6cb6c676affb3aa7604b7cf6e983dd817df24e
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 77%
+source-wordcount: '101'
+ht-degree: 66%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 77%
    + [Présentation des contributions](conduct/contributing.md)
 + Test ignorer {#testing}
    + [Analytics avec ID](https://experienceleague.adobe.com/fr/docs/analytics/implementation/id/overview)
-   + [&#x200B; Guide d’authentification &#x200B;](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
+   + [Guide d’authentification](https://experienceleague.adobe.com/en/docs/authoring-guide/using/release-notes)
