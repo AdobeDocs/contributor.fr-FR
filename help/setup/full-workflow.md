@@ -2,10 +2,10 @@
 title: Workflow de contributions GitHub pour les modifications majeures
 description: Découvrez comment apporter des contributions à la documentation Adobe sur Experience League.
 exl-id: ad467ad4-abd2-4166-8659-e29c48d268ec
-source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+source-git-commit: df75e37ceec55476cc8b558e3bcccb474d329586
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '951'
+ht-degree: 96%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 >All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../../contributing.md) article.
 >
 > Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
---->
+-->
 
-## Aperçu
+## Vue d’ensemble
 
 Ce workflow convient à un contributeur qui doit apporter une modification majeure ou qui sera un contributeur fréquent à un référentiel. Les contributeurs fréquents apportent généralement des modifications continues (à long terme) qui passent par plusieurs cycles de création/validation/évaluation ou s’étendent sur plusieurs jours avant l’approbation et la fusion de la requête de tirage.
 
@@ -65,7 +65,7 @@ Avant que votre requête de tirage ne puisse être fusionnée dans sa branche de
 
 ### Révision et validation
 
-Une fois le traitement des requêtes de tirage terminé, vérifiez les résultats (commentaires sur les requêtes de tirage, URL d’aperçu, etc.) afin de déterminer s’il est nécessaire d’apporter des modifications supplémentaires à ses fichiers avant de valider la fusion. Si un réviseur s’est penché sur votre requête de tirage, il peut également fournir des commentaires en cas de problèmes/questions en suspens avant la fusion.
+Une fois tout le traitement PR terminé, vous devez consulter les résultats (commentaires PR, URL de prévisualisation, etc.) afin de déterminer si des modifications supplémentaires doivent être apportées à ses fichiers avant de vous déconnecter pour la fusion. Si un réviseur s’est penché sur votre requête de tirage, il peut également fournir des commentaires en cas de problèmes/questions en suspens avant la fusion.
 
 Lorsque la requête de tirage ne présente pas de problème et est validée, vos modifications sont fusionnées dans la branche parent et la requête de tirage est clôturée.
 
