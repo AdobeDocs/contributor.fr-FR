@@ -2,10 +2,10 @@
 title: Configuration locale du référentiel Git
 description: Cet article vous sert de guide lorsque vous créez votre référentiel Git local et contribuez à la documentation Adobe, notamment en ce qui concerne le processus de duplication et de clonage.
 exl-id: 679c07a2-030b-4a30-ba14-7780f88dae11
-source-git-commit: a3c283c5c0d181beacc566262743528d5ff9f7d2
+source-git-commit: df75e37ceec55476cc8b558e3bcccb474d329586
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 98%
+source-wordcount: '656'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ Cet article décrit les étapes de configuration d’un référentiel Git sur vo
 >[!IMPORTANT]
 >Si vous apportez uniquement des modifications mineures à un article, il n’est *pas* nécessaire de suivre les étapes décrites dans cet article. Vous pouvez simplement cliquer sur l’icône Edit et effectuer les modifications textuelles dans votre navigateur.
 
-## Aperçu
+## Vue d’ensemble
 
 Pour contribuer à la documentation Adobe, vous pouvez dupliquer le référentiel approprié dans votre compte GitHub afin de disposer des autorisations de lecture/écriture. Vous pouvez ensuite créer et modifier des fichiers Markdown en local en clonant le référentiel de documentation correspondant. Ensuite, vous utilisez des requêtes de tirage pour fusionner (soumettre) les modifications dans le référentiel partagé central en lecture seule.
 
@@ -28,13 +28,13 @@ Pour contribuer à la documentation Adobe, vous pouvez dupliquer le référentie
 
 ## Déterminer le référentiel
 
-Vous dupliquez le référentiel approprié de votre compte GitHub afin de disposer des autorisations de lecture/écriture pour y stocker vos modifications proposées. La documentation [!UICONTROL Adobe Experience Cloud] se trouve dans plusieurs référentiels différents à l’adresse [github.com](https://www.github.com/adobedocs).
+Vous dupliquez le référentiel approprié dans votre propre compte GitHub afin d’y disposer des autorisations de lecture/écriture pour stocker vos modifications proposées. [!UICONTROL Adobe Experience Cloud] la documentation se trouve dans plusieurs référentiels différents à l’adresse [github.com](https://www.github.com/adobedocs).
 
 1. Si vous n’êtes pas sûr du référentiel à utiliser, consultez l’article à l’aide de votre navigateur Web. Sélectionnez le lien **Edit** (icône en forme de crayon) dans l’angle supérieur droit de l’article. (Si vous ne voyez pas de lien Edit, ce contenu n’est pas encore disponible dans GitHub.)
 
 Pour contribuer à la documentation Adobe, vous pouvez créer et modifier des fichiers Markdown en local en clonant le référentiel de documentation correspondant. Ensuite, vous utilisez des requêtes de tirage pour fusionner les modifications dans le référentiel partagé central en lecture seule.
 
-<!---
+<!--
 ![GitHub Triangle](/assets/git-and-github-initial-setup.png)
 
 If you're new to GitHub, watch the following video for a conceptual overview of the forking and cloning process:

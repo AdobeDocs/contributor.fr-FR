@@ -4,10 +4,10 @@ seo-title: Contributor guide overview for Adobe Experience Cloud technical docum
 description: Ce guide explique comment apporter votre contribution sous la forme de suggestions et d’ajouts sur le site de documentation Adobe.
 seo-description: The guide describes how you can contribute to the [!UICONTROL Adobe Experience Cloud] technical documentation.
 exl-id: 1294d0c6-897e-49c0-bf27-fd7d122f1fc8
-source-git-commit: f0552fbba1aac1b8ffd4116bd66f6c06afab0d39
+source-git-commit: 5ee22aee7299bfbe04bc29866f7a0ac0486cf07a
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 93%
+source-wordcount: '910'
+ht-degree: 91%
 
 ---
 
@@ -33,14 +33,7 @@ Lors de l’utilisation de ce contenu, que vous fassiez partie d’une équipe o
 
 Ces options apparaissent au bas de la page quelques secondes après son ouverture. Si vous ignorez la zone de commentaires, vous pouvez recharger la page pour la rétablir.
 
-Ce guide décrit tout ce que vous devez savoir pour interagir avec cet ensemble de contenu et y contribuer.
-
-<!--
->[!IMPORTANT]
->All repositories that publish to docs.adobe.com have adopted the [Adobe Open Source Code of Conduct](../code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](../contributing.md) article.
->
-> Minor corrections or clarifications to documentation and code examples in public repositories are covered by the [Adobe Documentation Terms of Use](https://www.adobe.com/legal/terms.html). New or significant changes generate a comment in the pull request, asking you to submit an online Contribution License Agreement (CLA) if you are not an employee of Adobe. We need you to complete the online form before we can review or accept your pull request.
--->
+Ce guide décrit ce que vous devez savoir pour interagir avec cet ensemble de documents et y contribuer.
 
 ## Évaluer l’utilité de la page et écrire un commentaire
 
