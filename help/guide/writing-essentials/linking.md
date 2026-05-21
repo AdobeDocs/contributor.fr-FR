@@ -25,7 +25,7 @@ Les mots que vous incluez dans le texte du lien doivent être le titre de la pag
 
 **Exemples :**
 
-- `For more information, see the [overview article](https://github.com/AdobeDocs/target.en/help/overview.md).`
+- `For more information, see the [overview article](https://github.com/AdobeDocs/target.fr-FR/help/overview.md).`
 
 - `For more details, see [Adobe Legal Concerns](https://www.adobe.com/legal).`
 
