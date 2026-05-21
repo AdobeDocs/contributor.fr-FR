@@ -184,7 +184,7 @@ Contenu affiché :
 
 Markdown prend en charge le placement de blocs inséré dans une phrase et en tant que bloc « clôturé » séparé entre des phrases. Pour plus d’informations, voir [l’assistance native de Markdown pour les blocs de code](https://daringfireball.net/projects/markdown/syntax#precode).
 
-Utilisez des accents graves (`` ` ``) pour créer des styles de code intraligne au sein d’un paragraphe. Pour créer un bloc de code multi-lignes spécifique, ajoutez trois accents graves (` ``` `) avant et après le bloc de code (appelé « bloc de code clôturés » en Markdown et un composant de « bloc de code » dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’accents graves afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : ` ```javascript`
+Utilisez des accents graves (`` ` ``) pour créer des styles de code intraligne au sein d’un paragraphe. Pour créer un bloc de code multi-lignes spécifique, ajoutez trois accents graves (` ` `` `) avant et après le bloc de code (appelé « bloc de code clôturés » en Markdown et un composant de « bloc de code » dans AEM). Pour les blocs de code clôturés, ajoutez la langue de code après le premier jeu d’accents graves afin que Markdown mette correctement en évidence la syntaxe du code. Exemple : ` `` `javascript`
 
 Exemples :
 
@@ -225,11 +225,11 @@ Vous pouvez choisir parmi ces types de blocs-notes afin d’attirer l’attentio
 * `[!IMPORTANT]`
 * `[!CAUTION]`
 * `[!WARNING]`
-* `[!ADMINISTRATION]`
+* `[ !ADMINISTRATION]`
 * `[!AVAILABILITY]`
 * `[!PREREQUISITES]`
 * `[!ERROR]`
-* `[!ADMINISTRATION]`
+* `[ !ADMINISTRATION]`
 * `[!INFO]`
 * `[!SUCCESS]`
 
@@ -287,9 +287,9 @@ Contenu affiché :
 
 Tout notre contenu dʼaide Markdown est initialement localisé à lʼaide de la traduction automatique. Si lʼaide nʼa jamais été localisée, nous conservons la traduction automatique. Cependant, si le contenu dʼaide a été localisé dans le passé, le contenu traduit par lʼordinateur agit comme espace réservé pendant que le contenu est en cours de traduction humaine.
 
-**``**
+**&grave;&grave;**
 
-Lors de la traduction automatique, les éléments balisés avec `` sont comparés à une base de données de localisation pour la traduction appropriée. Si l’interface utilisateur n’est pas localisée, cette balise permet au système de laisser la référence de l’interface utilisateur en anglais pour cette langue particulière (c’est-à-dire les références Analytics en italien).
+Lors de la traduction automatique, les éléments balisés avec &grave;&grave; sont comparés à une base de données de localisation pour la traduction appropriée. Si l’interface utilisateur n’est pas localisée, cette balise permet au système de laisser la référence de l’interface utilisateur en anglais pour cette langue particulière (c’est-à-dire les références Analytics en italien).
 
 **Exemple de contenu source :**
 
@@ -309,7 +309,7 @@ Lors de la traduction automatique, les éléments balisés avec `` sont compar
 >Of the two tagging options, this is the most crucial to deliver high quality and is mandatory.
 -->
 
-**`[!DNL]`**
+**``**
 
 En règle générale, nous utilisons une liste « Ne pas traduire » pour signifier aux moteurs de traduction ce quʼil faut garder en anglais. Les éléments les plus courants sont les noms de solutions longs comme « Adobe Analytics », « Adobe Campaign » et « Adobe Target ». Cependant, dans certains cas, il peut être nécessaire de forcer le moteur à utiliser lʼanglais parce que le terme en question peut être utilisé dʼune manière spécifique ou générale. Le cas le plus évident est celui des noms courts de solutions comme « Analytics », « Campaign », « Target », etc. Il serait difficile pour une machine de comprendre qu’il s’agit de noms de solutions et non de termes généraux. La balise peut également être utilisée pour les noms ou fonctionnalités de tiers qui restent toujours en anglais ou pour des sections de texte plus courtes telles quʼune phrase ou un mot qui doivent rester en anglais.
 
