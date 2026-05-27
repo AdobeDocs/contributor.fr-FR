@@ -3,8 +3,8 @@ title: Code de conduite Adobe
 description: Code de conduite Adobe
 source-git-commit: 883a314481675cbe8cea97782ccf39b738690bf9
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ Afin de favoriser un environnement ouvert et accueillant, nous nous engageons, e
 
 ## Nos critères
 
-Exemples de comportements qui contribuent à créer un environnement positif :
+Exemples de comportements qui contribuent à créer un environnement positif :
 
 * Utiliser un langage accueillant et inclusif
 * Respecter les différents points de vue et expériences
@@ -24,10 +24,10 @@ Exemples de comportements qui contribuent à créer un environnement positif :
 * Se concentrer sur ce qui est meilleur pour la communauté
 * Faire preuve d’empathie envers les autres membres de la communauté
 
-Exemples de comportements non acceptables de la part des participants :
+Voici quelques exemples de comportements inacceptables de la part des validateurs :
 
-* utilisation d’un langage ou d’une imagerie sexualisés et avances sexuelles non sollicitées,
-* trolling, commentaires insultants ou désobligeants et les attaques personnelles ou d’ordre politique,
+* Utiliser un langage ou des images à connotation sexuelle, démontrer une attention à caractère sexuel ou faire des avances
+* Adresser des commentaires insultants/désobligeants et des attaques personnelles ou politiques
 * Harceler en public ou en privé
 * Publier des informations privées de tierces personnes, telles que des adresses physiques ou électroniques, sans leur autorisation explicite
 * Tout comportement qui pourrait être raisonnablement considéré comme inapproprié dans le cadre professionnel
@@ -40,15 +40,16 @@ Les personnes qui assurent la maintenance du projet ont le droit et la responsab
 
 ## Portée
 
-Ce Code de conduite s’applique à la fois au sein des espaces du projet ainsi que dans les espaces publics lorsqu’un individu représente le projet ou sa communauté. Exemples de représentation d’un projet ou d’une communauté : utilisation d’une adresse e-mail officielle du projet, publication de messages sur les médias sociaux avec un compte officiel, ou intervention pour représenter le projet au cours d’un événement en ligne ou hors ligne. La représentation d’un projet pourra être définie et clarifiée de manière plus précise par les responsables du projet.
+Ce Code de conduite s’applique à la fois au sein des espaces du projet ainsi que dans les espaces publics lorsqu’un individu représente le projet ou sa communauté. Utiliser un e-mail de projet officiel est un exemple de représentation d’un projet ou d’une communauté
+adresse, publication sur un compte officiel de réseau social ou rôle de représentant désigné lors d’un événement en ligne ou hors ligne. La représentation d’un projet pourra être définie et clarifiée de manière plus précise par les responsables du projet.
 
 ## Application
 
-Les cas de comportements abusifs, de harcèlement ou tout autre comportement inacceptable peuvent être signalés en contactant l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Toutes les plaintes seront examinées et étudiées, et donneront lieu à une réponse appropriée aux circonstances. L’équipe du projet est obligée de préserver la confidentialité des informations de la personne qui signale un incident. Des informations supplémentaires sur la politique de mise en application des règles peuvent être publiées séparément.
+Des cas de comportement abusif, de harcèlement ou d&#39;autres comportements inacceptables peuvent être signalés en contactant l&#39;équipe du projet à l&#39;adresse Grp-opensourceoffice@adobe.com. Toutes les plaintes seront examinées et feront l&#39;objet d&#39;une enquête et donneront lieu à une réponse qui :
+est jugée nécessaire et adaptée aux circonstances. L’équipe du projet est obligée de préserver la confidentialité des informations de la personne qui signale un incident. Des informations supplémentaires sur la politique de mise en application des règles peuvent être publiées séparément.
 
 Les membres du projet qui ne suivent ou qui n’appliquent pas le présent Code de conduite de bonne foi s’exposent temporairement ou définitivement à des répercussions définies par d’autres membres de la direction du projet.
 
 ## Attribution
 
-Ce Code de conduite est adapté du[Contributor Covenant](https://contributor-covenant.org), version 1.4,
-disponible à l’adresse [https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct](https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct)
+Ce Code de conduite est adapté du[Contributor Covenant](https://contributor-covenant.org), version 1.4, disponible à l’adresse [https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct](https://www.contributor-covenant.org/fr/version/1/4/code-of-conduct)
